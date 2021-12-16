@@ -1,0 +1,8 @@
+pretrain epochs = 0
+run, train acc avg, validation acc avg, test acc avg
+total,0.9241, 0.7305,0.7432
+
+pretrain epochs = 190
+pretrain loss = 5.474145889282227
+run, train acc avg, validation acc avg, test acc avg
+total,0.9034, 0.7068,0.7216
