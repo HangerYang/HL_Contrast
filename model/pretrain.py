@@ -1,6 +1,8 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import GCL.augmentors as A
+
 device = torch.device("cpu")
 
 
@@ -115,7 +117,6 @@ def pt_model(high_model, low_model, contrast_model, optimizer, data):
     high_model.train()
     low_model.train()
     optimizer.zero_grad()
-
     h1 = high_model(data.x, data.lsym)
     h2 = low_model(data.x, data.anorm)
     loss = contrast_model(h1=h1, h2=h2)
