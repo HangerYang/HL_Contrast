@@ -87,14 +87,14 @@ class GCN(nn.Module):
         self.gcns.append(GCNConv(hi_dim, out_dim))
         self.dropout = dropout
         self.reset_parameters()
-
+        self.activation = torch.nn.PReLU()
     def reset_parameters(self):
         for gcn in self.gcns:
             gcn.reset_parameters()
 
     def forward(self, x, edge_index):
         # first layer
-        x = F.relu(self.gcns[0](x, edge_index))
+        x = self.activation(self.gcns[0](x, edge_index))
         x = F.dropout(x, p=self.dropout, training=self.training)
         # inner layers
         # if self.num_layers > 2:
@@ -103,7 +103,7 @@ class GCN(nn.Module):
         #         x = F.dropout(x, p=self.dropout, training=self.training)
 
         # last layer
-        return F.log_softmax(self.gcns[self.num_layers - 1](x, edge_index), dim = 1)
+        return F.log_softmax(self.activation(self.gcns[self.num_layers - 1](x, edge_index)), dim = 1)
 class GAT(nn.Module):
     def __init__(self, n_layer, in_dim, hi_dim, out_dim, dropout):
         """

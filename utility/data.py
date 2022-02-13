@@ -1,9 +1,10 @@
 import torch
 import numpy as np
+from torch_geometric import transforms as T
 from torch_geometric.utils import to_networkx, add_self_loops
 import scipy as sp
 import networkx as nx
-from torch_geometric.transforms import RandomNodeSplit
+from torch_geometric.datasets import Planetoid, WebKB, Actor, WikipediaNetwork, WikiCS
 
 
 def csr_to_sparse(csr):
@@ -17,11 +18,36 @@ def csr_to_sparse(csr):
     sparse = torch.sparse.FloatTensor(indices, values, shape)
     return sparse
 
-def build_graph(dataset):
+def dataset_split(file_loc = './data/', dataset_name = 'cora'):
+    if dataset_name in ['cora', 'citeseer', 'pubmed']:
+        dataset = Planetoid(root=file_loc+dataset_name, name=dataset_name, transform=T.NormalizeFeatures())
+    elif dataset_name in ['cornell', 'texas', 'wisconsin']: 
+        dataset = WebKB(root=file_loc+dataset_name, name=dataset_name, transform=T.NormalizeFeatures())
+    elif dataset_name in ['chameleon', 'squirrel']:
+        dataset = WikipediaNetwork(root=file_loc+dataset_name, name=dataset_name, transform=T.NormalizeFeatures())
+    elif dataset_name in ['actor']:
+        dataset = Actor(root=file_loc+dataset_name, transform=T.NormalizeFeatures())
+    elif dataset_name in ['WikiCS']:
+        dataset = WikiCS(root =file_loc+dataset_name, transform=T.NormalizeFeatures())
+    else:
+        raise Exception('dataset not available...')
+    
     data = dataset[0]
+    if dataset_name in ['cornell', 'texas', 'wisconsin', 'chameleon', 'squirrel', 'actor', 'WikiCS']:
+        data.train_mask = torch.swapaxes(data.train_mask, 0, 1)
+        data.val_mask = torch.swapaxes(data.val_mask, 0, 1)
+        try:
+            data.test_mask = torch.swapaxes(data.test_mask, 0, 1)
+        except:
+            data.test_mask = np.repeat(data.test_mask[np.newaxis], 10, axis = 0)
+    else:
+        data = train_test_split_nodes(data, train_ratio=0.1, val_ratio=0.1, test_ratio=0.8)
     data.num_classes = dataset.num_classes
+    return data
+
+def build_graph(dataset):
+    data = dataset_split(dataset_name= dataset)
     data.edge_index, _ = add_self_loops(data.edge_index)
-    data = mask_on(data)
     g = to_networkx(data, to_undirected=True)
     Lsym = nx.linalg.laplacianmatrix.normalized_laplacian_matrix(g)
     Anorm = sp.sparse.identity(np.shape(Lsym)[0]) - Lsym
@@ -33,47 +59,49 @@ def build_graph(dataset):
     data.degree = np.sum(adj, axis=1)
     return data
 
-# def semi_masks(data, train_ratio = 0.1, val_ratio = 0.1, test_ratio = 0.8):
-    # num_class = data.num_classes
-    # num_nodes = data.num_nodes
-    # train_mask = torch.zeros(num_nodes)
-    # test_mask = torch.zeros(num_nodes)
-    # val_mask = torch.zeros(num_nodes)
+def train_test_split_nodes(data, train_ratio=0.48, val_ratio=0.32, test_ratio=0.2, class_balance=True):
+    r"""Splits nodes into train, val, test masks
+    """
+    n_nodes = data.num_nodes
+    train_mask, ul_train_mask, val_mask, test_mask = torch.zeros(n_nodes), torch.zeros(n_nodes), torch.zeros(n_nodes), torch.zeros(n_nodes)
+    total_train_mask, total_val_mask, total_test_mask = [], [], []
+    n_tr = round(n_nodes * train_ratio)
+    n_val = round(n_nodes * val_ratio)
+    n_test = round(n_nodes * test_ratio)
 
-    # val_size = int(num_nodes*val_ratio)
-    # test_size = int(num_nodes*test_ratio)
-    # # 5% of the nodes would be labelled, +1 for int truncation
-    # train_size = int(num_nodes*train_ratio/num_class)+1
-    # for i in range(num_class):
-    #     # each class would have a fixed number of nodes being labelled
-    #     train_index = (data.y == i).nonzero(as_tuple = True)[0]
-    #     # the selected index would be marked as True
-    #     selected_train_index = torch.randperm(n = len(train_index))
-    #     for j in selected_train_index[:train_size]:
-    #         train_mask[train_index[j]] = True
-    
-    # excluded_idx_train = train_mask.nonzero(as_tuple=True)[0]
-    # temp = [i for i in range(num_nodes) if i not in excluded_idx_train]
-    # selected_val_index = torch.randperm(n = len(temp))
-    # for i in selected_val_index[:val_size]:
-    #     val_mask[temp[i]] = True
-    # excluded_idx_val = val_mask.nonzero(as_tuple=True)[0]
-    # temp = [i for i in range(num_nodes) if i not in excluded_idx_train and i not in excluded_idx_val]
-    # selected_test_index = torch.randperm(n = len(temp))
-    # for i in selected_test_index[:test_size]:
-    #     test_mask[temp[i]] = True
-    #     data.train_mask, data.val_mask, data.test_mask = (train_mask, val_mask, test_mask) 
-    # return data
-def semi_masks(data):
-    transform = RandomNodeSplit(
-        "test_rest", 
-        num_train_per_class=int(data.num_nodes/data.num_classes*0.1), 
-        num_val=int(data.num_nodes/data.num_classes*0.1)
-        )
-    data = transform(data)
-    return data
-def  mask_on(data):
-    data.train_mask = np.swapaxes(data.train_mask, 0, 1)
-    data.val_mask = np.swapaxes(data.val_mask, 0, 1)
-    data.test_mask = np.swapaxes(data.test_mask, 0, 1)
+    train_samples, rest = [], []
+    for i in range(10):
+        if class_balance:
+            unique_cls = list(set(data.y.numpy()))
+            n_cls = len(unique_cls)
+            cls_samples = [n_tr // n_cls + (1 if x < n_tr % n_cls else 0) for x in range(n_cls)]
+
+            for cls, n_s in zip(unique_cls, cls_samples):
+                cls_ss = (data.y == cls).nonzero().T.numpy()[0]
+                cls_ss = np.random.choice(cls_ss, len(cls_ss), replace=False)
+                train_samples.extend(cls_ss[:n_s])
+                rest.extend(cls_ss[n_s:])
+
+            train_mask[train_samples] = 1
+            # assert (sorted(train_samples) == list(train_mask.nonzero().T[0].numpy()))
+            rand_indx = np.random.choice(rest, len(rest), replace=False)
+            # train yet unlabeled
+            ul_train_mask[rand_indx[n_val + n_test:]] = 1
+
+        else:
+            rand_indx = np.random.choice(np.arange(n_nodes), n_nodes, replace=False)
+            train_mask[rand_indx[n_val + n_test:n_val + n_test + n_tr]] = 1
+            # train yet unlabeled
+            ul_train_mask[rand_indx[n_val + n_test + n_tr:]] = 1
+
+        val_mask[rand_indx[:n_val]] = 1
+        test_mask[rand_indx[n_val:n_val + n_test]] = 1
+        total_train_mask.append(train_mask.to(torch.bool))
+        total_val_mask.append(val_mask.to(torch.bool))
+        total_test_mask.append(test_mask.to(torch.bool))
+
+    data.ul_train_mask = ul_train_mask.to(torch.bool)
+    data.train_mask = total_train_mask
+    data.test_mask = total_test_mask
+    data.val_mask = total_val_mask
     return data

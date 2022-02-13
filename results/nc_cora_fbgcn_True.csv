@@ -1,0 +1,19 @@
+0.48/0.32/0.2 split
+pretrain epochs = 50
+pretrain loss = 8.351338386535645
+run, train acc avg, validation acc avg, test acc avg
+total,0.9857, 0.9579,0.9543
+
+0.1/0.1/0.8 splitpretrain epochs = 50
+pretrain loss = 8.351338386535645
+run, train acc avg, validation acc avg, test acc avg
+total,0.9932, 0.8935,0.8998
+
+
+Old Model
+
+Ablation Study
+
+Check the Model
+
+Accuracies
