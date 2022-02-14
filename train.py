@@ -62,34 +62,38 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     data = build_graph(args.dataset).to(device)
     with open('./results/nc_{}_{}_{}.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
-        file.write('')
+        file.write('\n')
         file.write('pretrain epochs = {}\n'.format(args.preepochs))
-        if args.preepochs != 0:
-            high_model = Pre_HighPass(2, data.num_features, 128, data.num_classes, 0.5).to(device)
-            low_model = Pre_LowPass(2, data.num_features, 128, data.num_classes, 0.5).to(device)
-            if(args.loss_type == "False"):
-                loss_type = False
-            else:
-                loss_type = True
-            contrast_model = DualBranchContrast(loss=L.InfoNCE(tau=0.2), mode='L2L', intraview_negs= loss_type).to(device)
-            parameter = list(high_model.parameters()) + list(low_model.parameters())
-            optimizer = Adam(parameter, lr=0.001, weight_decay=5e-5)
-            loss = 0
-            with tqdm(total=args.preepochs, desc='(T)') as pbar:
-                for epoch in range(args.preepochs):
-                    loss = pt_model(high_model, low_model, contrast_model, optimizer, data)
-                    pbar.set_postfix({'loss': loss})
-                    pbar.update()
-            file.write('pretrain loss = {}\n'.format(loss))
-        val_acc_list, test_acc_list, train_acc_list = [], [], []    
+        file.write('epochs = {}\n'.format(args.epochs))
+        file.write('learning rate = {}\n'.format(args.learning_rate))
+        file.write('hidden_dim = {}\n'.format(args.hidden_dim))
+        file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
         for r in range(10):
+            if args.preepochs != 0:
+                high_model = Pre_HighPass(2, data.num_features, args.hidden_dim, data.num_classes, 0.5).to(device)
+                low_model = Pre_LowPass(2, data.num_features, args.hidden_dim, data.num_classes, 0.5).to(device)
+                if(args.loss_type == "False"):
+                    loss_type = False
+                else:
+                    loss_type = True
+                contrast_model = DualBranchContrast(loss=L.InfoNCE(tau=0.2), mode='L2L', intraview_negs= loss_type).to(device)
+                parameter = list(high_model.parameters()) + list(low_model.parameters())
+                optimizer = Adam(parameter, lr=args.pre_learning_rate, weight_decay=5e-5)
+                loss = 0
+                with tqdm(total=args.preepochs, desc='(T)') as pbar:
+                    for epoch in range(args.preepochs):
+                        loss = pt_model(high_model, low_model, contrast_model, optimizer, data)
+                        pbar.set_postfix({'loss': loss})
+                        pbar.update()
+                # file.write('pretrain loss = {}\n'.format(loss))
+            val_acc_list, test_acc_list, train_acc_list = [], [], []       
             early_stopping = EarlyStopping(patience = args.patience)
             if args.gnn == "gcn":
-                model = GCN(2,data.num_features, 128, data.num_classes, 0.5).to(device)
+                model = GCN(2,data.num_features, args.hidden_dim, data.num_classes, 0.5).to(device)
             elif args.gnn == "gat":
                 model = GAT(2,data.num_features, 8, data.num_classes, 0.5).to(device)
             else:
-                model = FBGCN(2,data.num_features, 128, data.num_classes, 0.5).to(device)
+                model = FBGCN(2,data.num_features, args.hidden_dim, data.num_classes, 0.5).to(device)
             model.train()
             if (args.preepochs != 0):
                 model.load_state_dict(high_model.state_dict(), strict = False)
