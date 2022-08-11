@@ -24,7 +24,8 @@ class FBGCN_Layer(nn.Module):
         Hh = F.relu(torch.mm(Lhp, self.high(x)))  
         Llp = Anorm
         Hl = F.relu(torch.mm(Llp, self.low(x)))   
-        return (self.aL * Hl + self.aH * Hh)
+        # return (self.aL * Hl + self.aH * Hh)
+        return (Hl + Hh)
 
 class FBGCN(nn.Module):
     def __init__(self, n_layer, in_dim, hi_dim, out_dim, dropout):
@@ -52,16 +53,17 @@ class FBGCN(nn.Module):
         for fbgcn in self.stacks:
             fbgcn.reset_parameters()
     def forward(self, x, lsym, anorm):
+        replace = torch.eye(lsym.shape[0]).cuda()
         # first layer
-        x = F.relu(self.stacks[0](x,lsym, anorm))
+        x = F.relu(self.stacks[0](x,replace, anorm))
         x = F.dropout(x, p=self.dropout, training=self.training)
         # inner layers
         # if self.num_layers > 2:
         #     for layer in range(self.num_layers - 1):
-        #          x = F.relu(self.stacks[layer](x, edge_index,lsym, anorm))
+        #          x = F.relu(self.stacks[layer](x, edge_index,replace, anorm))
         #          x = F.dropout(x, p=self.dropout, training=self.training)
         # last layer
-        return F.log_softmax(self.stacks[-1](x,lsym, anorm), dim=1)
+        return F.log_softmax(self.stacks[-1](x,replace, anorm), dim=1)
 
 
 class GCN(nn.Module):
