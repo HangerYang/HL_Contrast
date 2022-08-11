@@ -62,16 +62,12 @@ def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     data = build_graph(args.dataset).to(device)
     with open('./results/nc_{}_{}_{}.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
-        file.write('\n')
-        file.write('pretrain epochs = {}\n'.format(args.preepochs))
-        file.write('epochs = {}\n'.format(args.epochs))
-        file.write('learning rate = {}\n'.format(args.learning_rate))
-        file.write('hidden_dim = {}\n'.format(args.hidden_dim))
-        file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
-        for r in range(10):
+        hidden_dim = args.hidden_dim
+        val_acc_list, test_acc_list, train_acc_list = [], [], []       
+        for r in range(5):
             if args.preepochs != 0:
-                high_model = Pre_HighPass(2, data.num_features, args.hidden_dim, data.num_classes, 0.5).to(device)
-                low_model = Pre_LowPass(2, data.num_features, args.hidden_dim, data.num_classes, 0.5).to(device)
+                high_model = Pre_HighPass(2, data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
+                low_model = Pre_LowPass(2, data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
                 if(args.loss_type == "False"):
                     loss_type = False
                 else:
@@ -86,14 +82,13 @@ def main():
                         pbar.set_postfix({'loss': loss})
                         pbar.update()
                 # file.write('pretrain loss = {}\n'.format(loss))
-            val_acc_list, test_acc_list, train_acc_list = [], [], []       
             early_stopping = EarlyStopping(patience = args.patience)
             if args.gnn == "gcn":
-                model = GCN(2,data.num_features, args.hidden_dim, data.num_classes, 0.5).to(device)
+                model = GCN(2,data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
             elif args.gnn == "gat":
                 model = GAT(2,data.num_features, 8, data.num_classes, 0.5).to(device)
             else:
-                model = FBGCN(2,data.num_features, args.hidden_dim, data.num_classes, 0.5).to(device)
+                model = FBGCN(2,data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
             model.train()
             if (args.preepochs != 0):
                 model.load_state_dict(high_model.state_dict(), strict = False)
@@ -128,8 +123,14 @@ def main():
                     #     torch.save(model.state_dict(), "saved_model/" + str(name_data))
                     break
         print(f'total,{np.mean(train_acc_list):.4f}, {np.mean(val_acc_list):.4f}, {np.mean(test_acc_list):.4f}\n')
+        file.write('\n')
+        file.write('pretrain epochs = {}\n'.format(args.preepochs))
+        file.write('epochs = {}\n'.format(args.epochs))
+        file.write('learning rate = {}\n'.format(args.learning_rate))
+        file.write('hidden_dim = {}\n'.format(hidden_dim))
+        file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
         file.write('run, train acc avg, validation acc avg, test acc avg\n')
-        file.write(f'total,{np.mean(train_acc_list):.4f}, {np.mean(val_acc_list):.4f},{np.mean(test_acc_list):.4f}\n')
+        file.write(f'total {np.mean(train_acc_list):.4f}, {np.mean(val_acc_list):.4f},{np.mean(test_acc_list):.4f}\n')
 
 
 if __name__ == '__main__':

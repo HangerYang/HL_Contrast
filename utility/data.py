@@ -33,15 +33,15 @@ def dataset_split(file_loc = './data/', dataset_name = 'cora'):
         raise Exception('dataset not available...')
     
     data = dataset[0]
-    if dataset_name in ['cornell', 'texas', 'wisconsin', 'chameleon', 'squirrel', 'actor', 'WikiCS']:
-        data.train_mask = torch.swapaxes(data.train_mask, 0, 1)
-        data.val_mask = torch.swapaxes(data.val_mask, 0, 1)
-        try:
-            data.test_mask = torch.swapaxes(data.test_mask, 0, 1)
-        except:
-            data.test_mask = np.repeat(data.test_mask[np.newaxis], 10, axis = 0)
-    else:
-        data = train_test_split_nodes(data, train_ratio=0.1, val_ratio=0.1, test_ratio=0.8)
+    # if dataset_name in ['cornell', 'texas', 'wisconsin', 'chameleon', 'squirrel', 'actor', 'WikiCS']:
+    #     data.train_mask = torch.swapaxes(data.train_mask, 0, 1)
+    #     data.val_mask = torch.swapaxes(data.val_mask, 0, 1)
+    #     try:
+    #         data.test_mask = torch.swapaxes(data.test_mask, 0, 1)
+    #     except:
+    #         data.test_mask = np.repeat(data.test_mask[np.newaxis], 10, axis = 0)
+    # else:
+    data = train_test_split_nodes(data, train_ratio=0.1, val_ratio=0.1, test_ratio=0.8)
     data.num_classes = dataset.num_classes
     return data
 
@@ -59,7 +59,7 @@ def build_graph(dataset):
     data.degree = np.sum(adj, axis=1)
     return data
 
-def train_test_split_nodes(data, train_ratio=0.48, val_ratio=0.32, test_ratio=0.2, class_balance=True):
+def train_test_split_nodes(data, train_ratio=0.1, val_ratio=0.2, test_ratio=0.2, class_balance=True):
     r"""Splits nodes into train, val, test masks
     """
     n_nodes = data.num_nodes
