@@ -1,3457 +1,2017 @@
 #!/bin/bash
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 20 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 30 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 40 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 50 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 60 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 70 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 80 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 90 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 100 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 110 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 120 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 130 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 140 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 150 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 160 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 170 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 180 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 190 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 200 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 210 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 220 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 230 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 240 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 250 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 260 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 270 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 280 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 290 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 300 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 310 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 320 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 330 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 340 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 350 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 360 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 370 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 380 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 390 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 400 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 410 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 420 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 430 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 440 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 450 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 460 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 470 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 480 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0005 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.001 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0015 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.002 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0025 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.003 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0035 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.004 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset texas --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.001 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0015 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.002 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0025 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.003 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0035 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.004 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.001 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0015 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.002 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0025 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.003 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0035 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.004 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.001 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0015 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.002 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0025 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.003 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0035 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.004 --loss_type False --preepochs 490 
-python FBGCN.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 490 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 20  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 20  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 20  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 20  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 30  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 30  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 30  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 30  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 40  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 40  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 40  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 40  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 50  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 50  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 50  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 50  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 60  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 60  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 60  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 60  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 70  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 70  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 70  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 70  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 80  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 80  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 80  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 80  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 90  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 90  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 90  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 90  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 100  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 100  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 100  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 100  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 110  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 110  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 110  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 110  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 120  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 120  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 120  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 120  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 130  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 130  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 130  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 130  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 140  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 140  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 140  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 140  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 150  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 150  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 150  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 150  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 160  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 160  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 160  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 160  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 170  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 170  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 170  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 170  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 180  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 180  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 180  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 180  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 190  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 190  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 190  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 190  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 200  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 200  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 200  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 200  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 210  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 210  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 210  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 210  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 220  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 220  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 220  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 220  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 230  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 230  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 230  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 230  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 240  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 240  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 240  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 240  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 250  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 250  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 250  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 250  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 260  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 260  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 260  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 260  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 270  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 270  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 270  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 270  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 280  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 280  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 280  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 280  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type True --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 290  --hidden_dim 32 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 290  --hidden_dim 64 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 290  --hidden_dim 128 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0005 --loss_type False --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.001 --loss_type False --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0015 --loss_type False --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.002 --loss_type False --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0025 --loss_type False --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.003 --loss_type False --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0035 --loss_type False --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.004 --loss_type False --preepochs 290  --hidden_dim 256 
+python FBGCN.py --config ./configs/fbgcn.json --dataset citeseer --pre_learning_rate 0.0045000000000000005 --loss_type False --preepochs 290  --hidden_dim 256 

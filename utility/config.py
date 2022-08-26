@@ -50,6 +50,8 @@ def get_arguments():
     parser.add_argument('--hidden_dim' ,type=int, help='hidden dimension in the model')
     parser.add_argument('--pre_learning_rate',type=float, help='pre training learning rate')
     parser.add_argument('--loss_type', help='applying which loss')
+    parser.add_argument('--a', type=float, help='weight of the low pass filter')
+    parser.add_argument('--b', type=float, help='weight of the high pass filter')
     args = parser.parse_args()
     args = get_configs(args)
     return args

@@ -32,9 +32,9 @@ def evaluate_base(model, data,r):
     return evaluate_metrics(data, out,r)
 
 @torch.no_grad()
-def evaluate(model, data,r):
+def evaluate(model, data,r, a=0.5, b=0.5):
     model.eval()
-    out = model(data.x, data.lsym, data.anorm)
+    out = model(data.x, data.lsym, data.anorm, a, b)
 
     return evaluate_metrics(data, out,r)
 
@@ -109,7 +109,7 @@ def main():
                     if args.gnn == "gcn"or args.gnn == "gat":
                         evals = evaluate_base(model, data, r)
                     else:
-                        evals = evaluate(model, data, r)
+                        evals = evaluate(model, data, r, args.a, args.b)
                     best_val = evals['val_acc']
                     best_test = evals['test_acc']
                     best_tr = evals['train_acc']
