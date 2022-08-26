@@ -1,0 +1,24 @@
+
+pretrain epochs = 0
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 128
+pre_learning_rate = 0.001
+run, train acc avg, validation acc avg, test acc avg
+total 0.9808, 0.7432,0.7507
+
+pretrain epochs = 0
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 128
+pre_learning_rate = 0.001
+run, train acc avg, validation acc avg, test acc avg
+total 0.9263, 0.8387,0.8504
+
+pretrain epochs = 0
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 128
+pre_learning_rate = 0.001
+run, train acc avg, validation acc avg, test acc avg
+total 0.9924, 0.8519,0.8618

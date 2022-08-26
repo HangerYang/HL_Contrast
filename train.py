@@ -34,7 +34,7 @@ def evaluate_base(model, data,r):
 @torch.no_grad()
 def evaluate(model, data,r):
     model.eval()
-    out = model(data.x, data.lsym, data.anorm)
+    out = model(data.x, data.lsym, data.anorm, a = 0.2, b = 0.8)
 
     return evaluate_metrics(data, out,r)
 
@@ -64,7 +64,7 @@ def main():
     with open('./results/nc_{}_{}_{}.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
         hidden_dim = args.hidden_dim
         val_acc_list, test_acc_list, train_acc_list = [], [], []       
-        for r in range(5):
+        for r in range(3):
             if args.preepochs != 0:
                 high_model = Pre_HighPass(2, data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
                 low_model = Pre_LowPass(2, data.num_features, hidden_dim, data.num_classes, 0.5).to(device)

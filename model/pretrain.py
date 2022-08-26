@@ -5,6 +5,31 @@ from GCL.augmentors.functional import drop_feature
 
 device = torch.device("cpu")
 
+class Pre_Mix_Layer(nn.Module):
+    def __init__(self, in_dim, out_dim):
+        super().__init__()
+
+        self.encoder = nn.Linear(in_dim, out_dim, bias = False)
+        self.reset_parameters()
+    
+    def reset_parameters(self):
+        gain = nn.init.calculate_gain("relu")
+        nn.init.xavier_normal_(self.encoder.weight, gain)
+
+    def forward(self, x, Lsym, Anorm, encode="low"):
+        if encode == "high":
+            Lhp = Lsym
+            Hh = F.relu(torch.mm(Lhp, self.encoder(x)))      
+            return Hh
+        else:
+            Llp = Anorm
+            # print(Lsym)
+            # print(Anorm)
+            Hl = F.relu(torch.mm(Llp, self.encoder(x)))      
+            return Hl
+
+
+
 
 class Pre_HighPass_Layer(nn.Module):
     def __init__(self, in_dim, out_dim):
