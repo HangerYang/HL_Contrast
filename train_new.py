@@ -7,9 +7,13 @@ from model.downstream import FBGCN, GCN, GAT
 from utility.eval import evaluate_metrics, EarlyStopping
 import numpy as np
 from utility.config import get_arguments
-from model.pretrain import Pre_HighPass, Pre_LowPass, pt_model
+# from model.pretrain import Pre_HighPass, Pre_LowPass, pt_model
+from model.pretrain import Pre_Train
+from MIX_FBGCN import Encoder
 from torch.optim import Adam
 from GCL.models import DualBranchContrast
+import GCL.augmentors as A
+from collections import OrderedDict
 
 
 @torch.no_grad()
@@ -34,9 +38,19 @@ def evaluate_base(model, data,r):
 @torch.no_grad()
 def evaluate(model, data,r):
     model.eval()
-    out = model(data.x, data.lsym, data.anorm, a = 0.2, b = 0.8)
+    out = model(data.x, data.lsym, data.anorm)
 
     return evaluate_metrics(data, out,r)
+
+def train_pre(encoder_model, contrast_model, data, optimizer):
+    encoder_model.train()
+    optimizer.zero_grad()
+    z, z1, z2 = encoder_model(data.x, data.edge_index, data.lsym, data.anorm)
+    loss = contrast_model(z1, z2)
+    loss.backward()
+    optimizer.step()
+    return loss.item()
+
 
 def train(data, model, optimizer, r):
     out = model(data.x, data.lsym, data.anorm)
@@ -61,24 +75,25 @@ def main():
     torch.cuda.manual_seed(args.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     data = build_graph(args.dataset).to(device)
+    aug1 = A.FeatureDropout(pf=0.3)
+    aug2 = A.FeatureDropout(pf=0.3)
     with open('./results/nc_{}_{}_{}.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
         hidden_dim = args.hidden_dim
         val_acc_list, test_acc_list, train_acc_list = [], [], []       
         for r in range(5):
             if args.preepochs != 0:
-                high_model = Pre_HighPass(2, data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
-                low_model = Pre_LowPass(2, data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
+                fbconv = Pre_Train(2, data.num_features, hidden_dim, data.num_classes, 0.5)
                 if(args.loss_type == "False"):
                     loss_type = False
                 else:
                     loss_type = True
                 contrast_model = DualBranchContrast(loss=L.InfoNCE(tau=0.2), mode='L2L', intraview_negs= loss_type).to(device)
-                parameter = list(high_model.parameters()) + list(low_model.parameters())
-                optimizer = Adam(parameter, lr=args.pre_learning_rate, weight_decay=5e-5)
+                encoder_model = Encoder(pretrain_model=fbconv, hidden_dim=1, proj_dim=1, augmentor=(aug1, aug2)).to(device)
+                optimizer = Adam(encoder_model.parameters(), lr=args.pre_learning_rate, weight_decay=5e-5)
                 loss = 0
                 with tqdm(total=args.preepochs, desc='(T)') as pbar:
                     for epoch in range(args.preepochs):
-                        loss = pt_model(high_model, low_model, contrast_model, optimizer, data)
+                        loss = train_pre(encoder_model, contrast_model, data, optimizer)
                         pbar.set_postfix({'loss': loss})
                         pbar.update()
                 # file.write('pretrain loss = {}\n'.format(loss))
@@ -91,8 +106,12 @@ def main():
                 model = FBGCN(2,data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
             model.train()
             if (args.preepochs != 0):
-                model.load_state_dict(high_model.state_dict(), strict = False)
-                model.load_state_dict(low_model.state_dict(), strict = False)
+                od = OrderedDict()
+                od['stacks.0.low.weight'] = encoder_model.state_dict()['pretrain_model.stacks.0.encoder.weight']
+                od['stacks.1.low.weight'] = encoder_model.state_dict()['pretrain_model.stacks.1.encoder.weight']
+                od['stacks.0.high.weight'] = encoder_model.state_dict()['pretrain_model.stacks.0.encoder.weight']
+                od['stacks.1.high.weight'] = encoder_model.state_dict()['pretrain_model.stacks.1.encoder.weight']   
+                model.load_state_dict(od, strict = False)
             optimizer = Adam(model.parameters(), lr=args.learning_rate, weight_decay=args.weight_decay)
             lowest_val_loss = float("inf")
             best_test, best_val, best_tr = 0, 0, 0  

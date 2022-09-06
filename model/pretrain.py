@@ -23,12 +23,45 @@ class Pre_Mix_Layer(nn.Module):
             return Hh
         else:
             Llp = Anorm
-            # print(Lsym)
-            # print(Anorm)
             Hl = F.relu(torch.mm(Llp, self.encoder(x)))      
             return Hl
 
+class Pre_Train(torch.nn.Module):
+    def __init__(self, n_layer, in_dim, hi_dim, out_dim, dropout):
+        """
+        :param n_layer: number of layers
+        :param in_dim: input dimension
+        :param hi_dim: hidden dimension
+        :param out_dim: output dimension
+        :param dropout: dropout ratio
+        """
+        super().__init__()
+        assert(n_layer > 0)
+        self.num_layers = n_layer
+        self.stacks = torch.nn.ModuleList()
+        # first layer
+        self.stacks.append(Pre_Mix_Layer(in_dim, hi_dim))
+        # inner layers
+        # for _ in range(n_layer - 2):
+        #     self.stacks.append(Pre_Mix_Layer(hi_dim, hi_dim))
+        # last layer
+        self.stacks.append(Pre_Mix_Layer(hi_dim, out_dim))
+        self.dropout = dropout
+        self.reset_parameters()
 
+    def reset_parameters(self):
+        for hplayer in self.stacks:
+            hplayer.reset_parameters()
+
+    def forward(self, x, lsym, anorm, encode="low"):
+        if encode == "high":
+            x = F.relu(self.stacks[0](x, lsym, anorm, encode))
+            x = F.dropout(x, p=self.dropout, training=self.training)
+            return self.stacks[-1](x, lsym, anorm, encode)
+        else:
+            x = F.relu(self.stacks[0](x, lsym, anorm, encode))
+            x = F.dropout(x, p=self.dropout, training=self.training)
+            return self.stacks[-1](x, lsym, anorm, encode)
 
 
 class Pre_HighPass_Layer(nn.Module):
