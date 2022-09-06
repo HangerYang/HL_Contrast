@@ -12,6 +12,7 @@ from Evaluator import LREvaluator
 from GCL.models import DualBranchContrast
 from torch_geometric.nn import GCNConv
 from utility.data import build_graph
+from utility.config import get_arguments
 
 
 class GConv(torch.nn.Module):
@@ -74,29 +75,40 @@ def test(encoder_model, data):
 
 
 def main():
-    device = torch.device('cuda')
-    dataset = "squirrel"
+    args = get_arguments()
+    print(args)
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
+    device = torch.device("cuda:2")
+    dataset = args.dataset
+    data = build_graph(dataset).to(device)
+    hidden_dim = args.hidden_dim
+    pre_learning_rate = args.pre_learning_rate
     # path = osp.join(osp.expanduser('~'), 'datasets')
     data = build_graph(dataset).to(device)
     # dataset = Planetoid(path, name='Cora', transform=T.NormalizeFeatures())
     aug1 = A.Compose([A.EdgeRemoving(pe=0.3), A.FeatureMasking(pf=0.3)])
     aug2 = A.Compose([A.EdgeRemoving(pe=0.3), A.FeatureMasking(pf=0.3)])
 
-    gconv = GConv(input_dim=data.num_features, hidden_dim=64, activation=torch.nn.ReLU, num_layers=2).to(device)
-    encoder_model = Encoder(encoder=gconv, augmentor=(aug1, aug2), hidden_dim=64, proj_dim=64).to(device)
+    gconv = GConv(input_dim=data.num_features, hidden_dim=hidden_dim, activation=torch.nn.ReLU, num_layers=2).to(device)
+    encoder_model = Encoder(encoder=gconv, augmentor=(aug1, aug2), hidden_dim=hidden_dim, proj_dim=hidden_dim).to(device)
     contrast_model = DualBranchContrast(loss=L.InfoNCE(tau=0.2), mode='L2L', intraview_negs=True).to(device)
 
-    optimizer = Adam(encoder_model.parameters(), lr=0.01)
+    optimizer = Adam(encoder_model.parameters(), lr=pre_learning_rate)
 
-    with tqdm(total=1000, desc='(T)') as pbar:
-        for epoch in range(1, 1001):
+    with tqdm(total=args.preepochs, desc='(T)') as pbar:
+        for epoch in range(args.preepochs):
             loss = train(encoder_model, contrast_model, data, optimizer)
             pbar.set_postfix({'loss': loss})
             pbar.update()
 
     test_result = test(encoder_model, data)
-    print(f'(E): GRACE: Best test accuracy={test_result["accuracy"]:.4f}')
-
+    with open('./results/nc_GRACE_{}.csv'.format(args.dataset), 'a+') as file:
+            file.write('\n')
+            file.write('pretrain epochs = {}\n'.format(args.preepochs))
+            file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
+            file.write('hidden_dim = {}\n'.format(args.hidden_dim))
+            file.write(f'(E): GRACE: Best test accuracy={test_result["accuracy"]:.4f}')
 
 if __name__ == '__main__':
     main()

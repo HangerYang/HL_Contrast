@@ -5,6 +5,7 @@ import GCL.losses as L
 import GCL.augmentors as A
 import torch.nn.functional as F
 import torch_geometric.transforms as T
+from utility.config import get_arguments
 
 from tqdm import tqdm
 from torch.optim import Adam
@@ -123,27 +124,38 @@ def test(encoder_model, data):
 
 
 def main():
-    device = torch.device('cuda')
-    dataset = "squirrel"
+    args = get_arguments()
+    print(args)
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
+    device = torch.device("cuda:2")
+    dataset = args.dataset
     data = build_graph(dataset).to(device)
+    hidden_dim = args.hidden_dim
+    pre_learning_rate = args.pre_learning_rate
 
     aug1 = A.Compose([A.EdgeRemoving(pe=0.5), A.FeatureMasking(pf=0.1)])
     aug2 = A.Compose([A.EdgeRemoving(pe=0.5), A.FeatureMasking(pf=0.1)])
 
-    gconv = GConv(input_dim=data.num_features, hidden_dim=256, num_layers=2).to(device)
-    encoder_model = Encoder(encoder=gconv, augmentor=(aug1, aug2), hidden_dim=256).to(device)
+    gconv = GConv(input_dim=data.num_features, hidden_dim=hidden_dim, num_layers=2).to(device)
+    encoder_model = Encoder(encoder=gconv, augmentor=(aug1, aug2), hidden_dim=hidden_dim).to(device)
     contrast_model = BootstrapContrast(loss=L.BootstrapLatent(), mode='L2L').to(device)
 
-    optimizer = Adam(encoder_model.parameters(), lr=0.01)
+    optimizer = Adam(encoder_model.parameters(), lr=pre_learning_rate)
 
-    with tqdm(total=100, desc='(T)') as pbar:
-        for epoch in range(1, 101):
+    with tqdm(total=args.preepochs, desc='(T)') as pbar:
+        for epoch in range(args.preepochs):
             loss = train(encoder_model, contrast_model, data, optimizer)
             pbar.set_postfix({'loss': loss})
             pbar.update()
 
     test_result = test(encoder_model, data)
-    print(f'(E): BGRL: Best test accuracy={test_result["accuracy"]:.4f}')
+    with open('./results/nc_BRGL_{}.csv'.format(args.dataset), 'a+') as file:
+            file.write('\n')
+            file.write('pretrain epochs = {}\n'.format(args.preepochs))
+            file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
+            file.write('hidden_dim = {}\n'.format(args.hidden_dim))
+            file.write(f'(E): BGRL: Best test accuracy={test_result["accuracy"]:.4f}')
 
 
 if __name__ == '__main__':
