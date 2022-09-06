@@ -34,7 +34,7 @@ def evaluate_base(model, data,r):
 @torch.no_grad()
 def evaluate(model, data,r):
     model.eval()
-    out = model(data.x, data.lsym, data.anorm, a = 0.2, b = 0.8)
+    out = model(data.x, data.lsym, data.anorm)
 
     return evaluate_metrics(data, out,r)
 

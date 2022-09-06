@@ -52,7 +52,7 @@ class FBGCN(nn.Module):
     def reset_parameters(self):
         for fbgcn in self.stacks:
             fbgcn.reset_parameters()
-    def forward(self, x, lsym, anorm, a=1, b=1):
+    def forward(self, x, lsym, anorm):
         replace = torch.eye(lsym.shape[0]).cuda()
         # first layer
         x = F.relu(self.stacks[0](x,replace, anorm))
