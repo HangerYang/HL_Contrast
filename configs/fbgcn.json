@@ -10,5 +10,5 @@
     "loss_type": "False",
     "aug_type": "none",
     "hidden_dim": 128,
-    "pre_learning_rate": 0.001
+    "pre_learning_rate": 0.0005
   }

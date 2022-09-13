@@ -1,9 +1,12 @@
 import numpy as np
-
 with open('./generate_train.sh','w') as file:
     file.write("#!/bin/bash\n")
-    for dataset in ["squirrel", "cora"]:
-        for a in [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]:
-            b = 1-a
-            file.write("python train.py --config ./configs/fbgcn.json " 
-                        "--dataset {} --preepoch 0 --a {} --b {} \n" .format(dataset, a, b) )
+    for preepochs in range(50, 200, 50):
+        for hidden_dim in [128, 256]:
+            for aug in np.arange(0.2, 1., 0.1):
+                for loss_type in ["True", "False"]:
+                    for dataset in ["squirrel", "cora", "chameleon", "citeseer", "texas", ]:
+                        file.write("python train_new.py --config ./configs/fbgcn.json " 
+                                    "--dataset {} --preepochs {} "
+                                    "--hidden_dim {} --loss_type {} "
+                                    "--aug {} \n".format(dataset, preepochs, hidden_dim, loss_type, aug) )

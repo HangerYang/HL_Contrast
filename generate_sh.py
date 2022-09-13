@@ -1,12 +1,12 @@
 import numpy as np
-
-with open('./generate.sh','w') as file:
+with open('./generate_train.sh','w') as file:
     file.write("#!/bin/bash\n")
-    for preepochs in range(20, 300, 10):
-        for loss_type in ["True", "False"]:
-            for dataset in ["citeseer"]:
-                for hidden_dim in [32, 64, 128, 256]:
-                    for pre_learning_rate in np.arange(0.0005, 0.005, 0.0005):
-                        file.write("python FBGCN.py --config ./configs/fbgcn.json " 
-                        "--dataset {} --pre_learning_rate {} " 
-                        "--loss_type {} --preepochs {}  --hidden_dim {} \n".format(dataset, pre_learning_rate, loss_type, preepochs, hidden_dim) )
+    for preepochs in range(50, 200, 50):
+        for hidden_dim in [128, 256]:
+            for aug in np.arange(0.2, 1., 0.1):
+                for loss_type in ["True", "False"]:
+                    for dataset in ["squirrel", "cora", "chameleon", "citeseer", "texas", ]:
+                        file.write("python MIX_FBGCN.py --config ./configs/fbgcn.json " 
+                                    "--dataset {} --preepochs {} "
+                                    "--hidden_dim {} --loss_type {} "
+                                    "--aug {} \n".format(dataset, preepochs, hidden_dim, loss_type, aug))

@@ -73,10 +73,10 @@ def main():
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
     data = build_graph(args.dataset).to(device)
-    aug1 = A.FeatureDropout(pf=0.3)
-    aug2 = A.FeatureDropout(pf=0.3)
+    aug1 = A.FeatureDropout(pf=args.aug)
+    aug2 = A.FeatureDropout(pf=args.aug)
     with open('./results/nc_{}_{}_{}.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
         hidden_dim = args.hidden_dim
         val_acc_list, test_acc_list, train_acc_list = [], [], []       
@@ -148,6 +148,7 @@ def main():
         file.write('learning rate = {}\n'.format(args.learning_rate))
         file.write('hidden_dim = {}\n'.format(hidden_dim))
         file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
+        file.write('aug = {}\n'.format(args.aug))
         file.write('run, train acc avg, validation acc avg, test acc avg\n')
         file.write(f'total {np.mean(train_acc_list):.4f}, {np.mean(val_acc_list):.4f},{np.mean(test_acc_list):.4f}\n')
 
