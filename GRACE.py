@@ -4,7 +4,7 @@ import GCL.losses as L
 import GCL.augmentors as A
 import torch.nn.functional as F
 import torch_geometric.transforms as T
-
+from utility.config import get_arguments
 from tqdm import tqdm
 from torch.optim import Adam
 from GCL.eval import get_split
@@ -74,8 +74,11 @@ def test(encoder_model, data):
 
 
 def main():
+    args = get_arguments()
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
     device = torch.device('cuda')
-    dataset = "squirrel"
+    dataset = args.dataset
     # path = osp.join(osp.expanduser('~'), 'datasets')
     data = build_graph(dataset).to(device)
     # dataset = Planetoid(path, name='Cora', transform=T.NormalizeFeatures())
@@ -86,10 +89,10 @@ def main():
     encoder_model = Encoder(encoder=gconv, augmentor=(aug1, aug2), hidden_dim=64, proj_dim=64).to(device)
     contrast_model = DualBranchContrast(loss=L.InfoNCE(tau=0.2), mode='L2L', intraview_negs=True).to(device)
 
-    optimizer = Adam(encoder_model.parameters(), lr=0.01)
+    optimizer = Adam(encoder_model.parameters(), lr=0.001)
 
-    with tqdm(total=1000, desc='(T)') as pbar:
-        for epoch in range(1, 1001):
+    with tqdm(total=args.preepochs, desc='(T)') as pbar:
+        for epoch in range(args.preepochs):
             loss = train(encoder_model, contrast_model, data, optimizer)
             pbar.set_postfix({'loss': loss})
             pbar.update()

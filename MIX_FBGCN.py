@@ -3,17 +3,18 @@ from torch import cat
 import GCL.losses as L
 import GCL.augmentors as A
 import torch.nn.functional as F
-from model.pretrain import Pre_Mix_Layer, Pre_Train
+from model.pretrain import Pre_Train
 
 from tqdm import tqdm
 from torch.optim import Adam
 from GCL.eval import get_split
 from Evaluator import LREvaluator
 from GCL.models import DualBranchContrast
-from utility.data import build_graph
+from utility.data import build_graph, build_graph_simplified, get_attribute
 from utility.config import get_arguments
+from model.pretrain import get_augmentor
 
-
+ 
 class Encoder(torch.nn.Module):
     def __init__(self, pretrain_model, hidden_dim, proj_dim, augmentor=None):
         super(Encoder, self).__init__()
@@ -72,12 +73,12 @@ def main():
     else:
         loss_type = True
     data = build_graph(dataset).to(device)
-    aug1 = A.FeatureDropout(pf=0.25)
-    aug2 = A.FeatureDropout(pf=0.25)
+    one_side = (args.aug_side != "both")
+    aug1, aug2 = get_augmentor(args.aug_type, one_side, args.aug_side, args.aug)
     fbconv = Pre_Train(2, data.num_features, hidden_dim,
                        second_hidden_dim, 0.5)
-    encoder_model = Encoder(pretrain_model=fbconv, hidden_dim=128,
-                            proj_dim=128, augmentor=(aug1, aug2)).to(device)
+    encoder_model = Encoder(pretrain_model=fbconv, hidden_dim=second_hidden_dim,
+                            proj_dim=second_hidden_dim, augmentor=(aug1, aug2)).to(device)
     contrast_model = DualBranchContrast(loss=L.InfoNCE(
         tau=0.2), mode='L2L', intraview_negs=loss_type).to(device)
 
@@ -94,11 +95,13 @@ def main():
     with open('./results/nc_FBGCN_{}_{}.csv'.format(args.dataset, args.loss_type), 'a+') as file:
         file.write('\n')
         file.write('pretrain epochs = {}\n'.format(args.preepochs))
+        file.write('aug = {}\n'.format(args.aug))
         file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
         file.write('hidden_dim = {}\n'.format(args.hidden_dim))
         file.write('second hidden_dim = {}\n'.format(second_hidden_dim))
         file.write(
             f'(E): FBGCN: Best test accuracy={test_result["accuracy"]:.4f}')
+        file.write('\n')
 
 
 if __name__ == '__main__':

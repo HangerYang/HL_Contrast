@@ -47,9 +47,12 @@ def get_arguments():
     parser.add_argument('--weight_decay', type=float, help='weight decay')
     parser.add_argument('--patience', type=int, help='patience for early stopping')
     parser.add_argument('--aug_type', help='augmentation type')
+    parser.add_argument('--aug_side', help='augmentation side')
     parser.add_argument('--hidden_dim' ,type=int, help='hidden dimension in the model')
+    parser.add_argument('--second_hidden_dim' ,type=int, help='hidden dimension in the model')
     parser.add_argument('--pre_learning_rate',type=float, help='pre training learning rate')
     parser.add_argument('--loss_type', help='applying which loss')
+    parser.add_argument('--aug', type=float, help='aug parameter')
     args = parser.parse_args()
     args = get_configs(args)
     return args

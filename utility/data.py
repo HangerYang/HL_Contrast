@@ -48,8 +48,6 @@ def dataset_split(file_loc = './data/', dataset_name = 'cora'):
 def build_graph(dataset):
     data = dataset_split(dataset_name= dataset)
     data.edge_index, _ = add_self_loops(data.edge_index)
-
-
     g = to_networkx(data, to_undirected=True)
     Lsym = nx.linalg.laplacianmatrix.normalized_laplacian_matrix(g)
     Anorm = sp.sparse.identity(np.shape(Lsym)[0]) - Lsym
@@ -58,7 +56,22 @@ def build_graph(dataset):
     data.adj =csr_to_sparse(adj)
     data.lsym = csr_to_sparse(Lsym)
     data.anorm = csr_to_sparse(Anorm)
-    data.degree = np.sum(adj, axis=1)
+    return data
+
+def build_graph_simplified(dataset):
+    data = dataset_split(dataset_name= dataset)
+    data.edge_index, _ = add_self_loops(data.edge_index)
+    return data
+
+def get_attribute(data):
+    g = to_networkx(data, to_undirected=True)
+    Lsym = nx.linalg.laplacianmatrix.normalized_laplacian_matrix(g)
+    Anorm = sp.sparse.identity(np.shape(Lsym)[0]) - Lsym
+    adj = nx.adjacency_matrix(g)
+
+    data.adj =csr_to_sparse(adj)
+    data.lsym = csr_to_sparse(Lsym)
+    data.anorm = csr_to_sparse(Anorm)
     return data
 
 def adj_lap(edge_index, num_nodes, device):

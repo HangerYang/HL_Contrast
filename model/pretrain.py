@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from GCL.augmentors.functional import drop_feature
+import GCL.augmentors as A
 
 device = torch.device("cpu")
 
@@ -185,3 +185,28 @@ def pt_model(high_model, low_model, contrast_model, optimizer, data):
     optimizer.step()
     
     return loss.item()
+
+def get_augmentor(augmentor, one_side=False, side=None, aug_ratio=0.5):
+    high_pass_ratio = aug_ratio
+    low_pass_ratio = aug_ratio
+    if (one_side):
+        if side == "high":
+            low_pass_ratio = 0.
+        else:
+            high_pass_ratio = 0.
+    if augmentor == "FM":
+        return (A.FeatureMasking(high_pass_ratio), A.FeatureMasking(low_pass_ratio))
+    if augmentor == "ER":
+        return (A.EdgeRemoving(high_pass_ratio), A.EdgeRemoving(low_pass_ratio))
+    if augmentor == "ND":
+        return (A.NodeDropping(high_pass_ratio), A.NodeDropping(low_pass_ratio))
+    if augmentor == "FD":
+        if not one_side:
+            return (A.FeatureDropout(high_pass_ratio), A.FeatureDropout(low_pass_ratio))
+        elif side == "high":
+            return (A.FeatureDropout(high_pass_ratio), A.FeatureDropout(1.))
+        else:
+            return (A.FeatureDropout(1.), A.FeatureDropout(low_pass_ratio))
+        
+
+

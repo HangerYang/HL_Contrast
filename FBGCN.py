@@ -24,7 +24,7 @@ def test(high_pass_model, low_pass_model, data):
     split = get_split(num_samples=z.size()[0], train_ratio=0.1, test_ratio=0.8)
     result = LREvaluator()(z, data.y, split)
     return result
-
+    
 
 def main():
     args = get_arguments()

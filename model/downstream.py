@@ -52,18 +52,58 @@ class FBGCN(nn.Module):
     def reset_parameters(self):
         for fbgcn in self.stacks:
             fbgcn.reset_parameters()
-    def forward(self, x, lsym, anorm):
-        replace = torch.eye(lsym.shape[0]).cuda()
+    def forward(self, x, lsym, anorm,a=0.5,b=0.5):
         # first layer
-        x = F.relu(self.stacks[0](x,replace, anorm))
+        x = F.relu(self.stacks[0](x, lsym, anorm))
         x = F.dropout(x, p=self.dropout, training=self.training)
+        # inner layers
+        # if self.num_layers > 2:
+        #     for layer in range(self.num_layers - 1):
+        #          x = F.relu(self.stacks[layer](x, edge_index,lsym, anorm))
+        #          x = F.dropout(x, p=self.dropout, training=self.training)
+        # last layer
+        return F.log_softmax(self.stacks[-1](x, lsym, anorm), dim=1)
+
+class FBGCN_Head(nn.Module):
+    def __init__(self, n_layer, in_dim, hi_dim, sec_hid_dim, out_dim, dropout):
+        """
+        :param n_layer: number of layers
+        :param in_dim: input dimension
+        :param hi_dim: hidden dimension
+        :param out_dim: output dimension
+        :param dropout: dropout ratio
+        """
+        super().__init__()
+        assert(n_layer > 0)
+        self.num_layers = n_layer
+        self.stacks = nn.ModuleList()
+        # first layer
+        self.stacks.append(FBGCN_Layer(in_dim, hi_dim))
+        # inner layers
+        # for _ in range(n_layer - 2):
+        #     self.stacks.append(FBGCN_Layer(hi_dim, hi_dim)
+        # last layer
+        self.stacks.append(FBGCN_Layer(hi_dim, sec_hid_dim))
+        self.stacks.append(nn.Linear(sec_hid_dim, out_dim))
+        # self.stacks.append(nn.Linear(64, out_dim))
+        self.dropout = dropout
+
+    def reset_parameters(self):
+        for fbgcn in self.stacks:
+            fbgcn.reset_parameters()
+    def forward(self, x, lsym, anorm):
+        # first layer
+        x = F.relu(self.stacks[0](x,lsym, anorm))
+        x = F.dropout(x, p=self.dropout, training=self.training)
+        x = self.stacks[1](x,lsym, anorm)
+        # x = self.stacks[2](x)
         # inner layers
         # if self.num_layers > 2:
         #     for layer in range(self.num_layers - 1):
         #          x = F.relu(self.stacks[layer](x, edge_index,replace, anorm))
         #          x = F.dropout(x, p=self.dropout, training=self.training)
         # last layer
-        return F.log_softmax(self.stacks[-1](x,replace, anorm), dim=1)
+        return F.log_softmax(self.stacks[-1](x), dim=1)
 
 
 class GCN(nn.Module):

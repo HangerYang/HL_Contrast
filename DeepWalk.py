@@ -1,0 +1,1 @@
+from karateclub import DeepWalk
