@@ -14,6 +14,7 @@ from torch.optim import Adam
 from GCL.models import DualBranchContrast
 import GCL.augmentors as A
 from collections import OrderedDict
+from model.pretrain import get_augmentor
 
 
 @torch.no_grad()
@@ -75,12 +76,12 @@ def main():
     torch.cuda.manual_seed(args.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     data = build_graph(args.dataset).to(device)
-    aug1 = A.FeatureDropout(pf=args.aug)
-    aug2 = A.FeatureDropout(pf=args.aug)
+    one_side = (args.aug_side != "both")
+    aug1, aug2 = get_augmentor(args.aug_type, one_side, args.aug_side, args.aug)
     with open('./results/nc_{}_{}_{}.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
         hidden_dim = args.hidden_dim
         val_acc_list, test_acc_list, train_acc_list = [], [], []       
-        for r in range(5):
+        for r in range(10):
             if args.preepochs != 0:
                 fbconv = Pre_Train(2, data.num_features, hidden_dim, data.num_classes, 0.5)
                 if(args.loss_type == "False"):
@@ -123,7 +124,7 @@ def main():
                     train_loss = train(data, model, optimizer, r)
                     val_loss = validate(data, model, r)
                 # print(f'Run: {r + 1}, Epoch: {epoch:02d}, Loss: {train_loss:.4f}')
-                if lowest_val_loss > val_loss or epoch == args.epochs - 1:
+                if lowest_val_loss > val_loss:
                     lowest_val_loss = val_loss
                     if args.gnn == "gcn"or args.gnn == "gat":
                         evals = evaluate_base(model, data, r)
@@ -148,6 +149,9 @@ def main():
         file.write('learning rate = {}\n'.format(args.learning_rate))
         file.write('hidden_dim = {}\n'.format(hidden_dim))
         file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
+        file.write("augmentation ratio = {}\n".format(args.aug))
+        file.write("augmentation type = {}\n".format(args.aug_type))
+        file.write("augmentation side = {}\n".format(args.aug_side))
         file.write('run, train acc avg, validation acc avg, test acc avg\n')
         file.write(f'total {np.mean(train_acc_list):.4f}, {np.mean(val_acc_list):.4f},{np.mean(test_acc_list):.4f}\n')
 

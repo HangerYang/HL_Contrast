@@ -4,7 +4,7 @@ with open('./generate_second.sh','w') as file:
     file.write("#!/bin/bash\n")
     for preepochs in [200, 300]:
         for loss_type in ["True", "False"]:
-            for dataset in ["cora", "citeseer", "squirrel", "chameleon"]:
+            for dataset in ["texas"]:
                 for aug_type in ["ER", "ND"]:
                     for aug_side in ["both", "high", "low"]:
                         for aug in [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]:

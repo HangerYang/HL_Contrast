@@ -46,6 +46,7 @@ def train(encoder_model, contrast_model, data, optimizer):
     optimizer.zero_grad()
     z, z1, z2 = encoder_model(data.x, data.edge_index, data.lsym, data.anorm)
     h1, h2 = [encoder_model.project(x) for x in [z1, z2]]
+    # loss = contrast_model(z1, z2)
     loss = contrast_model(h1, h2)
     loss.backward()
     optimizer.step()
@@ -65,7 +66,7 @@ def main():
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
     hidden_dim = args.hidden_dim
-    second_hidden_dim = 128
+    second_hidden_dim = args.second_hidden_dim
     device = torch.device('cuda')
     dataset = args.dataset
     if(args.loss_type == "False"):
@@ -95,10 +96,12 @@ def main():
     with open('./results/nc_FBGCN_{}_{}.csv'.format(args.dataset, args.loss_type), 'a+') as file:
         file.write('\n')
         file.write('pretrain epochs = {}\n'.format(args.preepochs))
-        file.write('aug = {}\n'.format(args.aug))
         file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
         file.write('hidden_dim = {}\n'.format(args.hidden_dim))
         file.write('second hidden_dim = {}\n'.format(second_hidden_dim))
+        file.write("augmentation ratio = {}\n".format(args.aug))
+        file.write("augmentation type = {}\n".format(args.aug_type))
+        file.write("augmentation side = {}\n".format(args.aug_side))
         file.write(
             f'(E): FBGCN: Best test accuracy={test_result["accuracy"]:.4f}')
         file.write('\n')

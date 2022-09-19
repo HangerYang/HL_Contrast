@@ -1,0 +1,119 @@
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.4
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6737
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6916
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.4
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6617
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.4
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.5749
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6347
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6856
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6976
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6168
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6946
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6796
+
+
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6946
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug_SEQ: Best test accuracy=0.6826
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = both
+(E): FBGCN_Aug_SEQ: Best test accuracy=0.5928

@@ -53,15 +53,15 @@ class Pre_Train(torch.nn.Module):
         for hplayer in self.stacks:
             hplayer.reset_parameters()
 
-    def forward(self, x, lsym, anorm, encode="low"):
-        if encode == "high":
+    def forward(self, x, lsym, anorm, encode="low", diff = False):
+        if not diff:
             x = F.relu(self.stacks[0](x, lsym, anorm, encode))
             x = F.dropout(x, p=self.dropout, training=self.training)
             return self.stacks[-1](x, lsym, anorm, encode)
         else:
-            x = F.relu(self.stacks[0](x, lsym, anorm, encode))
-            x = F.dropout(x, p=self.dropout, training=self.training)
             return self.stacks[-1](x, lsym, anorm, encode)
+
+        
 
 
 class Pre_HighPass_Layer(nn.Module):

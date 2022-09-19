@@ -9,15 +9,15 @@ class FBGCN_Layer(nn.Module):
         super().__init__()
         self.high = nn.Linear(in_dim, out_dim, False) 
         self.low = nn.Linear(in_dim, out_dim, False) 
-        self.aL = nn.Parameter(torch.tensor(1.))
-        self.aH = nn.Parameter(torch.tensor(1.))
+        self.aL = nn.Parameter(torch.rand(1))
+        self.aH = nn.Parameter(torch.rand(1))
                
     def reset_parameters(self):
         gain = nn.init.calculate_gain("relu")
         nn.init.xavier_normal_(self.high.weight, gain)
         nn.init.xavier_normal_(self.low.weight, gain)
-        self.aL = nn.Parameter(torch.tensor(1.))
-        self.aH = nn.Parameter(torch.tensor(1.))
+        self.aL = nn.Parameter(torch.rand(1))
+        self.aH = nn.Parameter(torch.rand(1))
 
     def forward(self, x,Lsym,Anorm):
         Lhp = Lsym
@@ -52,7 +52,7 @@ class FBGCN(nn.Module):
     def reset_parameters(self):
         for fbgcn in self.stacks:
             fbgcn.reset_parameters()
-    def forward(self, x, lsym, anorm,a=0.5,b=0.5):
+    def forward(self, x, lsym, anorm):
         # first layer
         x = F.relu(self.stacks[0](x, lsym, anorm))
         x = F.dropout(x, p=self.dropout, training=self.training)

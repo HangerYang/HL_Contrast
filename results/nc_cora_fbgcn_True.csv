@@ -1,0 +1,88 @@
+
+pretrain epochs = 60
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9987, 0.8366,0.8521
+
+pretrain epochs = 60
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9970, 0.8523,0.8626
+
+pretrain epochs = 50
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9951, 0.8600,0.8680
+
+pretrain epochs = 0
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9844, 0.8461,0.8555
+
+pretrain epochs = 100
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9961, 0.8533,0.8630
+
+pretrain epochs = 100
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9963, 0.8492,0.8574
+
+pretrain epochs = 0
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9844, 0.8461,0.8555
+
+pretrain epochs = 200
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9950, 0.8478,0.8573
+
+pretrain epochs = 200
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9947, 0.8445,0.8570
+
+pretrain epochs = 0
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9844, 0.8461,0.8555
+
+pretrain epochs = 200
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9944, 0.8505,0.8615
