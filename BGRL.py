@@ -14,6 +14,7 @@ from GCL.models import BootstrapContrast
 from torch_geometric.nn import GCNConv
 from utility.data import build_graph
 from Evaluator import LREvaluator
+import numpy as np
 
 
 
@@ -125,37 +126,42 @@ def test(encoder_model, data):
 
 def main():
     args = get_arguments()
-    print(args)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
-    device = torch.device("cuda:2")
+    device = torch.device("cuda:0")
     dataset = args.dataset
     data = build_graph(dataset).to(device)
     hidden_dim = args.hidden_dim
     pre_learning_rate = args.pre_learning_rate
+    total_result = []
 
     aug1 = A.Compose([A.EdgeRemoving(pe=0.5), A.FeatureMasking(pf=0.1)])
     aug2 = A.Compose([A.EdgeRemoving(pe=0.5), A.FeatureMasking(pf=0.1)])
+    for i in range(10):
+        gconv = GConv(input_dim=data.num_features, hidden_dim=hidden_dim, num_layers=2).to(device)
+        encoder_model = Encoder(encoder=gconv, augmentor=(aug1, aug2), hidden_dim=hidden_dim).to(device)
+        contrast_model = BootstrapContrast(loss=L.BootstrapLatent(), mode='L2L').to(device)
 
-    gconv = GConv(input_dim=data.num_features, hidden_dim=hidden_dim, num_layers=2).to(device)
-    encoder_model = Encoder(encoder=gconv, augmentor=(aug1, aug2), hidden_dim=hidden_dim).to(device)
-    contrast_model = BootstrapContrast(loss=L.BootstrapLatent(), mode='L2L').to(device)
+        optimizer = Adam(encoder_model.parameters(), lr=pre_learning_rate)
 
-    optimizer = Adam(encoder_model.parameters(), lr=pre_learning_rate)
+        with tqdm(total=args.preepochs, desc='(T)') as pbar:
+            for epoch in range(args.preepochs):
+                loss = train(encoder_model, contrast_model, data, optimizer)
+                pbar.set_postfix({'loss': loss})
+                pbar.update()
+        test_result = test(encoder_model, data)
+        total_result.append(test_result["accuracy"])
+    
+    
 
-    with tqdm(total=args.preepochs, desc='(T)') as pbar:
-        for epoch in range(args.preepochs):
-            loss = train(encoder_model, contrast_model, data, optimizer)
-            pbar.set_postfix({'loss': loss})
-            pbar.update()
 
-    test_result = test(encoder_model, data)
+
     with open('./results/nc_BRGL_{}.csv'.format(args.dataset), 'a+') as file:
             file.write('\n')
             file.write('pretrain epochs = {}\n'.format(args.preepochs))
             file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
             file.write('hidden_dim = {}\n'.format(args.hidden_dim))
-            file.write(f'(E): BGRL: Best test accuracy={test_result["accuracy"]:.4f}')
+            file.write('(E): BGRL Mean Accuracy: {}, with Std: {}'.format(np.mean(total_result), np.std(total_result)))
 
 
 if __name__ == '__main__':

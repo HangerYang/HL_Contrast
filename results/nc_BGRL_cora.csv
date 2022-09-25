@@ -1,0 +1,17 @@
+
+pretrain epochs = 310
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.7827205882352942, with Std: 0.029062726726428935
+pretrain epochs = 310
+pre_learning_rate = 0.0045
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.7911764705882353, with Std: 0.02639900451620036
+pretrain epochs = 400
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.7794117647058824, with Std: 0.03004825991426846
+pretrain epochs = 310
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.7863970588235294, with Std: 0.02797260229651068

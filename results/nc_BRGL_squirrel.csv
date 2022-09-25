@@ -1,0 +1,2233 @@
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25431861804222644, with Std: 0.017596696176101996
+pretrain epochs = 100
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.02629558541266795
+pretrain epochs = 100
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2618042226487524, with Std: 0.01734258272257431
+pretrain epochs = 100
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2543186180422265, with Std: 0.014972439538008753
+pretrain epochs = 100
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25873320537428024, with Std: 0.017898722805181986
+pretrain epochs = 100
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2522072936660269, with Std: 0.01829366995384853
+pretrain epochs = 100
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.01936583225432544
+pretrain epochs = 100
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25969289827255276, with Std: 0.015041177119742857
+pretrain epochs = 100
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25489443378119003, with Std: 0.016816273407915173
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26180422264875236, with Std: 0.019178496732125606
+pretrain epochs = 100
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2614203454894434, with Std: 0.021728939267692753
+pretrain epochs = 100
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2547024952015355, with Std: 0.028222804349621933
+pretrain epochs = 100
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26065259117082534, with Std: 0.019664105143747716
+pretrain epochs = 100
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25950095969289827, with Std: 0.017248861373252194
+pretrain epochs = 100
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2568138195777351, with Std: 0.017376537885230376
+pretrain epochs = 100
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25278310940499044, with Std: 0.027841681750719733
+pretrain epochs = 100
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2621880998080614, with Std: 0.02064031486951258
+pretrain epochs = 100
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2681381957773513, with Std: 0.026844653537266408
+pretrain epochs = 110
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24875239923224565, with Std: 0.013136229276213952
+pretrain epochs = 110
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24491362763915547, with Std: 0.01719324044265542
+pretrain epochs = 110
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24568138195777353, with Std: 0.01630913304126526
+pretrain epochs = 110
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2554702495201535, with Std: 0.027123169324890197
+pretrain epochs = 110
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2491362763915547, with Std: 0.021039830489128174
+pretrain epochs = 110
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24606525911708252, with Std: 0.018204845606724574
+pretrain epochs = 110
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2506717850287908, with Std: 0.017342582722574305
+pretrain epochs = 110
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2510556621880998, with Std: 0.021162044456564635
+pretrain epochs = 110
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24299424184261037, with Std: 0.015093745298531679
+pretrain epochs = 110
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2547024952015355, with Std: 0.01617417110002473
+pretrain epochs = 110
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.018470037195730378
+pretrain epochs = 110
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2456813819577735, with Std: 0.024818779079070426
+pretrain epochs = 110
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25374280230326296, with Std: 0.016417201366866106
+pretrain epochs = 110
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2564299424184261, with Std: 0.0195212009751879
+pretrain epochs = 110
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25355086372360847, with Std: 0.019881168189575697
+pretrain epochs = 110
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24740882917466406, with Std: 0.011783528198211766
+pretrain epochs = 110
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2571976967370441, with Std: 0.013186613464351385
+pretrain epochs = 110
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26026871401151624, with Std: 0.009449929846519147
+pretrain epochs = 120
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25297504798464493, with Std: 0.015729597887560755
+pretrain epochs = 120
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2583493282149712, with Std: 0.014342834312682849
+pretrain epochs = 120
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25163147792706336, with Std: 0.0173053679777906
+pretrain epochs = 120
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2508637236084453, with Std: 0.013382125154359591
+pretrain epochs = 120
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25355086372360847, with Std: 0.012657763603683347
+pretrain epochs = 120
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24836852207293666, with Std: 0.021462818807668885
+pretrain epochs = 120
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25028790786948174, with Std: 0.019331559788121573
+pretrain epochs = 120
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.015099846000166558
+pretrain epochs = 120
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2531669865642994, with Std: 0.010026839068413805
+pretrain epochs = 120
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2537428023032629, with Std: 0.018684212704242545
+pretrain epochs = 120
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25834932821497125, with Std: 0.02017090925976146
+pretrain epochs = 120
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2556621880998081, with Std: 0.01913233903167311
+pretrain epochs = 120
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2491362763915547, with Std: 0.019794814716857945
+pretrain epochs = 120
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26142034548944343, with Std: 0.01515707256998053
+pretrain epochs = 120
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26199616122840685, with Std: 0.021463677028626418
+pretrain epochs = 120
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.014853863657540005
+pretrain epochs = 120
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2525911708253359, with Std: 0.012355836421828085
+pretrain epochs = 120
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25758157389635317, with Std: 0.018938804427706738
+pretrain epochs = 130
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25547024952015357, with Std: 0.019355366550409574
+pretrain epochs = 130
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2571976967370441, with Std: 0.021043332166857193
+pretrain epochs = 130
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26046065259117085, with Std: 0.025894641425718838
+pretrain epochs = 130
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2571976967370442, with Std: 0.016399239434390655
+pretrain epochs = 130
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24721689059500956, with Std: 0.022997413897505047
+pretrain epochs = 130
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25451055662188093, with Std: 0.02817250384938008
+pretrain epochs = 130
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2523992322456813, with Std: 0.027011562072854264
+pretrain epochs = 130
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2654510556621881, with Std: 0.02035001579317347
+pretrain epochs = 130
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.263915547024952, with Std: 0.013551733672248645
+pretrain epochs = 130
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26583493282149717, with Std: 0.019294362584073278
+pretrain epochs = 130
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2671785028790786, with Std: 0.021490264878738435
+pretrain epochs = 130
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25854126679462575, with Std: 0.0170177122060022
+pretrain epochs = 130
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.264299424184261, with Std: 0.01915639337876202
+pretrain epochs = 130
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26046065259117085, with Std: 0.02456588881257372
+pretrain epochs = 130
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26487523992322454, with Std: 0.017253132479266204
+pretrain epochs = 130
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2658349328214971, with Std: 0.018153168930749516
+pretrain epochs = 130
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27101727447216895, with Std: 0.013484965888867797
+pretrain epochs = 130
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26602687140115167, with Std: 0.017193240442655428
+pretrain epochs = 140
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24165067178502878, with Std: 0.02080476088084607
+pretrain epochs = 140
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.016104550451748977
+pretrain epochs = 140
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2522072936660269, with Std: 0.018009526457949936
+pretrain epochs = 140
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24836852207293666, with Std: 0.01223599036507427
+pretrain epochs = 140
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24932821497120922, with Std: 0.017411484792593634
+pretrain epochs = 140
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.245873320537428, with Std: 0.01572139837214989
+pretrain epochs = 140
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2456813819577735, with Std: 0.01605873371466556
+pretrain epochs = 140
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24856046065259116, with Std: 0.01888913581439275
+pretrain epochs = 140
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2476007677543186, with Std: 0.015039952417780991
+pretrain epochs = 140
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26161228406909787, with Std: 0.015211662227312532
+pretrain epochs = 140
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2656429942418426, with Std: 0.021752662674099327
+pretrain epochs = 140
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2558541266794626, with Std: 0.018047330515034942
+pretrain epochs = 140
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2595009596928982, with Std: 0.021864154880457794
+pretrain epochs = 140
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26698656429942413, with Std: 0.01017274472168907
+pretrain epochs = 140
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2654510556621882, with Std: 0.014719324046094317
+pretrain epochs = 140
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26583493282149717, with Std: 0.01768024179084737
+pretrain epochs = 140
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26007677543186186, with Std: 0.01879136530373979
+pretrain epochs = 140
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2619961612284069, with Std: 0.019102469574736373
+pretrain epochs = 150
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24376199616122843, with Std: 0.01959278334767731
+pretrain epochs = 150
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24222648752399228, with Std: 0.01686003167447043
+pretrain epochs = 150
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24491362763915547, with Std: 0.021081812234542776
+pretrain epochs = 150
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2464491362763915, with Std: 0.023542031641400334
+pretrain epochs = 150
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24721689059500956, with Std: 0.022511703510780422
+pretrain epochs = 150
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.23877159309021115, with Std: 0.02311565330875178
+pretrain epochs = 150
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24165067178502878, with Std: 0.023887679669126527
+pretrain epochs = 150
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24836852207293666, with Std: 0.02686043099352922
+pretrain epochs = 150
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25105566218809977, with Std: 0.021711978107300224
+pretrain epochs = 150
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2506717850287908, with Std: 0.010271852714210872
+pretrain epochs = 150
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24932821497120922, with Std: 0.017600882875227642
+pretrain epochs = 150
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25086372360844533, with Std: 0.024019945710444166
+pretrain epochs = 150
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25067178502879084, with Std: 0.020406961781193108
+pretrain epochs = 150
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25028790786948174, with Std: 0.013220096243932871
+pretrain epochs = 150
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25681381957773514, with Std: 0.019304861359969536
+pretrain epochs = 150
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26199616122840697, with Std: 0.02165165868076483
+pretrain epochs = 150
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2495201535508637, with Std: 0.024339143929592872
+pretrain epochs = 150
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25950095969289827, with Std: 0.019887652740097687
+pretrain epochs = 160
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24836852207293666, with Std: 0.02123850471189721
+pretrain epochs = 160
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24433781190019194, with Std: 0.020530251495156297
+pretrain epochs = 160
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.255278310940499, with Std: 0.024966775495599388
+pretrain epochs = 160
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24990403071017275, with Std: 0.024381488688215616
+pretrain epochs = 160
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2629558541266795, with Std: 0.017654176257300456
+pretrain epochs = 160
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25873320537428024, with Std: 0.011573753114534624
+pretrain epochs = 160
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25700575815738963, with Std: 0.015697947585867438
+pretrain epochs = 160
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2581573896353167, with Std: 0.019236995670428882
+pretrain epochs = 160
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24990403071017275, with Std: 0.016031180819824263
+pretrain epochs = 160
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2495201535508637, with Std: 0.024580131429684647
+pretrain epochs = 160
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24721689059500956, with Std: 0.014637755059453065
+pretrain epochs = 160
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24414587332053744, with Std: 0.020181864764829045
+pretrain epochs = 160
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2508637236084453, with Std: 0.01559434517999969
+pretrain epochs = 160
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24433781190019194, with Std: 0.018865717102032987
+pretrain epochs = 160
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25220729366602684, with Std: 0.014342834312682849
+pretrain epochs = 160
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2652591170825336, with Std: 0.017355323693600485
+pretrain epochs = 160
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2560460652591171, with Std: 0.010449641143045078
+pretrain epochs = 160
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25355086372360847, with Std: 0.03135656112529655
+pretrain epochs = 170
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24702495201535507, with Std: 0.028817006614984257
+pretrain epochs = 170
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25393474088291745, with Std: 0.0220027256871964
+pretrain epochs = 170
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2497120921305182, with Std: 0.017241384391781092
+pretrain epochs = 170
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2591170825335892, with Std: 0.015734281406463883
+pretrain epochs = 170
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25028790786948174, with Std: 0.01813184749116245
+pretrain epochs = 170
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25585412667946256, with Std: 0.02455088765777194
+pretrain epochs = 170
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25969289827255276, with Std: 0.019873754683886947
+pretrain epochs = 170
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25009596928982725, with Std: 0.02061977857035198
+pretrain epochs = 170
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2687140115163148, with Std: 0.01845008036959373
+pretrain epochs = 170
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24702495201535507, with Std: 0.02361780629918016
+pretrain epochs = 170
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2566218809980806, with Std: 0.027722336975868362
+pretrain epochs = 170
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2591170825335892, with Std: 0.025794145761738715
+pretrain epochs = 170
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26046065259117085, with Std: 0.02065548075026912
+pretrain epochs = 170
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26007677543186186, with Std: 0.020443936663270792
+pretrain epochs = 170
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2593090211132438, with Std: 0.01110759024662595
+pretrain epochs = 170
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26295585412667943, with Std: 0.02195159839615478
+pretrain epochs = 170
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2641074856046065, with Std: 0.020243833970725853
+pretrain epochs = 170
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2577735124760077, with Std: 0.019271436310899406
+pretrain epochs = 180
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2543186180422265, with Std: 0.021187272068722108
+pretrain epochs = 180
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25355086372360847, with Std: 0.017069589005233435
+pretrain epochs = 180
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2629558541266795, with Std: 0.021613340898670626
+pretrain epochs = 180
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25758157389635317, with Std: 0.018703919716053487
+pretrain epochs = 180
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2677543186180422, with Std: 0.01382091057765428
+pretrain epochs = 180
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26641074856046065, with Std: 0.016349742371629068
+pretrain epochs = 180
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26353166986564297, with Std: 0.015114477637320569
+pretrain epochs = 180
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26391554702495207, with Std: 0.014084944191138073
+pretrain epochs = 180
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26161228406909787, with Std: 0.020779955331884356
+pretrain epochs = 180
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2497120921305182, with Std: 0.017134214131648225
+pretrain epochs = 180
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.013517709682655674
+pretrain epochs = 180
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24971209213051826, with Std: 0.018893036110906425
+pretrain epochs = 180
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25700575815738963, with Std: 0.025942968276876487
+pretrain epochs = 180
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24664107485604606, with Std: 0.010866164955637744
+pretrain epochs = 180
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2571976967370442, with Std: 0.01552212408380479
+pretrain epochs = 180
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2600767754318618, with Std: 0.021583491148550453
+pretrain epochs = 180
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2629558541266795, with Std: 0.018349970675957193
+pretrain epochs = 180
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26314779270633404, with Std: 0.013448033823879744
+pretrain epochs = 190
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.23896353166986564, with Std: 0.018071809780969547
+pretrain epochs = 190
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2502879078694818, with Std: 0.015994369793473826
+pretrain epochs = 190
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2550863723608445, with Std: 0.02602803206579773
+pretrain epochs = 190
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24817658349328214, with Std: 0.017634340684442813
+pretrain epochs = 190
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25201535508637235, with Std: 0.017296850508108745
+pretrain epochs = 190
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24856046065259116, with Std: 0.013551733672248644
+pretrain epochs = 190
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2456813819577735, with Std: 0.015137615472652861
+pretrain epochs = 190
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.23761996161228405, with Std: 0.010470772895958427
+pretrain epochs = 190
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24625719769673707, with Std: 0.015758847044227274
+pretrain epochs = 190
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26333973128598853, with Std: 0.021897828325453606
+pretrain epochs = 190
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2581573896353167, with Std: 0.018791365303739798
+pretrain epochs = 190
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25854126679462575, with Std: 0.010444351524309252
+pretrain epochs = 190
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2522072936660269, with Std: 0.017803790595478278
+pretrain epochs = 190
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26353166986564297, with Std: 0.010825403955626558
+pretrain epochs = 190
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26506717850287903, with Std: 0.026477090492885748
+pretrain epochs = 190
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26794625719769677, with Std: 0.022794676144803867
+pretrain epochs = 190
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25988483685220726, with Std: 0.02083572628807971
+pretrain epochs = 190
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26948176583493283, with Std: 0.017865760120107634
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25047984644913623, with Std: 0.01093376227917553
+pretrain epochs = 200
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25374280230326296, with Std: 0.012898501049068289
+pretrain epochs = 200
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2556621880998081, with Std: 0.013728640876965584
+pretrain epochs = 200
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2616122840690979, with Std: 0.015875304784454678
+pretrain epochs = 200
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25988483685220726, with Std: 0.012938425755357183
+pretrain epochs = 200
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2562380038387716, with Std: 0.009254943148745653
+pretrain epochs = 200
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24952015355086368, with Std: 0.013517709682655667
+pretrain epochs = 200
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25297504798464493, with Std: 0.014637755059453073
+pretrain epochs = 200
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24971209213051826, with Std: 0.019336323485438435
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2585412667946257, with Std: 0.015921649372276775
+pretrain epochs = 200
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2644913627639155, with Std: 0.02791766270338075
+pretrain epochs = 200
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2656429942418426, with Std: 0.019987433469397024
+pretrain epochs = 200
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2585412667946257, with Std: 0.02570902459824193
+pretrain epochs = 200
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25988483685220726, with Std: 0.020024263118226453
+pretrain epochs = 200
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26621880998080616, with Std: 0.02269506309945483
+pretrain epochs = 200
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26046065259117085, with Std: 0.013573464267360575
+pretrain epochs = 200
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26257197696737045, with Std: 0.017482222705160387
+pretrain epochs = 200
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2696737044145873, with Std: 0.013686983866416178
+pretrain epochs = 210
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25355086372360847, with Std: 0.014704299213278166
+pretrain epochs = 210
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25662188099808064, with Std: 0.012675214572820783
+pretrain epochs = 210
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25854126679462575, with Std: 0.012321500073477196
+pretrain epochs = 210
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.020938027091431315
+pretrain epochs = 210
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26180422264875236, with Std: 0.016381257806796067
+pretrain epochs = 210
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26314779270633404, with Std: 0.02340470424063784
+pretrain epochs = 210
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2575815738963532, with Std: 0.019151584926320804
+pretrain epochs = 210
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2583493282149712, with Std: 0.019895061066948085
+pretrain epochs = 210
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2562380038387716, with Std: 0.021515107638372912
+pretrain epochs = 210
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26161228406909787, with Std: 0.01615137772469208
+pretrain epochs = 210
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2533589251439539, with Std: 0.019798536596126872
+pretrain epochs = 210
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2512476007677543, with Std: 0.015838131474761038
+pretrain epochs = 210
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26276391554702494, with Std: 0.012273567968328737
+pretrain epochs = 210
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2623800383877159, with Std: 0.015356285941627348
+pretrain epochs = 210
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2671785028790787, with Std: 0.0169906303081234
+pretrain epochs = 210
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26813819577735126, with Std: 0.01530822985150896
+pretrain epochs = 210
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26046065259117085, with Std: 0.017318136327765115
+pretrain epochs = 210
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2641074856046065, with Std: 0.0195589085648476
+pretrain epochs = 220
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25374280230326296, with Std: 0.01957020667413572
+pretrain epochs = 220
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.016798738185828076
+pretrain epochs = 220
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24721689059500962, with Std: 0.015962090507709626
+pretrain epochs = 220
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24203454894433776, with Std: 0.02046554949989036
+pretrain epochs = 220
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2520153550863724, with Std: 0.013895345718033214
+pretrain epochs = 220
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2525911708253359, with Std: 0.008242192151087872
+pretrain epochs = 220
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.014743082049651841
+pretrain epochs = 220
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25355086372360847, with Std: 0.013393132456368147
+pretrain epochs = 220
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2568138195777351, with Std: 0.01739772620902059
+pretrain epochs = 220
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24721689059500962, with Std: 0.023846775417270417
+pretrain epochs = 220
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24587332053742803, with Std: 0.017091157865246627
+pretrain epochs = 220
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24760076775431866, with Std: 0.023255479817060973
+pretrain epochs = 220
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2510556621880998, with Std: 0.02256074511311342
+pretrain epochs = 220
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2566218809980806, with Std: 0.02211962016483066
+pretrain epochs = 220
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26410748560460656, with Std: 0.013712530594619392
+pretrain epochs = 220
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2510556621880998, with Std: 0.02052576489104776
+pretrain epochs = 220
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25988483685220726, with Std: 0.020675981588476368
+pretrain epochs = 220
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2618042226487524, with Std: 0.019197696353243747
+pretrain epochs = 230
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2512476007677543, with Std: 0.011466623440494317
+pretrain epochs = 230
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2558541266794626, with Std: 0.024475743971298605
+pretrain epochs = 230
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2564299424184261, with Std: 0.023337710792430966
+pretrain epochs = 230
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26257197696737045, with Std: 0.020417790628748104
+pretrain epochs = 230
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26007677543186175, with Std: 0.01096740470415483
+pretrain epochs = 230
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26545105566218813, with Std: 0.01904065537419083
+pretrain epochs = 230
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2531669865642995, with Std: 0.02035725585950346
+pretrain epochs = 230
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.014011516314779279
+pretrain epochs = 230
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.253358925143954, with Std: 0.023880738602680678
+pretrain epochs = 230
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.263531669865643, with Std: 0.009444080307211177
+pretrain epochs = 230
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2591170825335892, with Std: 0.015234652462943905
+pretrain epochs = 230
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25489443378119, with Std: 0.019151584926320808
+pretrain epochs = 230
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26295585412667943, with Std: 0.023207906334267704
+pretrain epochs = 230
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2669865642994242, with Std: 0.019469233793446738
+pretrain epochs = 230
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.263915547024952, with Std: 0.01583347867457992
+pretrain epochs = 230
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25393474088291745, with Std: 0.017676073888434233
+pretrain epochs = 230
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2616122840690979, with Std: 0.011676745623228518
+pretrain epochs = 230
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26353166986564297, with Std: 0.01894366689009082
+pretrain epochs = 240
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25470249520153543, with Std: 0.015016664102931787
+pretrain epochs = 240
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2547024952015355, with Std: 0.018865717102032987
+pretrain epochs = 240
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2516314779270633, with Std: 0.019751030100018222
+pretrain epochs = 240
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.254126679462572, with Std: 0.014872453457052223
+pretrain epochs = 240
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26007677543186186, with Std: 0.014369778874660113
+pretrain epochs = 240
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25547024952015357, with Std: 0.013529968175491071
+pretrain epochs = 240
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25124760076775426, with Std: 0.015954010481624842
+pretrain epochs = 240
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2560460652591171, with Std: 0.018454073461377216
+pretrain epochs = 240
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24798464491362765, with Std: 0.01243311688345616
+pretrain epochs = 240
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.025266729304696655
+pretrain epochs = 240
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25815738963531676, with Std: 0.01950326433099959
+pretrain epochs = 240
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2719769673704414, with Std: 0.02417283342110815
+pretrain epochs = 240
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26737044145873323, with Std: 0.021009165913206902
+pretrain epochs = 240
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26602687140115167, with Std: 0.0195212009751879
+pretrain epochs = 240
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2625719769673704, with Std: 0.022852784746467892
+pretrain epochs = 240
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26103646833013433, with Std: 0.022791443545178345
+pretrain epochs = 240
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25815738963531676, with Std: 0.026613099086107574
+pretrain epochs = 240
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2623800383877159, with Std: 0.011581708131704881
+pretrain epochs = 250
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.027727652095885735
+pretrain epochs = 250
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26046065259117085, with Std: 0.030734755036658394
+pretrain epochs = 250
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25489443378119, with Std: 0.01709870053844153
+pretrain epochs = 250
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2562380038387716, with Std: 0.020208316048554914
+pretrain epochs = 250
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25950095969289827, with Std: 0.021981786260607154
+pretrain epochs = 250
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2531669865642994, with Std: 0.02057327311187108
+pretrain epochs = 250
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26026871401151624, with Std: 0.018070790473612007
+pretrain epochs = 250
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.264299424184261, with Std: 0.013974657696174593
+pretrain epochs = 250
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2614203454894434, with Std: 0.02400076626846923
+pretrain epochs = 250
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25623800383877154, with Std: 0.025625777203106884
+pretrain epochs = 250
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2595009596928982, with Std: 0.023520113139409427
+pretrain epochs = 250
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26698656429942413, with Std: 0.018853996837636902
+pretrain epochs = 250
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.012888500548329794
+pretrain epochs = 250
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2610364683301344, with Std: 0.02056521341417102
+pretrain epochs = 250
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2577735124760077, with Std: 0.01961251661808287
+pretrain epochs = 250
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2677543186180422, with Std: 0.021325922363443477
+pretrain epochs = 250
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2696737044145874, with Std: 0.01519227504437996
+pretrain epochs = 250
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2694817658349328, with Std: 0.012444963591130391
+pretrain epochs = 260
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24069097888675622, with Std: 0.01528776027004981
+pretrain epochs = 260
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24664107485604606, with Std: 0.019672534022580915
+pretrain epochs = 260
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2506717850287908, with Std: 0.015645054796402946
+pretrain epochs = 260
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24529750479846452, with Std: 0.01994314811187799
+pretrain epochs = 260
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2474088291746641, with Std: 0.014272024142050907
+pretrain epochs = 260
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2456813819577735, with Std: 0.016081658399733904
+pretrain epochs = 260
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24433781190019194, with Std: 0.013762143393660916
+pretrain epochs = 260
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24721689059500956, with Std: 0.015302212228786752
+pretrain epochs = 260
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25566218809980806, with Std: 0.02563368295554173
+pretrain epochs = 260
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2577735124760076, with Std: 0.016733918248658042
+pretrain epochs = 260
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24683301343570058, with Std: 0.023542031641400323
+pretrain epochs = 260
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2527831094049904, with Std: 0.02346130198249099
+pretrain epochs = 260
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25700575815738963, with Std: 0.011466623440494322
+pretrain epochs = 260
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26679462571976964, with Std: 0.020547291656157606
+pretrain epochs = 260
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2593090211132438, with Std: 0.016808603999179602
+pretrain epochs = 260
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2673704414587332, with Std: 0.016645623643588348
+pretrain epochs = 260
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2700575815738963, with Std: 0.012049402008229949
+pretrain epochs = 260
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26756238003838767, with Std: 0.022746138912899116
+pretrain epochs = 270
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2547024952015355, with Std: 0.026913183857950523
+pretrain epochs = 270
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2591170825335892, with Std: 0.01828964184195254
+pretrain epochs = 270
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2614203454894434, with Std: 0.02102231335139051
+pretrain epochs = 270
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2583493282149712, with Std: 0.021921368960106307
+pretrain epochs = 270
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2637236084452975, with Std: 0.02358893127944294
+pretrain epochs = 270
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25220729366602684, with Std: 0.019839431185293743
+pretrain epochs = 270
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26007677543186175, with Std: 0.019465448950138544
+pretrain epochs = 270
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26161228406909787, with Std: 0.017060953826228704
+pretrain epochs = 270
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26007677543186175, with Std: 0.020043571593244547
+pretrain epochs = 270
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2560460652591171, with Std: 0.02865225789932759
+pretrain epochs = 270
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2629558541266795, with Std: 0.02372596873760068
+pretrain epochs = 270
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26468330134357004, with Std: 0.016917837043700815
+pretrain epochs = 270
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2673704414587332, with Std: 0.020094970157770023
+pretrain epochs = 270
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25854126679462575, with Std: 0.024760076775431863
+pretrain epochs = 270
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25220729366602684, with Std: 0.01723604170490875
+pretrain epochs = 270
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25834932821497125, with Std: 0.01721465437602969
+pretrain epochs = 270
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27063339731285996, with Std: 0.01921304223607248
+pretrain epochs = 270
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.263147792706334, with Std: 0.021655061424567197
+pretrain epochs = 280
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2516314779270633, with Std: 0.020083967253044167
+pretrain epochs = 280
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2610364683301344, with Std: 0.023973120915157006
+pretrain epochs = 280
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2692898272552783, with Std: 0.024279281994635145
+pretrain epochs = 280
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.254510556621881, with Std: 0.02338502020808911
+pretrain epochs = 280
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25854126679462575, with Std: 0.015570703042116756
+pretrain epochs = 280
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24491362763915547, with Std: 0.017700025924604228
+pretrain epochs = 280
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25700575815738963, with Std: 0.01616049893266163
+pretrain epochs = 280
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25950095969289827, with Std: 0.023457375996087812
+pretrain epochs = 280
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.254510556621881, with Std: 0.020550877258079338
+pretrain epochs = 280
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2612284069097889, with Std: 0.012686835216630138
+pretrain epochs = 280
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26353166986564297, with Std: 0.015688557456368102
+pretrain epochs = 280
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2568138195777351, with Std: 0.02066885316847878
+pretrain epochs = 280
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2564299424184261, with Std: 0.015738963531669863
+pretrain epochs = 280
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.254510556621881, with Std: 0.015383850218436764
+pretrain epochs = 280
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2593090211132438, with Std: 0.013199179460233553
+pretrain epochs = 280
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2529750479846449, with Std: 0.013236805872987848
+pretrain epochs = 280
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2606525911708254, with Std: 0.01584627058775455
+pretrain epochs = 280
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26852207293666025, with Std: 0.023530292125881
+pretrain epochs = 290
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2629558541266795, with Std: 0.018648687603057382
+pretrain epochs = 290
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2564299424184261, with Std: 0.02555307369004625
+pretrain epochs = 290
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2529750479846449, with Std: 0.01563563290166319
+pretrain epochs = 290
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2612284069097889, with Std: 0.020626923949954953
+pretrain epochs = 290
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25009596928982725, with Std: 0.02149455016161394
+pretrain epochs = 290
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25220729366602684, with Std: 0.028224762295050748
+pretrain epochs = 290
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2504798464491363, with Std: 0.019969915591828032
+pretrain epochs = 290
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2573896353166987, with Std: 0.01797369268116618
+pretrain epochs = 290
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2591170825335892, with Std: 0.020148980379287078
+pretrain epochs = 290
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27120921305182344, with Std: 0.025694690841218785
+pretrain epochs = 290
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26698656429942413, with Std: 0.01958243893663563
+pretrain epochs = 290
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2629558541266795, with Std: 0.02609235388555306
+pretrain epochs = 290
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2629558541266795, with Std: 0.024490039013798964
+pretrain epochs = 290
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2673704414587332, with Std: 0.01351907228632656
+pretrain epochs = 290
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27082533589251445, with Std: 0.019507041837200235
+pretrain epochs = 290
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2708253358925144, with Std: 0.01989968987068373
+pretrain epochs = 290
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26813819577735126, with Std: 0.020076628633176254
+pretrain epochs = 290
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2698656429942418, with Std: 0.019839431185293747
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2614203454894434, with Std: 0.022933246880988634
+pretrain epochs = 300
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26333973128598853, with Std: 0.0161684757686393
+pretrain epochs = 300
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2564299424184261, with Std: 0.01557425165074918
+pretrain epochs = 300
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24395393474088292, with Std: 0.016000127098938527
+pretrain epochs = 300
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25009596928982725, with Std: 0.013491794065865616
+pretrain epochs = 300
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25758157389635317, with Std: 0.017012299275363026
+pretrain epochs = 300
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2573896353166987, with Std: 0.02302383069298051
+pretrain epochs = 300
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2525911708253359, with Std: 0.015431670819379496
+pretrain epochs = 300
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2487523992322457, with Std: 0.01796856773661182
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2623800383877159, with Std: 0.021750122118233607
+pretrain epochs = 300
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2767754318618042, with Std: 0.01309690756946793
+pretrain epochs = 300
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2571976967370442, with Std: 0.014311978412519962
+pretrain epochs = 300
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25815738963531676, with Std: 0.017491703018233065
+pretrain epochs = 300
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25412667946257195, with Std: 0.007541989521838195
+pretrain epochs = 300
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25969289827255276, with Std: 0.016377884053736542
+pretrain epochs = 300
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2591170825335893, with Std: 0.011580117565449806
+pretrain epochs = 300
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2700575815738963, with Std: 0.01617417110002473
+pretrain epochs = 300
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26276391554702494, with Std: 0.01393241416042957
+pretrain epochs = 310
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.255662188099808, with Std: 0.014637755059453071
+pretrain epochs = 310
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.253358925143954, with Std: 0.023287141478853135
+pretrain epochs = 310
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2564299424184261, with Std: 0.02109927997491179
+pretrain epochs = 310
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24491362763915542, with Std: 0.034657538865341
+pretrain epochs = 310
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2525911708253359, with Std: 0.021752662674099334
+pretrain epochs = 310
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.254510556621881, with Std: 0.022469114206006755
+pretrain epochs = 310
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24856046065259116, with Std: 0.023574089822460714
+pretrain epochs = 310
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25950095969289827, with Std: 0.024815810148013807
+pretrain epochs = 310
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25431861804222644, with Std: 0.0281992984007774
+pretrain epochs = 310
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2654510556621881, with Std: 0.025129297863354154
+pretrain epochs = 310
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26103646833013433, with Std: 0.020885175445275152
+pretrain epochs = 310
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26468330134357004, with Std: 0.014878644895419195
+pretrain epochs = 310
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2608445297504799, with Std: 0.02019372652148497
+pretrain epochs = 310
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2600767754318618, with Std: 0.017428403523457793
+pretrain epochs = 310
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26046065259117085, with Std: 0.01771770879215984
+pretrain epochs = 310
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25834932821497125, with Std: 0.02047904593988352
+pretrain epochs = 310
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2623800383877159, with Std: 0.01905999384695331
+pretrain epochs = 310
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2616122840690979, with Std: 0.017800686456217397
+pretrain epochs = 320
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25489443378119003, with Std: 0.016372259587052684
+pretrain epochs = 320
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2564299424184261, with Std: 0.015335880503215498
+pretrain epochs = 320
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26276391554702494, with Std: 0.018035078422302293
+pretrain epochs = 320
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2474088291746641, with Std: 0.015026474108291624
+pretrain epochs = 320
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25873320537428024, with Std: 0.016484384302175734
+pretrain epochs = 320
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2562380038387716, with Std: 0.018354989128307533
+pretrain epochs = 320
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25374280230326296, with Std: 0.023488765513671184
+pretrain epochs = 320
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.005786876557267323
+pretrain epochs = 320
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25700575815738963, with Std: 0.016454185927176814
+pretrain epochs = 320
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2568138195777351, with Std: 0.020254750031896997
+pretrain epochs = 320
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2593090211132437, with Std: 0.02073380914931939
+pretrain epochs = 320
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26621880998080616, with Std: 0.020149894559110114
+pretrain epochs = 320
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2756238003838772, with Std: 0.021428461784188654
+pretrain epochs = 320
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26660268714011515, with Std: 0.021773822445132342
+pretrain epochs = 320
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26314779270633404, with Std: 0.02351463032161258
+pretrain epochs = 320
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27120921305182344, with Std: 0.02264631237059687
+pretrain epochs = 320
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2687140115163148, with Std: 0.013517709682655678
+pretrain epochs = 320
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2641074856046065, with Std: 0.018192699594737485
+pretrain epochs = 330
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24702495201535507, with Std: 0.016287659519060877
+pretrain epochs = 330
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24856046065259121, with Std: 0.01778412189619732
+pretrain epochs = 330
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.02076133172052201
+pretrain epochs = 330
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2525911708253359, with Std: 0.026334085045900187
+pretrain epochs = 330
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.246257197696737, with Std: 0.02109666073587557
+pretrain epochs = 330
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24452975047984643, with Std: 0.01996899317257574
+pretrain epochs = 330
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24836852207293666, with Std: 0.01587878532049631
+pretrain epochs = 330
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2516314779270633, with Std: 0.023639634220936415
+pretrain epochs = 330
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2514395393474088, with Std: 0.02077906887174566
+pretrain epochs = 330
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26180422264875236, with Std: 0.02183717873831538
+pretrain epochs = 330
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2677543186180423, with Std: 0.017301109767101676
+pretrain epochs = 330
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27255278310940495, with Std: 0.01684254201034956
+pretrain epochs = 330
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26238003838771595, with Std: 0.009826430507616288
+pretrain epochs = 330
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26660268714011515, with Std: 0.023763980580644196
+pretrain epochs = 330
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2658349328214971, with Std: 0.023195997718243246
+pretrain epochs = 330
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2690978886756238, with Std: 0.022231757751355483
+pretrain epochs = 330
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2715930902111324, with Std: 0.00792545981653075
+pretrain epochs = 330
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2771593090211132, with Std: 0.01811151802239608
+pretrain epochs = 340
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25086372360844533, with Std: 0.02238451540935198
+pretrain epochs = 340
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.254126679462572, with Std: 0.015455525634700502
+pretrain epochs = 340
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2502879078694818, with Std: 0.01871179670933427
+pretrain epochs = 340
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2550863723608446, with Std: 0.016409345440684456
+pretrain epochs = 340
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2552783109404991, with Std: 0.022612938925179484
+pretrain epochs = 340
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.262763915547025, with Std: 0.014553197763736944
+pretrain epochs = 340
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25489443378119, with Std: 0.024711672843656173
+pretrain epochs = 340
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2550863723608445, with Std: 0.017705228601276542
+pretrain epochs = 340
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2533589251439539, with Std: 0.01878646342148508
+pretrain epochs = 340
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27255278310940495, with Std: 0.017799651622832445
+pretrain epochs = 340
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.281957773512476, with Std: 0.023451878510970463
+pretrain epochs = 340
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2656429942418426, with Std: 0.020747131081568768
+pretrain epochs = 340
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27082533589251434, with Std: 0.019676279031947134
+pretrain epochs = 340
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2633397312859885, with Std: 0.029004961535299176
+pretrain epochs = 340
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27312859884836854, with Std: 0.01703934673317942
+pretrain epochs = 340
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26813819577735126, with Std: 0.018590319110580063
+pretrain epochs = 340
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2685220729366603, with Std: 0.019992040885946874
+pretrain epochs = 340
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.271785028790787, with Std: 0.012708595283874741
+pretrain epochs = 350
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2525911708253359, with Std: 0.027988830915252488
+pretrain epochs = 350
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25259117082533594, with Std: 0.021971728247607195
+pretrain epochs = 350
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2610364683301344, with Std: 0.019327747984912252
+pretrain epochs = 350
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2591170825335892, with Std: 0.023128399741101067
+pretrain epochs = 350
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24875239923224565, with Std: 0.023211080933329704
+pretrain epochs = 350
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24414587332053742, with Std: 0.02537367043326026
+pretrain epochs = 350
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2562380038387716, with Std: 0.009720888492975513
+pretrain epochs = 350
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25201535508637235, with Std: 0.026885792691260884
+pretrain epochs = 350
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25451055662188093, with Std: 0.02031649692498924
+pretrain epochs = 350
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25451055662188105, with Std: 0.021221151571724002
+pretrain epochs = 350
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2500959692898273, with Std: 0.01955608301764413
+pretrain epochs = 350
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2641074856046065, with Std: 0.02349503838479747
+pretrain epochs = 350
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2560460652591171, with Std: 0.015239488093112638
+pretrain epochs = 350
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2512476007677543, with Std: 0.018258393843318958
+pretrain epochs = 350
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.014527861397440512
+pretrain epochs = 350
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2644913627639155, with Std: 0.017248861373252187
+pretrain epochs = 350
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26660268714011515, with Std: 0.021689059500959694
+pretrain epochs = 350
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2706333973128599, with Std: 0.019039687934951623
+pretrain epochs = 360
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2550863723608445, with Std: 0.016742722099457093
+pretrain epochs = 360
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2568138195777351, with Std: 0.016077076077828736
+pretrain epochs = 360
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2571976967370441, with Std: 0.015307026516220266
+pretrain epochs = 360
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2523992322456814, with Std: 0.008508314878810562
+pretrain epochs = 360
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2568138195777351, with Std: 0.020704470725776275
+pretrain epochs = 360
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24030710172744724, with Std: 0.018285612842709485
+pretrain epochs = 360
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25028790786948174, with Std: 0.02338502020808911
+pretrain epochs = 360
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2495201535508637, with Std: 0.02231776100383667
+pretrain epochs = 360
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2554702495201535, with Std: 0.018853996837636906
+pretrain epochs = 360
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2619961612284069, with Std: 0.024523862455241144
+pretrain epochs = 360
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2675623800383877, with Std: 0.016470969637562335
+pretrain epochs = 360
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.272168905950096, with Std: 0.015892699842214558
+pretrain epochs = 360
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2681381957773513, with Std: 0.015235861514369398
+pretrain epochs = 360
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2641074856046065, with Std: 0.014187883771651697
+pretrain epochs = 360
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.263147792706334, with Std: 0.017369115865475935
+pretrain epochs = 360
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2710172744721689, with Std: 0.020309242328462655
+pretrain epochs = 360
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27236084452975046, with Std: 0.018439094908441412
+pretrain epochs = 360
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27869481765834936, with Std: 0.02613185785046835
+pretrain epochs = 370
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2558541266794626, with Std: 0.017800686456217404
+pretrain epochs = 370
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25297504798464493, with Std: 0.018997071833640876
+pretrain epochs = 370
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25815738963531676, with Std: 0.019784575938664402
+pretrain epochs = 370
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.263915547024952, with Std: 0.02233838549858444
+pretrain epochs = 370
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25201535508637235, with Std: 0.022252461957589082
+pretrain epochs = 370
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2499040307101727, with Std: 0.030478976186225266
+pretrain epochs = 370
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25988483685220726, with Std: 0.022205228198049248
+pretrain epochs = 370
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25355086372360847, with Std: 0.01768440871095963
+pretrain epochs = 370
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2562380038387716, with Std: 0.01442096257678452
+pretrain epochs = 370
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2675623800383877, with Std: 0.021548471709307005
+pretrain epochs = 370
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25950095969289827, with Std: 0.02251170351078042
+pretrain epochs = 370
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25585412667946256, with Std: 0.0300314881726837
+pretrain epochs = 370
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2671785028790787, with Std: 0.023473076001858655
+pretrain epochs = 370
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2583493282149712, with Std: 0.016999301209585052
+pretrain epochs = 370
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2735124760076776, with Std: 0.02103019786899995
+pretrain epochs = 370
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26621880998080616, with Std: 0.014183988320032497
+pretrain epochs = 370
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26698656429942413, with Std: 0.012657763603683344
+pretrain epochs = 370
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2508637236084453, with Std: 0.017550576569053556
+pretrain epochs = 380
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24913627639155472, with Std: 0.017836867801134654
+pretrain epochs = 380
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26199616122840685, with Std: 0.01700038476130936
+pretrain epochs = 380
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2652591170825336, with Std: 0.019998489485805918
+pretrain epochs = 380
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25393474088291745, with Std: 0.019252310228070196
+pretrain epochs = 380
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2608445297504799, with Std: 0.02717744556972652
+pretrain epochs = 380
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24721689059500962, with Std: 0.02779864413087397
+pretrain epochs = 380
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2573896353166987, with Std: 0.019488146984028128
+pretrain epochs = 380
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2550863723608445, with Std: 0.019525918406197343
+pretrain epochs = 380
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2581573896353167, with Std: 0.025176167259537384
+pretrain epochs = 380
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2562380038387716, with Std: 0.022665825244788336
+pretrain epochs = 380
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26046065259117085, with Std: 0.017613437001556487
+pretrain epochs = 380
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2677543186180422, with Std: 0.022486323443109368
+pretrain epochs = 380
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2650671785028791, with Std: 0.011626155639852448
+pretrain epochs = 380
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26813819577735126, with Std: 0.017903867742712486
+pretrain epochs = 380
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2633397312859885, with Std: 0.018083018369771792
+pretrain epochs = 380
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2623800383877159, with Std: 0.029760384704968657
+pretrain epochs = 380
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2685220729366603, with Std: 0.016296704450769566
+pretrain epochs = 380
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26641074856046065, with Std: 0.01666221452146696
+pretrain epochs = 390
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24856046065259113, with Std: 0.01482407148917438
+pretrain epochs = 390
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25086372360844533, with Std: 0.0184510787235551
+pretrain epochs = 390
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25393474088291745, with Std: 0.016013936187037357
+pretrain epochs = 390
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.24798464491362765, with Std: 0.018743271578861735
+pretrain epochs = 390
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2383877159309021, with Std: 0.022082114423446684
+pretrain epochs = 390
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2525911708253359, with Std: 0.017700025924604235
+pretrain epochs = 390
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2550863723608445, with Std: 0.018990283181774655
+pretrain epochs = 390
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25355086372360847, with Std: 0.017767541893155856
+pretrain epochs = 390
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2506717850287908, with Std: 0.013550374352954158
+pretrain epochs = 390
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26333973128598853, with Std: 0.012254041995786854
+pretrain epochs = 390
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26737044145873323, with Std: 0.018590319110580063
+pretrain epochs = 390
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2629558541266795, with Std: 0.01911692836543375
+pretrain epochs = 390
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26986564299424187, with Std: 0.01441968519845908
+pretrain epochs = 390
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2641074856046065, with Std: 0.015574251650749172
+pretrain epochs = 390
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2656429942418427, with Std: 0.011394105243497767
+pretrain epochs = 390
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.28291746641074855, with Std: 0.020116042236581803
+pretrain epochs = 390
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2779270633397313, with Std: 0.012254041995786832
+pretrain epochs = 390
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.28982725527831094, with Std: 0.017570506704561693
+pretrain epochs = 400
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.25892514395393473, with Std: 0.01871671814670648
+pretrain epochs = 400
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2650671785028791, with Std: 0.021655061424567197
+pretrain epochs = 400
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2813819577735125, with Std: 0.019159277870967793
+pretrain epochs = 400
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.27562380038387724, with Std: 0.0186920980022109
+pretrain epochs = 400
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26833013435700576, with Std: 0.015846270587754546
+pretrain epochs = 400
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2733205374280231, with Std: 0.016737220235387058
+pretrain epochs = 400
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26545105566218813, with Std: 0.011739676532340145
+pretrain epochs = 400
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.26333973128598853, with Std: 0.017291524959009916
+pretrain epochs = 400
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): BGRL Mean Accuracy: 0.2641074856046065, with Std: 0.018394086066350776
+pretrain epochs = 400
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25470249520153543, with Std: 0.01944272441788482
+pretrain epochs = 400
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.24683301343570055, with Std: 0.01531183928996478
+pretrain epochs = 400
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25834932821497125, with Std: 0.016358752977092147
+pretrain epochs = 400
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.25451055662188093, with Std: 0.022567275941188594
+pretrain epochs = 400
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.2568138195777351, with Std: 0.019323935429793812
+pretrain epochs = 400
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.263147792706334, with Std: 0.025871868142425293
+pretrain epochs = 400
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26602687140115167, with Std: 0.01439411382668152
+pretrain epochs = 400
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.26737044145873323, with Std: 0.020094970157770026
+pretrain epochs = 400
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): BGRL Mean Accuracy: 0.27063339731285985, with Std: 0.022661761448207973

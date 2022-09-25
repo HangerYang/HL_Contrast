@@ -1,0 +1,2249 @@
+
+pretrain epochs = 460
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.31285988483685223, with Std: 0.01837003625950925
+pretrain epochs = 310
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3017274472168906, with Std: 0.022577068641124923
+pretrain epochs = 400
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30844529750479843, with Std: 0.024218511529535233
+pretrain epochs = 450
+pre_learning_rate = 0.0045
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3117082533589251, with Std: 0.022518248562092072
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.24779270633397305, with Std: 0.015744814230184898
+pretrain epochs = 100
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.25566218809980806, with Std: 0.023784899922701986
+pretrain epochs = 100
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2629558541266795, with Std: 0.0230166291192649
+pretrain epochs = 100
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2621880998080614, with Std: 0.026431831071173903
+pretrain epochs = 100
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27024952015355086, with Std: 0.015302212228786763
+pretrain epochs = 100
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2723608445297505, with Std: 0.02385681502716592
+pretrain epochs = 100
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2750479846449136, with Std: 0.0230334292887392
+pretrain epochs = 100
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28253358925143957, with Std: 0.027944042434016735
+pretrain epochs = 100
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28080614203454896, with Std: 0.016128552137079245
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2583493282149712, with Std: 0.013631693592756013
+pretrain epochs = 100
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2535508637236084, with Std: 0.012540803242932544
+pretrain epochs = 100
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26525911708253364, with Std: 0.013566677195448983
+pretrain epochs = 100
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27581573896353173, with Std: 0.016265025184169214
+pretrain epochs = 100
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26621880998080616, with Std: 0.020476347363550463
+pretrain epochs = 100
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2737044145873321, with Std: 0.021803411625586074
+pretrain epochs = 100
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2758157389635317, with Std: 0.01496751763138725
+pretrain epochs = 100
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2798464491362764, with Std: 0.020145323245146913
+pretrain epochs = 100
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27216890595009596, with Std: 0.012783743420611686
+pretrain epochs = 110
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.25239923224568134, with Std: 0.02279548422308354
+pretrain epochs = 110
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.263915547024952, with Std: 0.018732458057527
+pretrain epochs = 110
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2685220729366603, with Std: 0.020010459943553698
+pretrain epochs = 110
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27735124760076774, with Std: 0.019709952095426184
+pretrain epochs = 110
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2750479846449136, with Std: 0.015356285941627343
+pretrain epochs = 110
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2752399232245682, with Std: 0.02277850855915055
+pretrain epochs = 110
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.281573896353167, with Std: 0.017842030575216303
+pretrain epochs = 110
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28080614203454896, with Std: 0.02572335036810338
+pretrain epochs = 110
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2719769673704414, with Std: 0.016082803776210533
+pretrain epochs = 110
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2641074856046065, with Std: 0.023463657259019003
+pretrain epochs = 110
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27696737044145875, with Std: 0.023943135761564437
+pretrain epochs = 110
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28656429942418427, with Std: 0.02223590013484396
+pretrain epochs = 110
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27965451055662194, with Std: 0.02225246195758909
+pretrain epochs = 110
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27907869481765835, with Std: 0.01983943118529375
+pretrain epochs = 110
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28387715930902113, with Std: 0.012000383134234613
+pretrain epochs = 110
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29251439539347407, with Std: 0.020923946372225177
+pretrain epochs = 110
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29884836852207297, with Std: 0.027199125741151332
+pretrain epochs = 110
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.291362763915547, with Std: 0.02100478160507401
+pretrain epochs = 120
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2581573896353167, with Std: 0.018850088463457756
+pretrain epochs = 120
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.25815738963531665, with Std: 0.008017888128293842
+pretrain epochs = 120
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2612284069097889, with Std: 0.017767541893155856
+pretrain epochs = 120
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27428023032629556, with Std: 0.022358167114591546
+pretrain epochs = 120
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27888675623800385, with Std: 0.013842218604301565
+pretrain epochs = 120
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.273320537428023, with Std: 0.01936963656282973
+pretrain epochs = 120
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28003838771593087, with Std: 0.01634185401630194
+pretrain epochs = 120
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2857965451055663, with Std: 0.01962002883385892
+pretrain epochs = 120
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28253358925143957, with Std: 0.017440025630096816
+pretrain epochs = 120
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2683301343570058, with Std: 0.023613906332790317
+pretrain epochs = 120
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28061420345489446, with Std: 0.021214206341110323
+pretrain epochs = 120
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2817658349328215, with Std: 0.022215180493251885
+pretrain epochs = 120
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2892514395393474, with Std: 0.013788886798972584
+pretrain epochs = 120
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29001919385796543, with Std: 0.014451585784323259
+pretrain epochs = 120
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.291362763915547, with Std: 0.01960782002168465
+pretrain epochs = 120
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2834932821497121, with Std: 0.015308229851508946
+pretrain epochs = 120
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2848368522072936, with Std: 0.01886864603062496
+pretrain epochs = 120
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3034548944337812, with Std: 0.02010230208181506
+pretrain epochs = 130
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26545105566218813, with Std: 0.015641522250963026
+pretrain epochs = 130
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26986564299424187, with Std: 0.021064330008935053
+pretrain epochs = 130
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.272552783109405, with Std: 0.009164941563388361
+pretrain epochs = 130
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27869481765834936, with Std: 0.015326268543322173
+pretrain epochs = 130
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28291746641074855, with Std: 0.021735720025937915
+pretrain epochs = 130
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27946257197696733, with Std: 0.01982085319527921
+pretrain epochs = 130
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28733205374280235, with Std: 0.014819100304765926
+pretrain epochs = 130
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28080614203454896, with Std: 0.014364650473756353
+pretrain epochs = 130
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28061420345489446, with Std: 0.01493671896993759
+pretrain epochs = 130
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.25489443378119003, with Std: 0.023613906332790324
+pretrain epochs = 130
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2679462571976967, with Std: 0.014995796533301048
+pretrain epochs = 130
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2637236084452975, with Std: 0.01751170015809143
+pretrain epochs = 130
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2779270633397313, with Std: 0.013835563371163217
+pretrain epochs = 130
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2723608445297505, with Std: 0.015269676086908875
+pretrain epochs = 130
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2829174664107485, with Std: 0.01288135258008638
+pretrain epochs = 130
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28541266794625725, with Std: 0.01610569420022893
+pretrain epochs = 130
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.282341650671785, with Std: 0.01851884052826455
+pretrain epochs = 130
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2880998080614203, with Std: 0.01984407296519052
+pretrain epochs = 140
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26238003838771595, with Std: 0.025333711300279654
+pretrain epochs = 140
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2744721689059501, with Std: 0.026623479285066726
+pretrain epochs = 140
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.272936660268714, with Std: 0.020633174127257875
+pretrain epochs = 140
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2685220729366603, with Std: 0.018498936351695944
+pretrain epochs = 140
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28464491362763916, with Std: 0.021985975741340574
+pretrain epochs = 140
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27811900191938577, with Std: 0.017220003698546548
+pretrain epochs = 140
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2861804222648753, with Std: 0.020945943336282323
+pretrain epochs = 140
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28771593090211134, with Std: 0.021959149252903754
+pretrain epochs = 140
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28579654510556624, with Std: 0.02373295506890878
+pretrain epochs = 140
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26046065259117085, with Std: 0.021201177901423517
+pretrain epochs = 140
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2735124760076776, with Std: 0.01511935170311553
+pretrain epochs = 140
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2752399232245681, with Std: 0.03199334592862132
+pretrain epochs = 140
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28464491362763916, with Std: 0.017634340684442806
+pretrain epochs = 140
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27715930902111324, with Std: 0.014921913033072401
+pretrain epochs = 140
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29347408829174665, with Std: 0.020357255859503463
+pretrain epochs = 140
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2948176583493282, with Std: 0.022583594748687492
+pretrain epochs = 140
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28023032629558536, with Std: 0.02230124767489875
+pretrain epochs = 140
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2859884836852208, with Std: 0.01996530306939861
+pretrain epochs = 150
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2608445297504799, with Std: 0.025513395540365566
+pretrain epochs = 150
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2719769673704414, with Std: 0.015921649372276768
+pretrain epochs = 150
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2710172744721689, with Std: 0.015326268543322176
+pretrain epochs = 150
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2840690978886756, with Std: 0.01824931182188824
+pretrain epochs = 150
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2750479846449136, with Std: 0.014719324046094304
+pretrain epochs = 150
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2882917466410749, with Std: 0.01856553134640115
+pretrain epochs = 150
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28464491362763916, with Std: 0.014390274201709451
+pretrain epochs = 150
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2844529750479846, with Std: 0.016417201366866092
+pretrain epochs = 150
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29884836852207297, with Std: 0.014209937826395092
+pretrain epochs = 150
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.25547024952015357, with Std: 0.01462894357949423
+pretrain epochs = 150
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26641074856046065, with Std: 0.019887652740097697
+pretrain epochs = 150
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28099808061420345, with Std: 0.019709017509394914
+pretrain epochs = 150
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2752399232245681, with Std: 0.023744594386475422
+pretrain epochs = 150
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28119001919385794, with Std: 0.024748170745158584
+pretrain epochs = 150
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2831094049904031, with Std: 0.016738320752877504
+pretrain epochs = 150
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2777351247600768, with Std: 0.022985396226686227
+pretrain epochs = 150
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2861804222648752, with Std: 0.03212262875045228
+pretrain epochs = 150
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29021113243762, with Std: 0.017898722805181976
+pretrain epochs = 160
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26833013435700576, with Std: 0.02466690798682126
+pretrain epochs = 160
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27351247600767753, with Std: 0.023652098274644137
+pretrain epochs = 160
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27101727447216895, with Std: 0.01712023272243974
+pretrain epochs = 160
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2802303262955854, with Std: 0.012846986971732439
+pretrain epochs = 160
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.281190019193858, with Std: 0.015432864435873458
+pretrain epochs = 160
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2892514395393474, with Std: 0.017060953826228707
+pretrain epochs = 160
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29462571976967367, with Std: 0.02108268596528624
+pretrain epochs = 160
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2942418426103647, with Std: 0.024730300952291073
+pretrain epochs = 160
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2942418426103647, with Std: 0.019706213485359277
+pretrain epochs = 160
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.25950095969289827, with Std: 0.019304861359969543
+pretrain epochs = 160
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27063339731285985, with Std: 0.02130431773591034
+pretrain epochs = 160
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2685220729366603, with Std: 0.018359002902492465
+pretrain epochs = 160
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2765834932821497, with Std: 0.021016178903776328
+pretrain epochs = 160
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27927063339731284, with Std: 0.02390001436544669
+pretrain epochs = 160
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2888675623800384, with Std: 0.01761761972234723
+pretrain epochs = 160
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29136276391554705, with Std: 0.018624966557709337
+pretrain epochs = 160
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29136276391554705, with Std: 0.0291443422588903
+pretrain epochs = 160
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29155470249520155, with Std: 0.02310369714169163
+pretrain epochs = 170
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2694817658349328, with Std: 0.014872453457052221
+pretrain epochs = 170
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27351247600767753, with Std: 0.018030992541320474
+pretrain epochs = 170
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28061420345489446, with Std: 0.025022784626076412
+pretrain epochs = 170
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2840690978886756, with Std: 0.015757678120363758
+pretrain epochs = 170
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2877159309021113, with Std: 0.015814853785116705
+pretrain epochs = 170
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28905950095969285, with Std: 0.014265569424999645
+pretrain epochs = 170
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28598848368522073, with Std: 0.01733833365164869
+pretrain epochs = 170
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.292130518234165, with Std: 0.01844608641341107
+pretrain epochs = 170
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28579654510556624, with Std: 0.015838131474761034
+pretrain epochs = 170
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2581573896353167, with Std: 0.01581019413451908
+pretrain epochs = 170
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26641074856046065, with Std: 0.022949305455101925
+pretrain epochs = 170
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27946257197696733, with Std: 0.009943826370048831
+pretrain epochs = 170
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28483685220729366, with Std: 0.02085340016205922
+pretrain epochs = 170
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2938579654510557, with Std: 0.024988162212937873
+pretrain epochs = 170
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2857965451055662, with Std: 0.01654350228926409
+pretrain epochs = 170
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2798464491362764, with Std: 0.018938804427706728
+pretrain epochs = 170
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29001919385796543, with Std: 0.02240754475228355
+pretrain epochs = 170
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2869481765834933, with Std: 0.018534748479681354
+pretrain epochs = 180
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2623800383877159, with Std: 0.01965004897777531
+pretrain epochs = 180
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.272552783109405, with Std: 0.01794394762767024
+pretrain epochs = 180
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2834932821497121, with Std: 0.011802271892240463
+pretrain epochs = 180
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28003838771593087, with Std: 0.014527861397440505
+pretrain epochs = 180
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2746641074856046, with Std: 0.021959149252903737
+pretrain epochs = 180
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2802303262955854, with Std: 0.01913618975910099
+pretrain epochs = 180
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2857965451055663, with Std: 0.021942366042523934
+pretrain epochs = 180
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2875239923224568, with Std: 0.020899282286090132
+pretrain epochs = 180
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29808061420345483, with Std: 0.018431101369577242
+pretrain epochs = 180
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2629558541266795, with Std: 0.020636744807240866
+pretrain epochs = 180
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27293666026871405, with Std: 0.022755854641503166
+pretrain epochs = 180
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2783109404990403, with Std: 0.01976128625909213
+pretrain epochs = 180
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2802303262955854, with Std: 0.012932729771917846
+pretrain epochs = 180
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2813819577735125, with Std: 0.016955902361119206
+pretrain epochs = 180
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2804222648752399, with Std: 0.014116296359460184
+pretrain epochs = 180
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29174664107485604, with Std: 0.016354248294925745
+pretrain epochs = 180
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28694817658349325, with Std: 0.022714534094470686
+pretrain epochs = 180
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.292514395393474, with Std: 0.021445647176143445
+pretrain epochs = 190
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2641074856046065, with Std: 0.010554876840589273
+pretrain epochs = 190
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2767754318618042, with Std: 0.01999848948580593
+pretrain epochs = 190
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27946257197696733, with Std: 0.016268422341970904
+pretrain epochs = 190
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27927063339731284, with Std: 0.02396159260436044
+pretrain epochs = 190
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2840690978886756, with Std: 0.02797303140458608
+pretrain epochs = 190
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28637236084452977, with Std: 0.013292352931424783
+pretrain epochs = 190
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27811900191938577, with Std: 0.017155701742463628
+pretrain epochs = 190
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29251439539347407, with Std: 0.012114958800813432
+pretrain epochs = 190
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2888675623800384, with Std: 0.02223921348609686
+pretrain epochs = 190
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2710172744721689, with Std: 0.015469820867262866
+pretrain epochs = 190
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27927063339731284, with Std: 0.015903127743936547
+pretrain epochs = 190
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2804222648752399, with Std: 0.014090174397107837
+pretrain epochs = 190
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.280806142034549, with Std: 0.025143953934740882
+pretrain epochs = 190
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2806142034548944, with Std: 0.022707234427900586
+pretrain epochs = 190
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28368522072936664, with Std: 0.01672841348906021
+pretrain epochs = 190
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2802303262955854, with Std: 0.023016629119264897
+pretrain epochs = 190
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2813819577735125, with Std: 0.026445765296967114
+pretrain epochs = 190
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2781190019193858, with Std: 0.02693234109924206
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26813819577735126, with Std: 0.024370153556721577
+pretrain epochs = 200
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2708253358925144, with Std: 0.026070459879330522
+pretrain epochs = 200
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2856046065259117, with Std: 0.025315527207366677
+pretrain epochs = 200
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28099808061420345, with Std: 0.023899243633433206
+pretrain epochs = 200
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28541266794625714, with Std: 0.017060953826228697
+pretrain epochs = 200
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2882917466410749, with Std: 0.022478949669032407
+pretrain epochs = 200
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2948176583493282, with Std: 0.01886864603062496
+pretrain epochs = 200
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2911708253358925, with Std: 0.02070891861315616
+pretrain epochs = 200
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2994241842610365, with Std: 0.010823702249421646
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26026871401151636, with Std: 0.015311839289964789
+pretrain epochs = 200
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2612284069097889, with Std: 0.019279081431228265
+pretrain epochs = 200
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27408829174664107, with Std: 0.02066885316847877
+pretrain epochs = 200
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2721689059500959, with Std: 0.019850569633547636
+pretrain epochs = 200
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.281573896353167, with Std: 0.02758912618644598
+pretrain epochs = 200
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2777351247600767, with Std: 0.020458347757958954
+pretrain epochs = 200
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27024952015355086, with Std: 0.030297126329943403
+pretrain epochs = 200
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28637236084452977, with Std: 0.008401561853450772
+pretrain epochs = 200
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2952015355086372, with Std: 0.014409462095296323
+pretrain epochs = 210
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2696737044145873, with Std: 0.02009863645412561
+pretrain epochs = 210
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2800383877159309, with Std: 0.008980182391777022
+pretrain epochs = 210
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2777351247600768, with Std: 0.019984668509597386
+pretrain epochs = 210
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2850287907869482, with Std: 0.0214808342472163
+pretrain epochs = 210
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2902111324376199, with Std: 0.020579539583386125
+pretrain epochs = 210
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2938579654510557, with Std: 0.02002886206252774
+pretrain epochs = 210
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.290595009596929, with Std: 0.02686043099352922
+pretrain epochs = 210
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29846449136276393, with Std: 0.01790798262848107
+pretrain epochs = 210
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29309021113243766, with Std: 0.025348249182401385
+pretrain epochs = 210
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26065259117082534, with Std: 0.01598515379167525
+pretrain epochs = 210
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26161228406909787, with Std: 0.02230207363173965
+pretrain epochs = 210
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2715930902111324, with Std: 0.01788739873359969
+pretrain epochs = 210
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28119001919385794, with Std: 0.025640149485337806
+pretrain epochs = 210
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26679462571976964, with Std: 0.02602166192718975
+pretrain epochs = 210
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2817658349328215, with Std: 0.014409462095296314
+pretrain epochs = 210
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2798464491362763, with Std: 0.01672841348906021
+pretrain epochs = 210
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27543186180422263, with Std: 0.013740711193163488
+pretrain epochs = 210
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2825335892514395, with Std: 0.013484965888867785
+pretrain epochs = 220
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26161228406909787, with Std: 0.027063339731285982
+pretrain epochs = 220
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2606525911708253, with Std: 0.02406208667057938
+pretrain epochs = 220
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2794625719769674, with Std: 0.008804103601673476
+pretrain epochs = 220
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28886756238003836, with Std: 0.016650049494143445
+pretrain epochs = 220
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29520153550863726, with Std: 0.017733296679387483
+pretrain epochs = 220
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28042226487523997, with Std: 0.015050971147881257
+pretrain epochs = 220
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29616122840690984, with Std: 0.021851513960392987
+pretrain epochs = 220
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28963531669865644, with Std: 0.019638796801450205
+pretrain epochs = 220
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30115163147792706, with Std: 0.00893906412452593
+pretrain epochs = 220
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.25892514395393473, with Std: 0.019202493259031412
+pretrain epochs = 220
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2752399232245681, with Std: 0.01177570952029018
+pretrain epochs = 220
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2727447216890595, with Std: 0.021381130733117114
+pretrain epochs = 220
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2775431861804223, with Std: 0.010414326269674113
+pretrain epochs = 220
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.281957773512476, with Std: 0.016000127098938527
+pretrain epochs = 220
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2809980806142035, with Std: 0.015645054796402925
+pretrain epochs = 220
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28560460652591163, with Std: 0.018841291657286794
+pretrain epochs = 220
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28598848368522073, with Std: 0.021934809408309643
+pretrain epochs = 220
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29596928982725534, with Std: 0.018366024896592226
+pretrain epochs = 230
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.25527831094049896, with Std: 0.025708308100196885
+pretrain epochs = 230
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27101727447216895, with Std: 0.022820520457123766
+pretrain epochs = 230
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28195777351247603, with Std: 0.02698700114045105
+pretrain epochs = 230
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2719769673704414, with Std: 0.02613538208652942
+pretrain epochs = 230
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29366602687140114, with Std: 0.026581934168543656
+pretrain epochs = 230
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2946257197696737, with Std: 0.017322390352965056
+pretrain epochs = 230
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30403071017274474, with Std: 0.02612339774410608
+pretrain epochs = 230
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29865642994241837, with Std: 0.022778508559150555
+pretrain epochs = 230
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29904030710172746, with Std: 0.01204175596265499
+pretrain epochs = 230
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2687140115163148, with Std: 0.016973275216456155
+pretrain epochs = 230
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2829174664107486, with Std: 0.023274481982685783
+pretrain epochs = 230
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28176583493282154, with Std: 0.024396594004507718
+pretrain epochs = 230
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27869481765834936, with Std: 0.017712509781281117
+pretrain epochs = 230
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2842610364683301, with Std: 0.01971368999648301
+pretrain epochs = 230
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2888675623800384, with Std: 0.01622420380729686
+pretrain epochs = 230
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29155470249520155, with Std: 0.013584316529152008
+pretrain epochs = 230
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29021113243762, with Std: 0.016372259587052684
+pretrain epochs = 230
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30249520153550863, with Std: 0.013468564140382982
+pretrain epochs = 240
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2763915547024952, with Std: 0.026035815674185284
+pretrain epochs = 240
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28982725527831094, with Std: 0.03318928304374391
+pretrain epochs = 240
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2873320537428023, with Std: 0.02438526589449835
+pretrain epochs = 240
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2928982725527831, with Std: 0.014622646414388407
+pretrain epochs = 240
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2978886756238004, with Std: 0.022363933456628796
+pretrain epochs = 240
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29942418426103645, with Std: 0.021008289124778704
+pretrain epochs = 240
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2940499040307102, with Std: 0.02697812641967616
+pretrain epochs = 240
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2978886756238004, with Std: 0.02009038634645609
+pretrain epochs = 240
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2988483685220729, with Std: 0.02090368872150272
+pretrain epochs = 240
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26333973128598853, with Std: 0.014099322589026462
+pretrain epochs = 240
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2754318618042227, with Std: 0.008421271005174771
+pretrain epochs = 240
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2842610364683301, with Std: 0.01760088287522763
+pretrain epochs = 240
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28291746641074855, with Std: 0.024792045900142074
+pretrain epochs = 240
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2825335892514395, with Std: 0.02189782832545361
+pretrain epochs = 240
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28963531669865644, with Std: 0.015197124158785083
+pretrain epochs = 240
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28272552783109406, with Std: 0.021235902644865367
+pretrain epochs = 240
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2763915547024952, with Std: 0.02335033600882235
+pretrain epochs = 240
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2944337811900192, with Std: 0.013275713217497572
+pretrain epochs = 250
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26833013435700576, with Std: 0.011700384379369043
+pretrain epochs = 250
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.272936660268714, with Std: 0.019532520895521762
+pretrain epochs = 250
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27907869481765835, with Std: 0.021342327253616334
+pretrain epochs = 250
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2880998080614203, with Std: 0.012831205307760652
+pretrain epochs = 250
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2882917466410748, with Std: 0.015059535697453377
+pretrain epochs = 250
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2952015355086372, with Std: 0.02283665829978633
+pretrain epochs = 250
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29520153550863726, with Std: 0.02130085896200396
+pretrain epochs = 250
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2957773512476008, with Std: 0.02032102973264141
+pretrain epochs = 250
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3, with Std: 0.01810846663360812
+pretrain epochs = 250
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2623800383877159, with Std: 0.017017712206002202
+pretrain epochs = 250
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27101727447216895, with Std: 0.019016454628024315
+pretrain epochs = 250
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2769673704414587, with Std: 0.02070891861315616
+pretrain epochs = 250
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28080614203454896, with Std: 0.02142588278651208
+pretrain epochs = 250
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2763915547024952, with Std: 0.013517709682655664
+pretrain epochs = 250
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2760076775431862, with Std: 0.02356705639642355
+pretrain epochs = 250
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.281190019193858, with Std: 0.024688554468877685
+pretrain epochs = 250
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28522072936660264, with Std: 0.025996165763281405
+pretrain epochs = 250
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2950095969289827, with Std: 0.020204669654434917
+pretrain epochs = 260
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.25988483685220726, with Std: 0.010090932382414533
+pretrain epochs = 260
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2786948176583493, with Std: 0.016191245074059984
+pretrain epochs = 260
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2802303262955854, with Std: 0.018707858627272474
+pretrain epochs = 260
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28234165067178507, with Std: 0.01726273860406711
+pretrain epochs = 260
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.281190019193858, with Std: 0.017596696176101996
+pretrain epochs = 260
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2886756238003839, with Std: 0.020152636849760746
+pretrain epochs = 260
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2969289827255278, with Std: 0.016174171100024722
+pretrain epochs = 260
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2976967370441459, with Std: 0.03059539491661984
+pretrain epochs = 260
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2944337811900192, with Std: 0.018313797223610838
+pretrain epochs = 260
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26333973128598853, with Std: 0.022330962874854497
+pretrain epochs = 260
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27696737044145875, with Std: 0.02154590707655923
+pretrain epochs = 260
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.282341650671785, with Std: 0.02381044304793219
+pretrain epochs = 260
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28253358925143957, with Std: 0.017919293692105653
+pretrain epochs = 260
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28061420345489446, with Std: 0.014738083547372332
+pretrain epochs = 260
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28387715930902113, with Std: 0.02250597502950639
+pretrain epochs = 260
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2986564299424185, with Std: 0.029098800242989994
+pretrain epochs = 260
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2879078694817659, with Std: 0.02547799386724778
+pretrain epochs = 260
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3026871401151631, with Std: 0.02438526589449835
+pretrain epochs = 270
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2675623800383877, with Std: 0.017085768202892822
+pretrain epochs = 270
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2767754318618042, with Std: 0.028219540805357556
+pretrain epochs = 270
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28349328214971214, with Std: 0.026219821643406683
+pretrain epochs = 270
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28502879078694815, with Std: 0.02414538507756071
+pretrain epochs = 270
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2796545105566219, with Std: 0.031151459998132534
+pretrain epochs = 270
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2944337811900192, with Std: 0.01606332126902701
+pretrain epochs = 270
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28752399232245685, with Std: 0.020934507799517818
+pretrain epochs = 270
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2948176583493282, with Std: 0.01879038502958989
+pretrain epochs = 270
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.300383877159309, with Std: 0.01651675809456116
+pretrain epochs = 270
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2671785028790787, with Std: 0.02527183200097165
+pretrain epochs = 270
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27543186180422263, with Std: 0.017742642838213626
+pretrain epochs = 270
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28368522072936664, with Std: 0.025228061114238393
+pretrain epochs = 270
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28790786948176583, with Std: 0.02527474736488526
+pretrain epochs = 270
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28637236084452977, with Std: 0.025271832000971658
+pretrain epochs = 270
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29001919385796543, with Std: 0.01611484126568319
+pretrain epochs = 270
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2982725527831094, with Std: 0.01948342040760004
+pretrain epochs = 270
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29904030710172746, with Std: 0.021830429494223313
+pretrain epochs = 270
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30690978886756237, with Std: 0.020157206505122028
+pretrain epochs = 280
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2558541266794626, with Std: 0.014466873079624784
+pretrain epochs = 280
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.272552783109405, with Std: 0.01324237106384672
+pretrain epochs = 280
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2673704414587332, with Std: 0.009560391098205211
+pretrain epochs = 280
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2880998080614204, with Std: 0.016476560408449904
+pretrain epochs = 280
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2886756238003839, with Std: 0.01719324044265542
+pretrain epochs = 280
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28502879078694815, with Std: 0.008679784302952015
+pretrain epochs = 280
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2798464491362764, with Std: 0.015374268249136876
+pretrain epochs = 280
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28387715930902113, with Std: 0.01595401048162483
+pretrain epochs = 280
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29462571976967367, with Std: 0.018673364982654327
+pretrain epochs = 280
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26314779270633404, with Std: 0.024451649219654828
+pretrain epochs = 280
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28579654510556624, with Std: 0.02318328845205074
+pretrain epochs = 280
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2938579654510557, with Std: 0.024496807438167005
+pretrain epochs = 280
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2907869481765835, with Std: 0.019597483547660395
+pretrain epochs = 280
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29251439539347407, with Std: 0.02279467614480388
+pretrain epochs = 280
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29923224568138196, with Std: 0.023701888945154802
+pretrain epochs = 280
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2986564299424184, with Std: 0.02360454378448094
+pretrain epochs = 280
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3024952015355087, with Std: 0.03314707584633076
+pretrain epochs = 280
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3107485604606526, with Std: 0.029228281874670484
+pretrain epochs = 290
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2698656429942418, with Std: 0.018172438201220158
+pretrain epochs = 290
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28656429942418427, with Std: 0.016711888330933008
+pretrain epochs = 290
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29117082533589256, with Std: 0.028105078011851817
+pretrain epochs = 290
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2831094049904031, with Std: 0.017928542890853542
+pretrain epochs = 290
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29136276391554705, with Std: 0.01888035720131736
+pretrain epochs = 290
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2930902111324376, with Std: 0.012819715531283332
+pretrain epochs = 290
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29001919385796543, with Std: 0.0312977616415053
+pretrain epochs = 290
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30115163147792706, with Std: 0.01789151740709052
+pretrain epochs = 290
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2973128598848368, with Std: 0.013985198642569571
+pretrain epochs = 290
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2673704414587332, with Std: 0.01533227672440808
+pretrain epochs = 290
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2842610364683301, with Std: 0.02017547477650352
+pretrain epochs = 290
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2802303262955854, with Std: 0.012932729771917865
+pretrain epochs = 290
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28694817658349325, with Std: 0.021719612268572438
+pretrain epochs = 290
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2969289827255278, with Std: 0.017696903584429182
+pretrain epochs = 290
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2882917466410749, with Std: 0.01404696695856581
+pretrain epochs = 290
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2892514395393474, with Std: 0.021356994632030304
+pretrain epochs = 290
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29808061420345494, with Std: 0.01917561513091752
+pretrain epochs = 290
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.292130518234165, with Std: 0.011152275659373472
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2612284069097889, with Std: 0.019973604842846358
+pretrain epochs = 300
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27312859884836854, with Std: 0.013047588790293552
+pretrain epochs = 300
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2687140115163148, with Std: 0.01968657413429264
+pretrain epochs = 300
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27735124760076774, with Std: 0.02559700842928488
+pretrain epochs = 300
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2946257197696737, with Std: 0.015646232134313053
+pretrain epochs = 300
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2873320537428023, with Std: 0.01974356772888192
+pretrain epochs = 300
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29097888675623795, with Std: 0.019426611790986554
+pretrain epochs = 300
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2988483685220729, with Std: 0.016777891306334117
+pretrain epochs = 300
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2940499040307102, with Std: 0.017461136914463198
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2679462571976967, with Std: 0.0204430356325441
+pretrain epochs = 300
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28119001919385794, with Std: 0.011745951079304586
+pretrain epochs = 300
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2907869481765835, with Std: 0.020623351569611217
+pretrain epochs = 300
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2873320537428023, with Std: 0.016332834087911568
+pretrain epochs = 300
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2880998080614203, with Std: 0.017369115865475928
+pretrain epochs = 300
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30383877159309025, with Std: 0.01594477115235327
+pretrain epochs = 300
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30057581573896347, with Std: 0.010235924472916234
+pretrain epochs = 300
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3026871401151632, with Std: 0.022969362884733332
+pretrain epochs = 300
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.31074856046065263, with Std: 0.01975103010001822
+pretrain epochs = 310
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27216890595009596, with Std: 0.026286477260299423
+pretrain epochs = 310
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2802303262955854, with Std: 0.024759332816271934
+pretrain epochs = 310
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2890595009596929, with Std: 0.017803790595478267
+pretrain epochs = 310
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3017274472168906, with Std: 0.019626599663975765
+pretrain epochs = 310
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30153550863723605, with Std: 0.020928347614648284
+pretrain epochs = 310
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2986564299424185, with Std: 0.022648752399232256
+pretrain epochs = 310
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30575815738963524, with Std: 0.022169529118543998
+pretrain epochs = 310
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3076775431861804, with Std: 0.02835303809169305
+pretrain epochs = 310
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.31209213051823415, with Std: 0.012504028771518112
+pretrain epochs = 310
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26679462571976964, with Std: 0.011548260235310043
+pretrain epochs = 310
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2738963531669866, with Std: 0.011581708131704862
+pretrain epochs = 310
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.281957773512476, with Std: 0.017788264482299677
+pretrain epochs = 310
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.281573896353167, with Std: 0.02279225173806685
+pretrain epochs = 310
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28195777351247603, with Std: 0.022292160129857748
+pretrain epochs = 310
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28694817658349325, with Std: 0.017554774267408018
+pretrain epochs = 310
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.282341650671785, with Std: 0.016764711499660367
+pretrain epochs = 310
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29347408829174665, with Std: 0.012422741746859414
+pretrain epochs = 310
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29193857965451053, with Std: 0.01333800510793987
+pretrain epochs = 320
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2600767754318618, with Std: 0.018869622239127602
+pretrain epochs = 320
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.272552783109405, with Std: 0.0165111809348227
+pretrain epochs = 320
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27504798464491365, with Std: 0.02298539622668623
+pretrain epochs = 320
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2884836852207294, with Std: 0.01710408612569227
+pretrain epochs = 320
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2857965451055662, with Std: 0.015172863089421621
+pretrain epochs = 320
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28771593090211134, with Std: 0.01636438208602207
+pretrain epochs = 320
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2973128598848368, with Std: 0.013087058682326897
+pretrain epochs = 320
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2984644913627639, with Std: 0.018614084309302815
+pretrain epochs = 320
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2969289827255278, with Std: 0.015499560255832948
+pretrain epochs = 320
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2687140115163148, with Std: 0.022035351460370306
+pretrain epochs = 320
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29117082533589256, with Std: 0.027239729554174148
+pretrain epochs = 320
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29577735124760074, with Std: 0.019106326322115622
+pretrain epochs = 320
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2928982725527831, with Std: 0.026956268505275646
+pretrain epochs = 320
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2944337811900192, with Std: 0.024447882269620975
+pretrain epochs = 320
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29904030710172746, with Std: 0.0178575099418242
+pretrain epochs = 320
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2936660268714011, with Std: 0.015088862961254166
+pretrain epochs = 320
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29961612284069095, with Std: 0.020591172256645168
+pretrain epochs = 320
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3095969289827255, with Std: 0.017487490180258122
+pretrain epochs = 330
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2562380038387716, with Std: 0.018673364982654327
+pretrain epochs = 330
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2777351247600768, with Std: 0.023461301982490985
+pretrain epochs = 330
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28502879078694826, with Std: 0.0181937120721067
+pretrain epochs = 330
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2769673704414587, with Std: 0.018209904054016266
+pretrain epochs = 330
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2971209213051823, with Std: 0.02540269214059993
+pretrain epochs = 330
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3005758157389636, with Std: 0.017342582722574305
+pretrain epochs = 330
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2965451055662188, with Std: 0.020371728272855105
+pretrain epochs = 330
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2925143953934741, with Std: 0.034561737874387335
+pretrain epochs = 330
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3067178502879078, with Std: 0.022609680341846017
+pretrain epochs = 330
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.263915547024952, with Std: 0.019803187961537256
+pretrain epochs = 330
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2748560460652591, with Std: 0.026937128280765953
+pretrain epochs = 330
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.26928982725527834, with Std: 0.017571555032876503
+pretrain epochs = 330
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28752399232245685, with Std: 0.021830429494223303
+pretrain epochs = 330
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.281573896353167, with Std: 0.017039346733179413
+pretrain epochs = 330
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2831094049904031, with Std: 0.02333850006854572
+pretrain epochs = 330
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28042226487523997, with Std: 0.02179073546806864
+pretrain epochs = 330
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28790786948176583, with Std: 0.014667925661837087
+pretrain epochs = 330
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28963531669865644, with Std: 0.016565756136140666
+pretrain epochs = 340
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2698656429942418, with Std: 0.021565561466699638
+pretrain epochs = 340
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28541266794625725, with Std: 0.017676073888434233
+pretrain epochs = 340
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29040307101727453, with Std: 0.03084244546835028
+pretrain epochs = 340
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2967370441458733, with Std: 0.023479353064680276
+pretrain epochs = 340
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29404990403071013, with Std: 0.022544409765874896
+pretrain epochs = 340
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29539347408829175, with Std: 0.026169190604414055
+pretrain epochs = 340
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3038387715930902, with Std: 0.0289572920399543
+pretrain epochs = 340
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3026871401151632, with Std: 0.022269011463043102
+pretrain epochs = 340
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30057581573896347, with Std: 0.02385295413881916
+pretrain epochs = 340
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2527831094049904, with Std: 0.020886057401967563
+pretrain epochs = 340
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2744721689059501, with Std: 0.031044248167609565
+pretrain epochs = 340
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.273704414587332, with Std: 0.022354047388162258
+pretrain epochs = 340
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2833013435700576, with Std: 0.03127126580332637
+pretrain epochs = 340
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27888675623800385, with Std: 0.024550887657771945
+pretrain epochs = 340
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27850287907869486, with Std: 0.021501404837754576
+pretrain epochs = 340
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2967370441458733, with Std: 0.02537947742965926
+pretrain epochs = 340
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30710172744721687, with Std: 0.024003836009003424
+pretrain epochs = 340
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2998080614203455, with Std: 0.02491951227196543
+pretrain epochs = 350
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2667946257197697, with Std: 0.017253132479266204
+pretrain epochs = 350
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28560460652591174, with Std: 0.014435006277898777
+pretrain epochs = 350
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2932821497120921, with Std: 0.020651021353263358
+pretrain epochs = 350
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2923224568138196, with Std: 0.01538025767951295
+pretrain epochs = 350
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3009596928982726, with Std: 0.020934507799517818
+pretrain epochs = 350
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29846449136276393, with Std: 0.029861720084394635
+pretrain epochs = 350
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3076775431861804, with Std: 0.015475773316929946
+pretrain epochs = 350
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30690978886756237, with Std: 0.02033915086138288
+pretrain epochs = 350
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.31631477927063345, with Std: 0.02623035747540347
+pretrain epochs = 350
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27140115163147793, with Std: 0.015503125148797448
+pretrain epochs = 350
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2758157389635317, with Std: 0.019059993846953317
+pretrain epochs = 350
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27946257197696733, with Std: 0.016040370376795527
+pretrain epochs = 350
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28982725527831094, with Std: 0.012320005017951012
+pretrain epochs = 350
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.281957773512476, with Std: 0.022009422096295268
+pretrain epochs = 350
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28752399232245685, with Std: 0.01716321605075482
+pretrain epochs = 350
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29596928982725523, with Std: 0.02056163031223352
+pretrain epochs = 350
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3019193857965451, with Std: 0.01594477115235327
+pretrain epochs = 350
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2965451055662188, with Std: 0.02237134514100034
+pretrain epochs = 360
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26794625719769677, with Std: 0.018652638177744863
+pretrain epochs = 360
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27523992322456814, with Std: 0.019596543597850617
+pretrain epochs = 360
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2727447216890595, with Std: 0.01455319776373694
+pretrain epochs = 360
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2785028790786948, with Std: 0.02037534477000287
+pretrain epochs = 360
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2817658349328215, with Std: 0.015776370509047614
+pretrain epochs = 360
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29923224568138196, with Std: 0.015099846000166556
+pretrain epochs = 360
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29520153550863726, with Std: 0.017482222705160384
+pretrain epochs = 360
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29097888675623806, with Std: 0.019197696353243737
+pretrain epochs = 360
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3005758157389635, with Std: 0.021359581947398933
+pretrain epochs = 360
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2671785028790787, with Std: 0.01572959788756076
+pretrain epochs = 360
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28675623800383876, with Std: 0.011618231055985827
+pretrain epochs = 360
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2928982725527831, with Std: 0.026832985976662255
+pretrain epochs = 360
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2978886756238004, with Std: 0.01848598714446757
+pretrain epochs = 360
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2957773512476008, with Std: 0.022652818529567728
+pretrain epochs = 360
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29558541266794625, with Std: 0.016973275216456155
+pretrain epochs = 360
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30825335892514394, with Std: 0.0225999017727985
+pretrain epochs = 360
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30038387715930903, with Std: 0.02311645016668362
+pretrain epochs = 360
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3047984644913628, with Std: 0.021179446025541223
+pretrain epochs = 370
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26545105566218813, with Std: 0.024893627241325093
+pretrain epochs = 370
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27428023032629556, with Std: 0.018618042226487518
+pretrain epochs = 370
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.292130518234165, with Std: 0.022981388939878337
+pretrain epochs = 370
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28464491362763916, with Std: 0.00967530377054015
+pretrain epochs = 370
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28944337811900195, with Std: 0.02081095764826073
+pretrain epochs = 370
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2892514395393474, with Std: 0.016909124367936304
+pretrain epochs = 370
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2975047984644913, with Std: 0.016951556365312564
+pretrain epochs = 370
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3026871401151632, with Std: 0.01925231022807019
+pretrain epochs = 370
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30537428023032626, with Std: 0.024780898564001955
+pretrain epochs = 370
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2706333973128599, with Std: 0.020867528483572942
+pretrain epochs = 370
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2760076775431862, with Std: 0.021352681743068525
+pretrain epochs = 370
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.281573896353167, with Std: 0.020779955331884346
+pretrain epochs = 370
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30364683301343576, with Std: 0.02063317412725787
+pretrain epochs = 370
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29520153550863726, with Std: 0.028915914910198043
+pretrain epochs = 370
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3023032629558541, with Std: 0.014111075835480082
+pretrain epochs = 370
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3057581573896353, with Std: 0.019593723477873748
+pretrain epochs = 370
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30825335892514394, with Std: 0.014872453457052227
+pretrain epochs = 370
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.31497120921305183, with Std: 0.018795285889074295
+pretrain epochs = 380
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2650671785028791, with Std: 0.019620028833858914
+pretrain epochs = 380
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2825335892514395, with Std: 0.019475855499371704
+pretrain epochs = 380
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2950095969289827, with Std: 0.01642281044194413
+pretrain epochs = 380
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3021113243761996, with Std: 0.01725740252820655
+pretrain epochs = 380
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3019193857965451, with Std: 0.02036811113357361
+pretrain epochs = 380
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.299616122840691, with Std: 0.019469233793446738
+pretrain epochs = 380
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30710172744721687, with Std: 0.02033099835219249
+pretrain epochs = 380
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.308253358925144, with Std: 0.024984476153970033
+pretrain epochs = 380
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.31228406909788864, with Std: 0.027239729554174145
+pretrain epochs = 380
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27236084452975046, with Std: 0.018970873647694696
+pretrain epochs = 380
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2840690978886756, with Std: 0.02894393051231372
+pretrain epochs = 380
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28944337811900195, with Std: 0.0199246668289612
+pretrain epochs = 380
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29769673704414584, with Std: 0.02767445495907179
+pretrain epochs = 380
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.290978886756238, with Std: 0.01823315483614268
+pretrain epochs = 380
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2911708253358925, with Std: 0.01582882450673258
+pretrain epochs = 380
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3007677543186181, with Std: 0.02106170642351284
+pretrain epochs = 380
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3001919385796545, with Std: 0.01811151802239608
+pretrain epochs = 380
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29635316698656433, with Std: 0.025739815146626047
+pretrain epochs = 390
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2520153550863723, with Std: 0.02366455576357143
+pretrain epochs = 390
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.26295585412667943, with Std: 0.022135436841978495
+pretrain epochs = 390
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28272552783109406, with Std: 0.01892420954427231
+pretrain epochs = 390
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.27735124760076774, with Std: 0.016694243465692538
+pretrain epochs = 390
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.28349328214971214, with Std: 0.012381154259401242
+pretrain epochs = 390
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2856046065259117, with Std: 0.01986911983816896
+pretrain epochs = 390
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2896353166986564, with Std: 0.014977359827178046
+pretrain epochs = 390
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3023032629558541, with Std: 0.018633865488433397
+pretrain epochs = 390
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2952015355086372, with Std: 0.01893880442770673
+pretrain epochs = 390
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2775431861804223, with Std: 0.015785708403034223
+pretrain epochs = 390
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2919385796545106, with Std: 0.01997360484284636
+pretrain epochs = 390
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2986564299424185, with Std: 0.026362049463937644
+pretrain epochs = 390
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3107485604606526, with Std: 0.020411474499184894
+pretrain epochs = 390
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2986564299424185, with Std: 0.03248471861503268
+pretrain epochs = 390
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2944337811900192, with Std: 0.025131496818937293
+pretrain epochs = 390
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3028790786948176, with Std: 0.011980411926546825
+pretrain epochs = 390
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2969289827255278, with Std: 0.01549956025583295
+pretrain epochs = 390
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3013435700575816, with Std: 0.021783126232800164
+pretrain epochs = 400
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2761996161228407, with Std: 0.017177162473574183
+pretrain epochs = 400
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.2844529750479846, with Std: 0.022609680341846017
+pretrain epochs = 400
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.281957773512476, with Std: 0.019469233793446734
+pretrain epochs = 400
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.29328214971209216, with Std: 0.016484384302175737
+pretrain epochs = 400
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30115163147792706, with Std: 0.01776754189315585
+pretrain epochs = 400
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30422264875239924, with Std: 0.022006074146458998
+pretrain epochs = 400
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.30422264875239924, with Std: 0.018415103882462217
+pretrain epochs = 400
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.308637236084453, with Std: 0.022363933456628814
+pretrain epochs = 400
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): DGI Mean Accuracy: 0.3063339731285989, with Std: 0.018454073461377223
+pretrain epochs = 400
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.27140115163147793, with Std: 0.014672948064196849
+pretrain epochs = 400
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.2902111324376199, with Std: 0.022577068641124933
+pretrain epochs = 400
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29347408829174665, with Std: 0.01751695876910997
+pretrain epochs = 400
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.29136276391554705, with Std: 0.024107974615136404
+pretrain epochs = 400
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.28982725527831094, with Std: 0.032311877944750815
+pretrain epochs = 400
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.3034548944337812, with Std: 0.017369115865475935
+pretrain epochs = 400
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30614203454894434, with Std: 0.025409217456571445
+pretrain epochs = 400
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.30345489443378115, with Std: 0.028924195071470725
+pretrain epochs = 400
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): DGI Mean Accuracy: 0.31074856046065263, with Std: 0.02470645445634349

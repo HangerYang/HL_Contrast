@@ -1,0 +1,2249 @@
+
+pretrain epochs = 370
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29769673704414595, with Std: 0.02150140483775458
+pretrain epochs = 370
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2894433781190019, with Std: 0.02563368295554172
+pretrain epochs = 370
+pre_learning_rate = 0.0045
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2980806142034549, with Std: 0.023335342803911606
+pretrain epochs = 310
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2925143953934741, with Std: 0.01749064990386874
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25297504798464493, with Std: 0.020828652539348232
+pretrain epochs = 100
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26621880998080616, with Std: 0.019156393378762012
+pretrain epochs = 100
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2593090211132437, with Std: 0.018359002902492472
+pretrain epochs = 100
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26353166986564297, with Std: 0.022086284873241838
+pretrain epochs = 100
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27351247600767753, with Std: 0.018693083430579786
+pretrain epochs = 100
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2746641074856046, with Std: 0.012511392313038206
+pretrain epochs = 100
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26065259117082534, with Std: 0.011086010808593987
+pretrain epochs = 100
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26928982725527834, with Std: 0.016422810441944127
+pretrain epochs = 100
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2685220729366603, with Std: 0.009459671040577058
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26007677543186175, with Std: 0.016869861642271545
+pretrain epochs = 100
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.263915547024952, with Std: 0.016382382236752892
+pretrain epochs = 100
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26333973128598853, with Std: 0.009589248366062812
+pretrain epochs = 100
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25969289827255276, with Std: 0.01516314779270634
+pretrain epochs = 100
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2652591170825336, with Std: 0.014985966446021603
+pretrain epochs = 100
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25892514395393473, with Std: 0.014349254273754837
+pretrain epochs = 100
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2694817658349328, with Std: 0.014057453684146305
+pretrain epochs = 100
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2683301343570058, with Std: 0.014862541790868284
+pretrain epochs = 100
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2648752399232246, with Std: 0.019422818642109048
+pretrain epochs = 110
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.24606525911708257, with Std: 0.0213354214688526
+pretrain epochs = 110
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2606525911708254, with Std: 0.013968065565190218
+pretrain epochs = 110
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2593090211132437, with Std: 0.019317261647716064
+pretrain epochs = 110
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25796545105566226, with Std: 0.020604586411239377
+pretrain epochs = 110
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2687140115163148, with Std: 0.016710786072690147
+pretrain epochs = 110
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2656429942418426, with Std: 0.02805456643469246
+pretrain epochs = 110
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2637236084452975, with Std: 0.020352731119864204
+pretrain epochs = 110
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27216890595009596, with Std: 0.01905516106869997
+pretrain epochs = 110
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25950095969289827, with Std: 0.022981388939878337
+pretrain epochs = 110
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.24357005758157388, with Std: 0.014729332086717601
+pretrain epochs = 110
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2566218809980806, with Std: 0.020368111133573612
+pretrain epochs = 110
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26986564299424187, with Std: 0.014004941533170598
+pretrain epochs = 110
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2765834932821497, with Std: 0.017912096568950785
+pretrain epochs = 110
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2621880998080614, with Std: 0.015142482090837638
+pretrain epochs = 110
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2775431861804223, with Std: 0.02634807096490936
+pretrain epochs = 110
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2738963531669866, with Std: 0.013299280001013433
+pretrain epochs = 110
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27236084452975046, with Std: 0.022766375335215278
+pretrain epochs = 110
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2767754318618042, with Std: 0.016595751494216725
+pretrain epochs = 120
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2520153550863724, with Std: 0.014593644457021392
+pretrain epochs = 120
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2585412667946257, with Std: 0.02259745646936977
+pretrain epochs = 120
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2560460652591171, with Std: 0.016017386598867617
+pretrain epochs = 120
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25355086372360847, with Std: 0.012715840364723143
+pretrain epochs = 120
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2566218809980806, with Std: 0.022302073631739645
+pretrain epochs = 120
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2658349328214971, with Std: 0.02618045040834687
+pretrain epochs = 120
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2497120921305182, with Std: 0.01393241416042957
+pretrain epochs = 120
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2581573896353167, with Std: 0.018010549232545883
+pretrain epochs = 120
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26487523992322454, with Std: 0.02381895133587496
+pretrain epochs = 120
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25278310940499044, with Std: 0.020921305182341653
+pretrain epochs = 120
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27101727447216895, with Std: 0.02358268338335152
+pretrain epochs = 120
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2737044145873321, with Std: 0.017886368917039146
+pretrain epochs = 120
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2715930902111324, with Std: 0.017907982628481065
+pretrain epochs = 120
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25700575815738963, with Std: 0.016852382179847098
+pretrain epochs = 120
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2685220729366603, with Std: 0.0225713567491533
+pretrain epochs = 120
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28675623800383876, with Std: 0.00990670856089361
+pretrain epochs = 120
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27332053742802304, with Std: 0.0277110389608813
+pretrain epochs = 120
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27063339731285985, with Std: 0.02836537919679257
+pretrain epochs = 130
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25355086372360847, with Std: 0.015954010481624845
+pretrain epochs = 130
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25873320537428024, with Std: 0.020775522652951725
+pretrain epochs = 130
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26314779270633404, with Std: 0.01543763797896192
+pretrain epochs = 130
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25182341650671786, with Std: 0.011218149094973094
+pretrain epochs = 130
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2633397312859885, with Std: 0.01866448488467289
+pretrain epochs = 130
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.263915547024952, with Std: 0.018830534424518795
+pretrain epochs = 130
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.263147792706334, with Std: 0.008645762479504973
+pretrain epochs = 130
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26276391554702494, with Std: 0.01638687918502226
+pretrain epochs = 130
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25777351247600766, with Std: 0.018982521749681073
+pretrain epochs = 130
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.24836852207293664, with Std: 0.014872453457052221
+pretrain epochs = 130
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26641074856046065, with Std: 0.016640089675004414
+pretrain epochs = 130
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26429942418426106, with Std: 0.007679942043663182
+pretrain epochs = 130
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2717850287907869, with Std: 0.016759216854466855
+pretrain epochs = 130
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2646833013435701, with Std: 0.014374905445952239
+pretrain epochs = 130
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2761996161228407, with Std: 0.0136654337898868
+pretrain epochs = 130
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26775431861804216, with Std: 0.02096000927815888
+pretrain epochs = 130
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2704414587332054, with Std: 0.018177505666866524
+pretrain epochs = 130
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27216890595009596, with Std: 0.024637019561950156
+pretrain epochs = 140
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25700575815738963, with Std: 0.01931726164771607
+pretrain epochs = 140
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26276391554702494, with Std: 0.019355366550409567
+pretrain epochs = 140
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2671785028790787, with Std: 0.02211545600128074
+pretrain epochs = 140
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26103646833013433, with Std: 0.016842542010349563
+pretrain epochs = 140
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2644913627639155, with Std: 0.021728939267692756
+pretrain epochs = 140
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2679462571976967, with Std: 0.017385016313588103
+pretrain epochs = 140
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27120921305182344, with Std: 0.020386190412060832
+pretrain epochs = 140
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.273320537428023, with Std: 0.013108154379242905
+pretrain epochs = 140
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2742802303262956, with Std: 0.019336323485438425
+pretrain epochs = 140
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2614203454894434, with Std: 0.020127027606784385
+pretrain epochs = 140
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27811900191938577, with Std: 0.018157227318667583
+pretrain epochs = 140
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.282341650671785, with Std: 0.01616049893266163
+pretrain epochs = 140
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2808061420345489, with Std: 0.022302073631739652
+pretrain epochs = 140
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2767754318618042, with Std: 0.02052576489104776
+pretrain epochs = 140
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27236084452975046, with Std: 0.02520833941948643
+pretrain epochs = 140
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27850287907869486, with Std: 0.025397615735765017
+pretrain epochs = 140
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27907869481765835, with Std: 0.014031222174661852
+pretrain epochs = 140
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2744721689059501, with Std: 0.02045744736195659
+pretrain epochs = 150
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2514395393474088, with Std: 0.011092655106948098
+pretrain epochs = 150
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25297504798464493, with Std: 0.013181024731968829
+pretrain epochs = 150
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2591170825335893, with Std: 0.019667851758079852
+pretrain epochs = 150
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26583493282149717, with Std: 0.020262933218561163
+pretrain epochs = 150
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2571976967370441, with Std: 0.020511401162982803
+pretrain epochs = 150
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26737044145873323, with Std: 0.011802271892240472
+pretrain epochs = 150
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2754318618042227, with Std: 0.01653904792669298
+pretrain epochs = 150
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2765834932821497, with Std: 0.014272024142050898
+pretrain epochs = 150
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2685220729366603, with Std: 0.01939339658324724
+pretrain epochs = 150
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26084452975047984, with Std: 0.020519481997215476
+pretrain epochs = 150
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27888675623800385, with Std: 0.013546295576655572
+pretrain epochs = 150
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2813819577735125, with Std: 0.0158323152608839
+pretrain epochs = 150
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26545105566218813, with Std: 0.021235902644865377
+pretrain epochs = 150
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2606525911708254, with Std: 0.01549361694480658
+pretrain epochs = 150
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26986564299424187, with Std: 0.01772082746653941
+pretrain epochs = 150
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2750479846449136, with Std: 0.022759901637683322
+pretrain epochs = 150
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2771593090211132, with Std: 0.022155399662968263
+pretrain epochs = 150
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2809980806142035, with Std: 0.02343223410676677
+pretrain epochs = 160
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26161228406909787, with Std: 0.025260896389675838
+pretrain epochs = 160
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2698656429942418, with Std: 0.013468564140382989
+pretrain epochs = 160
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2673704414587331, with Std: 0.022808409581963566
+pretrain epochs = 160
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26487523992322454, with Std: 0.016421688780197653
+pretrain epochs = 160
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2698656429942418, with Std: 0.012621329921515238
+pretrain epochs = 160
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.263531669865643, with Std: 0.02280840958196356
+pretrain epochs = 160
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2767754318618042, with Std: 0.020952098347785324
+pretrain epochs = 160
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2848368522072936, with Std: 0.01759564934566731
+pretrain epochs = 160
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26890595009596924, with Std: 0.01739031323224293
+pretrain epochs = 160
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2704414587332054, with Std: 0.020211961784837244
+pretrain epochs = 160
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28387715930902113, with Std: 0.019544776743996628
+pretrain epochs = 160
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28522072936660264, with Std: 0.02290752974715654
+pretrain epochs = 160
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2758157389635317, with Std: 0.022727505490542255
+pretrain epochs = 160
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2794625719769674, with Std: 0.02274613891289911
+pretrain epochs = 160
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28253358925143957, with Std: 0.018880357201317373
+pretrain epochs = 160
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27466410748560466, with Std: 0.020230180611129425
+pretrain epochs = 160
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2785028790786948, with Std: 0.012945542210301145
+pretrain epochs = 160
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2742802303262956, with Std: 0.008430015837235209
+pretrain epochs = 170
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2573896353166987, with Std: 0.018177505666866524
+pretrain epochs = 170
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26564299424184257, with Std: 0.01859329142159284
+pretrain epochs = 170
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2681381957773513, with Std: 0.02823585475462422
+pretrain epochs = 170
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26621880998080616, with Std: 0.021339737846219557
+pretrain epochs = 170
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27024952015355086, with Std: 0.017980865149528395
+pretrain epochs = 170
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26276391554702494, with Std: 0.017994177862970074
+pretrain epochs = 170
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2669865642994242, with Std: 0.023592835374284298
+pretrain epochs = 170
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2715930902111324, with Std: 0.018435098572263484
+pretrain epochs = 170
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.28061420345489446, with Std: 0.018325862974710186
+pretrain epochs = 170
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2562380038387716, with Std: 0.019025170442993292
+pretrain epochs = 170
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2771593090211132, with Std: 0.02060458641123938
+pretrain epochs = 170
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27447216890595005, with Std: 0.022678012265246728
+pretrain epochs = 170
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2821497120921306, with Std: 0.01718895445469336
+pretrain epochs = 170
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27735124760076774, with Std: 0.023020630271684397
+pretrain epochs = 170
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2715930902111324, with Std: 0.0163147792706334
+pretrain epochs = 170
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27101727447216895, with Std: 0.016860031674470442
+pretrain epochs = 170
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.022987800263462373
+pretrain epochs = 170
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.013353187816449973
+pretrain epochs = 180
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25834932821497125, with Std: 0.015287760270049813
+pretrain epochs = 180
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2641074856046065, with Std: 0.02046104870823252
+pretrain epochs = 180
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2612284069097889, with Std: 0.01950704183720024
+pretrain epochs = 180
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2595009596928982, with Std: 0.013915216092431373
+pretrain epochs = 180
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26602687140115167, with Std: 0.02080033348812908
+pretrain epochs = 180
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2518234165067178, with Std: 0.013862165132643222
+pretrain epochs = 180
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26583493282149717, with Std: 0.011395721772589181
+pretrain epochs = 180
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2629558541266795, with Std: 0.013544935711614097
+pretrain epochs = 180
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2689059500959693, with Std: 0.014220304370051028
+pretrain epochs = 180
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26065259117082534, with Std: 0.016990630308123405
+pretrain epochs = 180
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26641074856046065, with Std: 0.011856771755455289
+pretrain epochs = 180
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27754318618042223, with Std: 0.014748078857810779
+pretrain epochs = 180
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2735124760076776, with Std: 0.02281163977736029
+pretrain epochs = 180
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2717850287907869, with Std: 0.012325984152017138
+pretrain epochs = 180
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27293666026871405, with Std: 0.020863997300117
+pretrain epochs = 180
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2777351247600768, with Std: 0.01761343700155649
+pretrain epochs = 180
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27543186180422263, with Std: 0.02476305238856308
+pretrain epochs = 180
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26660268714011515, with Std: 0.02292762372283392
+pretrain epochs = 190
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25201535508637235, with Std: 0.02366455576357142
+pretrain epochs = 190
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2675623800383877, with Std: 0.018353985547611397
+pretrain epochs = 190
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27044145873320535, with Std: 0.01636438208602207
+pretrain epochs = 190
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2738963531669866, with Std: 0.01942376699877288
+pretrain epochs = 190
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26813819577735126, with Std: 0.018149109635320695
+pretrain epochs = 190
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27044145873320535, with Std: 0.016983039637791665
+pretrain epochs = 190
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.01784512752271703
+pretrain epochs = 190
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2687140115163148, with Std: 0.019078347239599506
+pretrain epochs = 190
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2690978886756238, with Std: 0.029182239646828454
+pretrain epochs = 190
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25451055662188093, with Std: 0.014897203771157207
+pretrain epochs = 190
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2746641074856046, with Std: 0.016274082695763123
+pretrain epochs = 190
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2777351247600768, with Std: 0.015805533110203596
+pretrain epochs = 190
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2740882917466411, with Std: 0.015083979043676397
+pretrain epochs = 190
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2681381957773512, with Std: 0.023508362678315638
+pretrain epochs = 190
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2692898272552783, with Std: 0.011485884299713773
+pretrain epochs = 190
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2742802303262956, with Std: 0.008072837176511742
+pretrain epochs = 190
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.282725527831094, with Std: 0.01255841673931331
+pretrain epochs = 190
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2737044145873321, with Std: 0.017948053324469804
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2533589251439539, with Std: 0.016012785884540665
+pretrain epochs = 200
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2566218809980806, with Std: 0.02455088765777194
+pretrain epochs = 200
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2531669865642994, with Std: 0.018479010735883615
+pretrain epochs = 200
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.255278310940499, with Std: 0.014693020505953659
+pretrain epochs = 200
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2591170825335892, with Std: 0.016973275216456158
+pretrain epochs = 200
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2687140115163148, with Std: 0.012731765030155091
+pretrain epochs = 200
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26737044145873323, with Std: 0.015898493965358022
+pretrain epochs = 200
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2595009596928982, with Std: 0.016417201366866103
+pretrain epochs = 200
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26161228406909787, with Std: 0.01516314779270634
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25047984644913635, with Std: 0.019427559962487774
+pretrain epochs = 200
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2679462571976968, with Std: 0.02502867303294133
+pretrain epochs = 200
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26506717850287903, with Std: 0.015099846000166558
+pretrain epochs = 200
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2662188099808061, with Std: 0.015875304784454678
+pretrain epochs = 200
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2746641074856046, with Std: 0.011594424806555818
+pretrain epochs = 200
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2775431861804223, with Std: 0.016693140042348478
+pretrain epochs = 200
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2777351247600768, with Std: 0.019214000946795654
+pretrain epochs = 200
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.019932061398460144
+pretrain epochs = 200
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2669865642994242, with Std: 0.017241384391781096
+pretrain epochs = 210
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25470249520153554, with Std: 0.012733211739441074
+pretrain epochs = 210
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2656429942418426, with Std: 0.017064192530435986
+pretrain epochs = 210
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26737044145873323, with Std: 0.014593644457021392
+pretrain epochs = 210
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26621880998080616, with Std: 0.023382657010649077
+pretrain epochs = 210
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2656429942418426, with Std: 0.00941086423964014
+pretrain epochs = 210
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2748560460652591, with Std: 0.015229815297410647
+pretrain epochs = 210
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2696737044145873, with Std: 0.0197845759386644
+pretrain epochs = 210
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2694817658349328, with Std: 0.012966868141308666
+pretrain epochs = 210
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2798464491362764, with Std: 0.0266621963212059
+pretrain epochs = 210
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2506717850287908, with Std: 0.014872453457052221
+pretrain epochs = 210
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26660268714011515, with Std: 0.014477055641560908
+pretrain epochs = 210
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27351247600767753, with Std: 0.01807180978096954
+pretrain epochs = 210
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2767754318618042, with Std: 0.018919342081154096
+pretrain epochs = 210
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27216890595009596, with Std: 0.015181358873923375
+pretrain epochs = 210
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27581573896353173, with Std: 0.022872926815940945
+pretrain epochs = 210
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27332053742802304, with Std: 0.014698034333264219
+pretrain epochs = 210
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2737044145873321, with Std: 0.018070790473612004
+pretrain epochs = 210
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.272552783109405, with Std: 0.016195795093841836
+pretrain epochs = 220
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2591170825335892, with Std: 0.01666663596628976
+pretrain epochs = 220
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2570057581573896, with Std: 0.019544776743996642
+pretrain epochs = 220
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.013463092450479991
+pretrain epochs = 220
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2690978886756238, with Std: 0.011052729404136647
+pretrain epochs = 220
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.263915547024952, with Std: 0.020551773560814713
+pretrain epochs = 220
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26333973128598853, with Std: 0.019494762265788286
+pretrain epochs = 220
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2669865642994242, with Std: 0.018775674775752774
+pretrain epochs = 220
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2737044145873321, with Std: 0.023495038384797478
+pretrain epochs = 220
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2760076775431862, with Std: 0.022836658299786327
+pretrain epochs = 220
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2612284069097889, with Std: 0.018598244217669493
+pretrain epochs = 220
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2738963531669866, with Std: 0.019855208809481772
+pretrain epochs = 220
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2781190019193859, with Std: 0.01837905862499282
+pretrain epochs = 220
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.281190019193858, with Std: 0.017086846271367424
+pretrain epochs = 220
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.022400145045520393
+pretrain epochs = 220
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28694817658349325, with Std: 0.01989598691384655
+pretrain epochs = 220
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.282725527831094, with Std: 0.01673391824865804
+pretrain epochs = 220
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28944337811900195, with Std: 0.026089529884907783
+pretrain epochs = 220
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27850287907869486, with Std: 0.029579098965767603
+pretrain epochs = 230
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25969289827255276, with Std: 0.019233165125653668
+pretrain epochs = 230
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2593090211132438, with Std: 0.015674461714567607
+pretrain epochs = 230
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26238003838771595, with Std: 0.020058270336877914
+pretrain epochs = 230
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26545105566218813, with Std: 0.021477403899981526
+pretrain epochs = 230
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2623800383877159, with Std: 0.012790945935927943
+pretrain epochs = 230
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2756238003838771, with Std: 0.01727873694422556
+pretrain epochs = 230
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25950095969289827, with Std: 0.01737653788523037
+pretrain epochs = 230
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.281957773512476, with Std: 0.017134214131648222
+pretrain epochs = 230
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2746641074856046, with Std: 0.010352235362888138
+pretrain epochs = 230
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2621880998080614, with Std: 0.020640314869512583
+pretrain epochs = 230
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2652591170825336, with Std: 0.021575808823641303
+pretrain epochs = 230
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27562380038387724, with Std: 0.020640314869512573
+pretrain epochs = 230
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27715930902111324, with Std: 0.023495038384797474
+pretrain epochs = 230
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2641074856046065, with Std: 0.016955902361119216
+pretrain epochs = 230
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2752399232245682, with Std: 0.015971319817823196
+pretrain epochs = 230
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2756238003838772, with Std: 0.018273520515027876
+pretrain epochs = 230
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2763915547024952, with Std: 0.021459385580612184
+pretrain epochs = 230
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2735124760076776, with Std: 0.01316564348533015
+pretrain epochs = 240
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2602687140115163, with Std: 0.022843110244624706
+pretrain epochs = 240
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.262763915547025, with Std: 0.017663564280435282
+pretrain epochs = 240
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27082533589251445, with Std: 0.026351566284828282
+pretrain epochs = 240
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27005758157389637, with Std: 0.014967517631387255
+pretrain epochs = 240
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26756238003838767, with Std: 0.019765014451986182
+pretrain epochs = 240
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25950095969289827, with Std: 0.018406099185776358
+pretrain epochs = 240
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2727447216890595, with Std: 0.01865757521977773
+pretrain epochs = 240
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2690978886756238, with Std: 0.0207400271159157
+pretrain epochs = 240
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.0191015052662184
+pretrain epochs = 240
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2571976967370441, with Std: 0.02871390887517964
+pretrain epochs = 240
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2756238003838771, with Std: 0.029687879156983198
+pretrain epochs = 240
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2727447216890595, with Std: 0.015744814230184895
+pretrain epochs = 240
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2717850287907869, with Std: 0.022238385194564673
+pretrain epochs = 240
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27850287907869486, with Std: 0.02759446696492828
+pretrain epochs = 240
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.02539108743823983
+pretrain epochs = 240
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.015809029007273708
+pretrain epochs = 240
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2848368522072937, with Std: 0.01888816061442233
+pretrain epochs = 240
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2681381957773512, with Std: 0.022678824500424195
+pretrain epochs = 250
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2621880998080614, with Std: 0.02568250085785449
+pretrain epochs = 250
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2675623800383877, with Std: 0.018172438201220154
+pretrain epochs = 250
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26660268714011515, with Std: 0.017808962958562182
+pretrain epochs = 250
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.28080614203454896, with Std: 0.02609305983795874
+pretrain epochs = 250
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26909788867562384, with Std: 0.020597433282604702
+pretrain epochs = 250
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2696737044145873, with Std: 0.021719612268572438
+pretrain epochs = 250
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27216890595009596, with Std: 0.013862165132643217
+pretrain epochs = 250
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27216890595009596, with Std: 0.018225070971929703
+pretrain epochs = 250
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27754318618042223, with Std: 0.020352731119864194
+pretrain epochs = 250
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25489443378119, with Std: 0.012983903666247808
+pretrain epochs = 250
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2644913627639155, with Std: 0.01476305913476347
+pretrain epochs = 250
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27504798464491365, with Std: 0.01810846663360812
+pretrain epochs = 250
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2796545105566219, with Std: 0.014313265403072673
+pretrain epochs = 250
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2771593090211132, with Std: 0.021599700417098203
+pretrain epochs = 250
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27466410748560466, with Std: 0.012973968995102633
+pretrain epochs = 250
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27677543186180426, with Std: 0.014985966446021603
+pretrain epochs = 250
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2758157389635317, with Std: 0.01400099518221642
+pretrain epochs = 250
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27543186180422263, with Std: 0.018354989128307526
+pretrain epochs = 260
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26449136276391555, with Std: 0.019494762265788286
+pretrain epochs = 260
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27332053742802304, with Std: 0.02268126103143562
+pretrain epochs = 260
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2704414587332054, with Std: 0.018399092485992845
+pretrain epochs = 260
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2727447216890595, with Std: 0.014928083958042812
+pretrain epochs = 260
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26813819577735126, with Std: 0.021061706423512846
+pretrain epochs = 260
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27312859884836854, with Std: 0.021902033865895593
+pretrain epochs = 260
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.016994966311845418
+pretrain epochs = 260
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2652591170825335, with Std: 0.016947209255005084
+pretrain epochs = 260
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26180422264875236, with Std: 0.018172438201220158
+pretrain epochs = 260
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2689059500959693, with Std: 0.018498936351695944
+pretrain epochs = 260
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2763915547024952, with Std: 0.03012885507923007
+pretrain epochs = 260
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28042226487523997, with Std: 0.019298180981613948
+pretrain epochs = 260
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28483685220729366, with Std: 0.014597430588738225
+pretrain epochs = 260
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2783109404990403, with Std: 0.02277527366478514
+pretrain epochs = 260
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2821497120921305, with Std: 0.015113258875262582
+pretrain epochs = 260
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2783109404990403, with Std: 0.014667925661837082
+pretrain epochs = 260
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2752399232245682, with Std: 0.011618231055985842
+pretrain epochs = 260
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29155470249520155, with Std: 0.018359002902492462
+pretrain epochs = 270
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.016245761204989505
+pretrain epochs = 270
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26698656429942413, with Std: 0.015977085429295015
+pretrain epochs = 270
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2637236084452975, with Std: 0.017300045050662186
+pretrain epochs = 270
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2673704414587332, with Std: 0.01615137772469208
+pretrain epochs = 270
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2673704414587332, with Std: 0.013948270479097248
+pretrain epochs = 270
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2817658349328215, with Std: 0.0196453613542019
+pretrain epochs = 270
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2748560460652591, with Std: 0.01652902122196621
+pretrain epochs = 270
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2731285988483685, with Std: 0.01615137772469207
+pretrain epochs = 270
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26698656429942413, with Std: 0.01595401048162485
+pretrain epochs = 270
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2579654510556622, with Std: 0.021064330008935053
+pretrain epochs = 270
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26660268714011515, with Std: 0.021875104435758106
+pretrain epochs = 270
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27447216890595005, with Std: 0.020075711117071595
+pretrain epochs = 270
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27293666026871405, with Std: 0.012898501049068289
+pretrain epochs = 270
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27965451055662194, with Std: 0.011895547356887646
+pretrain epochs = 270
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2694817658349328, with Std: 0.013080019222572608
+pretrain epochs = 270
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.272936660268714, with Std: 0.023629502336295426
+pretrain epochs = 270
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2773512476007678, with Std: 0.021256710262475595
+pretrain epochs = 270
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27428023032629556, with Std: 0.014349254273754832
+pretrain epochs = 280
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2497120921305182, with Std: 0.022092955955436786
+pretrain epochs = 280
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2612284069097889, with Std: 0.018338925246767626
+pretrain epochs = 280
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26487523992322454, with Std: 0.018470037195730378
+pretrain epochs = 280
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26506717850287903, with Std: 0.019806908267405422
+pretrain epochs = 280
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26871401151631474, with Std: 0.027920301798031753
+pretrain epochs = 280
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2777351247600768, with Std: 0.025979863447865337
+pretrain epochs = 280
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2738963531669866, with Std: 0.020601904279050294
+pretrain epochs = 280
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26103646833013433, with Std: 0.015850919633061483
+pretrain epochs = 280
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2681381957773512, with Std: 0.01800645778559791
+pretrain epochs = 280
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2765834932821497, with Std: 0.01823820543174553
+pretrain epochs = 280
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28656429942418427, with Std: 0.01415799125213821
+pretrain epochs = 280
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29117082533589256, with Std: 0.02279225173806685
+pretrain epochs = 280
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2861804222648752, with Std: 0.014374905445952227
+pretrain epochs = 280
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2948176583493282, with Std: 0.020835726288079715
+pretrain epochs = 280
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2875239923224568, with Std: 0.016860031674470435
+pretrain epochs = 280
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28790786948176583, with Std: 0.015379059980046158
+pretrain epochs = 280
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.282341650671785, with Std: 0.010316587063628924
+pretrain epochs = 280
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28253358925143957, with Std: 0.01605414484938694
+pretrain epochs = 290
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2698656429942418, with Std: 0.013331098160602947
+pretrain epochs = 290
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27005758157389637, with Std: 0.0181693970434378
+pretrain epochs = 290
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2685220729366603, with Std: 0.018197761418266817
+pretrain epochs = 290
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26103646833013433, with Std: 0.008837515879632519
+pretrain epochs = 290
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26641074856046065, with Std: 0.020035298811055494
+pretrain epochs = 290
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.018907655057235705
+pretrain epochs = 290
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.28003838771593087, with Std: 0.026904969435989544
+pretrain epochs = 290
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2756238003838772, with Std: 0.029086137028045477
+pretrain epochs = 290
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2744721689059501, with Std: 0.017861635507304168
+pretrain epochs = 290
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27024952015355086, with Std: 0.01386216513264322
+pretrain epochs = 290
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.020461048708232524
+pretrain epochs = 290
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2754318618042227, with Std: 0.020659047574807927
+pretrain epochs = 290
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2737044145873321, with Std: 0.02081803740952974
+pretrain epochs = 290
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27504798464491365, with Std: 0.013815578436029253
+pretrain epochs = 290
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27120921305182344, with Std: 0.022202739427204965
+pretrain epochs = 290
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27811900191938577, with Std: 0.025208339419486425
+pretrain epochs = 290
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.272936660268714, with Std: 0.015776370509047608
+pretrain epochs = 290
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27332053742802304, with Std: 0.027790691436066436
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26756238003838767, with Std: 0.020622458377832307
+pretrain epochs = 300
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27447216890595005, with Std: 0.014817857248075836
+pretrain epochs = 300
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27101727447216895, with Std: 0.02201527978340064
+pretrain epochs = 300
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27101727447216895, with Std: 0.02121420634111032
+pretrain epochs = 300
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27523992322456814, with Std: 0.023945443644914705
+pretrain epochs = 300
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27907869481765835, with Std: 0.01746957428481038
+pretrain epochs = 300
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27447216890595005, with Std: 0.015640344558513136
+pretrain epochs = 300
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.28272552783109406, with Std: 0.020241104035581523
+pretrain epochs = 300
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2733205374280231, with Std: 0.013413746802039269
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2710172744721689, with Std: 0.02221518049325188
+pretrain epochs = 300
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27984644913627643, with Std: 0.023831321604865646
+pretrain epochs = 300
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2763915547024952, with Std: 0.026345274375084052
+pretrain epochs = 300
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28195777351247603, with Std: 0.021891939211557285
+pretrain epochs = 300
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.282341650671785, with Std: 0.02087547146241173
+pretrain epochs = 300
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2817658349328215, with Std: 0.017248861373252173
+pretrain epochs = 300
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2886756238003839, with Std: 0.019159277870967804
+pretrain epochs = 300
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2861804222648753, with Std: 0.010172744721689062
+pretrain epochs = 300
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2863723608445297, with Std: 0.02477123348161486
+pretrain epochs = 310
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2571976967370441, with Std: 0.029146870284419518
+pretrain epochs = 310
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25950095969289827, with Std: 0.01909378904483054
+pretrain epochs = 310
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2715930902111324, with Std: 0.0235584571351829
+pretrain epochs = 310
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2621880998080614, with Std: 0.016131978034127213
+pretrain epochs = 310
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26698656429942413, with Std: 0.020751569825138427
+pretrain epochs = 310
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2715930902111324, with Std: 0.020818922210406085
+pretrain epochs = 310
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27504798464491365, with Std: 0.02308136239265213
+pretrain epochs = 310
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27715930902111324, with Std: 0.01863287692823277
+pretrain epochs = 310
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27236084452975046, with Std: 0.02214292500891554
+pretrain epochs = 310
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26314779270633404, with Std: 0.01462894357949423
+pretrain epochs = 310
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2717850287907869, with Std: 0.017824471042217134
+pretrain epochs = 310
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2831094049904031, with Std: 0.018712781100355243
+pretrain epochs = 310
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2833013435700576, with Std: 0.02009771994273847
+pretrain epochs = 310
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28982725527831094, with Std: 0.019611577388782796
+pretrain epochs = 310
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29174664107485604, with Std: 0.02495201535508637
+pretrain epochs = 310
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2900191938579655, with Std: 0.02252233825329779
+pretrain epochs = 310
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2840690978886756, with Std: 0.024922468849335036
+pretrain epochs = 310
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28253358925143957, with Std: 0.02362950233629542
+pretrain epochs = 320
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2629558541266795, with Std: 0.011158880501918343
+pretrain epochs = 320
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27216890595009596, with Std: 0.021266240283246897
+pretrain epochs = 320
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27312859884836854, with Std: 0.01587530478445467
+pretrain epochs = 320
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2785028790786948, with Std: 0.01743263064055207
+pretrain epochs = 320
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27888675623800385, with Std: 0.01459364445702139
+pretrain epochs = 320
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2796545105566219, with Std: 0.019461663370765873
+pretrain epochs = 320
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26698656429942413, with Std: 0.015697947585867438
+pretrain epochs = 320
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2671785028790787, with Std: 0.014409462095296331
+pretrain epochs = 320
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2598848368522073, with Std: 0.014897203771157204
+pretrain epochs = 320
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2717850287907869, with Std: 0.01352315927355742
+pretrain epochs = 320
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26717850287907874, with Std: 0.014485959511795172
+pretrain epochs = 320
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2733205374280231, with Std: 0.012474531139556183
+pretrain epochs = 320
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2769673704414587, with Std: 0.018471034471031215
+pretrain epochs = 320
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2840690978886756, with Std: 0.01721037372089052
+pretrain epochs = 320
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2809980806142034, with Std: 0.017927515437751434
+pretrain epochs = 320
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2950095969289827, with Std: 0.02455088765777195
+pretrain epochs = 320
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2813819577735125, with Std: 0.016934161228493484
+pretrain epochs = 320
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29673704414587326, with Std: 0.020170909259761456
+pretrain epochs = 330
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26026871401151636, with Std: 0.02962576795635276
+pretrain epochs = 330
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.02355454734225328
+pretrain epochs = 330
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26948176583493283, with Std: 0.02431188335288907
+pretrain epochs = 330
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2746641074856046, with Std: 0.023903097044985545
+pretrain epochs = 330
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.264299424184261, with Std: 0.022019462891569534
+pretrain epochs = 330
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27408829174664107, with Std: 0.0216780159746572
+pretrain epochs = 330
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27543186180422263, with Std: 0.01583347867457992
+pretrain epochs = 330
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2727447216890595, with Std: 0.022092955955436786
+pretrain epochs = 330
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27831094049904037, with Std: 0.01151631477927063
+pretrain epochs = 330
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25355086372360847, with Std: 0.015791541782784375
+pretrain epochs = 330
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26161228406909787, with Std: 0.022678824500424192
+pretrain epochs = 330
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2690978886756238, with Std: 0.016990630308123405
+pretrain epochs = 330
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26276391554702494, with Std: 0.02542661011216341
+pretrain epochs = 330
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2777351247600768, with Std: 0.02324042541720987
+pretrain epochs = 330
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2710172744721689, with Std: 0.011605540466664864
+pretrain epochs = 330
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2754318618042227, with Std: 0.019465448950138534
+pretrain epochs = 330
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2719769673704414, with Std: 0.012877061894602311
+pretrain epochs = 330
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28099808061420345, with Std: 0.017257402528206543
+pretrain epochs = 340
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2623800383877159, with Std: 0.011645152638861822
+pretrain epochs = 340
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26583493282149717, with Std: 0.013081427417572932
+pretrain epochs = 340
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2779270633397313, with Std: 0.019113073757396695
+pretrain epochs = 340
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2842610364683301, with Std: 0.013611409329359982
+pretrain epochs = 340
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.00883751587963251
+pretrain epochs = 340
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2761996161228407, with Std: 0.017326643333719766
+pretrain epochs = 340
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2692898272552783, with Std: 0.013019322750181668
+pretrain epochs = 340
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2733205374280231, with Std: 0.016177587336434145
+pretrain epochs = 340
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.263915547024952, with Std: 0.01734364482765064
+pretrain epochs = 340
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26487523992322454, with Std: 0.02025838741183687
+pretrain epochs = 340
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2690978886756238, with Std: 0.010610575785862003
+pretrain epochs = 340
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2696737044145873, with Std: 0.013713873840995212
+pretrain epochs = 340
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2769673704414587, with Std: 0.014235840031315675
+pretrain epochs = 340
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2802303262955854, with Std: 0.01592049240178712
+pretrain epochs = 340
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2779270633397313, with Std: 0.014229368900461137
+pretrain epochs = 340
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28483685220729366, with Std: 0.02297176859942754
+pretrain epochs = 340
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2761996161228407, with Std: 0.012628625066868309
+pretrain epochs = 340
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2758157389635317, with Std: 0.014261695192522014
+pretrain epochs = 350
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26564299424184257, with Std: 0.015971319817823206
+pretrain epochs = 350
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.018148094669593582
+pretrain epochs = 350
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26909788867562384, with Std: 0.018802144946270184
+pretrain epochs = 350
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.281957773512476, with Std: 0.015556500512823127
+pretrain epochs = 350
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27024952015355086, with Std: 0.013941665871274385
+pretrain epochs = 350
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26583493282149717, with Std: 0.013442553777269202
+pretrain epochs = 350
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27696737044145875, with Std: 0.015428089415822325
+pretrain epochs = 350
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27811900191938577, with Std: 0.01883444685639657
+pretrain epochs = 350
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.28176583493282154, with Std: 0.017816201744141707
+pretrain epochs = 350
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2650671785028791, with Std: 0.014553197763736944
+pretrain epochs = 350
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2781190019193859, with Std: 0.02275018763739548
+pretrain epochs = 350
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2813819577735125, with Std: 0.017385016313588103
+pretrain epochs = 350
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2840690978886756, with Std: 0.02020375795307603
+pretrain epochs = 350
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2744721689059501, with Std: 0.020885175445275152
+pretrain epochs = 350
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2900191938579655, with Std: 0.01807588643560767
+pretrain epochs = 350
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28579654510556624, with Std: 0.01288850054832978
+pretrain epochs = 350
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27907869481765835, with Std: 0.027255278310940496
+pretrain epochs = 350
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2888675623800384, with Std: 0.01110095488746352
+pretrain epochs = 360
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26295585412667943, with Std: 0.022661761448207973
+pretrain epochs = 360
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2733205374280231, with Std: 0.023083756435121557
+pretrain epochs = 360
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27216890595009596, with Std: 0.028531138849999305
+pretrain epochs = 360
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2765834932821497, with Std: 0.018479010735883605
+pretrain epochs = 360
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2681381957773512, with Std: 0.01851088142591852
+pretrain epochs = 360
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2794625719769674, with Std: 0.022648752399232246
+pretrain epochs = 360
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2886756238003839, with Std: 0.009566169515836543
+pretrain epochs = 360
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27274472168905944, with Std: 0.01291705286632725
+pretrain epochs = 360
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2738963531669866, with Std: 0.017759246086987188
+pretrain epochs = 360
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26813819577735126, with Std: 0.01688732301234098
+pretrain epochs = 360
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26679462571976964, with Std: 0.019872827801220395
+pretrain epochs = 360
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2754318618042227, with Std: 0.016583537712316968
+pretrain epochs = 360
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28522072936660264, with Std: 0.024402633512956354
+pretrain epochs = 360
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27082533589251434, with Std: 0.016786672095267737
+pretrain epochs = 360
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2861804222648753, with Std: 0.02657431051859731
+pretrain epochs = 360
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2769673704414587, with Std: 0.020762218937963088
+pretrain epochs = 360
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28733205374280235, with Std: 0.02437015355672157
+pretrain epochs = 360
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2902111324376199, with Std: 0.015753001557530275
+pretrain epochs = 370
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2619961612284069, with Std: 0.012237495684679533
+pretrain epochs = 370
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2717850287907869, with Std: 0.010864469633846375
+pretrain epochs = 370
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2731285988483686, with Std: 0.012733211739441062
+pretrain epochs = 370
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26660268714011515, with Std: 0.01588458451915592
+pretrain epochs = 370
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.263915547024952, with Std: 0.012387103877360887
+pretrain epochs = 370
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26928982725527834, with Std: 0.021026694003952465
+pretrain epochs = 370
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27044145873320535, with Std: 0.018116602528271603
+pretrain epochs = 370
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.263915547024952, with Std: 0.022519066559751572
+pretrain epochs = 370
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27140115163147793, with Std: 0.020906332136952168
+pretrain epochs = 370
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2765834932821497, with Std: 0.019469233793446727
+pretrain epochs = 370
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27907869481765835, with Std: 0.016131978034127206
+pretrain epochs = 370
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29117082533589256, with Std: 0.024819521256343034
+pretrain epochs = 370
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28099808061420345, with Std: 0.01857346703017727
+pretrain epochs = 370
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2779270633397313, with Std: 0.017334083539156442
+pretrain epochs = 370
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2890595009596929, with Std: 0.028587896755333384
+pretrain epochs = 370
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2957773512476008, with Std: 0.014977359827178047
+pretrain epochs = 370
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29097888675623806, with Std: 0.02002426311822644
+pretrain epochs = 370
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.3013435700575816, with Std: 0.02815680740252168
+pretrain epochs = 380
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26199616122840685, with Std: 0.011994241689034938
+pretrain epochs = 380
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26295585412667954, with Std: 0.01568738329497317
+pretrain epochs = 380
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2831094049904031, with Std: 0.01667216112340035
+pretrain epochs = 380
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2831094049904031, with Std: 0.0164497073789373
+pretrain epochs = 380
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2798464491362764, with Std: 0.018366024896592226
+pretrain epochs = 380
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27504798464491365, with Std: 0.017738489597791965
+pretrain epochs = 380
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26986564299424187, with Std: 0.009642884212729737
+pretrain epochs = 380
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2833013435700576, with Std: 0.013952231743098842
+pretrain epochs = 380
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.282341650671785, with Std: 0.023373201831527905
+pretrain epochs = 380
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.26295585412667943, with Std: 0.012017255925142837
+pretrain epochs = 380
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28675623800383876, with Std: 0.014622646414388417
+pretrain epochs = 380
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2719769673704414, with Std: 0.014568378433125464
+pretrain epochs = 380
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2765834932821497, with Std: 0.016742722099457093
+pretrain epochs = 380
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29078694817658357, with Std: 0.013713873840995199
+pretrain epochs = 380
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2806142034548944, with Std: 0.02191464564482469
+pretrain epochs = 380
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28963531669865644, with Std: 0.018136926297875642
+pretrain epochs = 380
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2871401151631478, with Std: 0.01983943118529374
+pretrain epochs = 380
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28637236084452977, with Std: 0.02524265984303048
+pretrain epochs = 390
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.25777351247600766, with Std: 0.014794219326328706
+pretrain epochs = 390
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2579654510556622, with Std: 0.014748078857810787
+pretrain epochs = 390
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2727447216890595, with Std: 0.01789151740709052
+pretrain epochs = 390
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2685220729366603, with Std: 0.013365597204263871
+pretrain epochs = 390
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2873320537428023, with Std: 0.02106170642351284
+pretrain epochs = 390
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27044145873320535, with Std: 0.016632339025635268
+pretrain epochs = 390
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2685220729366603, with Std: 0.018834446856396563
+pretrain epochs = 390
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27715930902111324, with Std: 0.019369636562829737
+pretrain epochs = 390
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2804222648752399, with Std: 0.026602022409456458
+pretrain epochs = 390
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25815738963531665, with Std: 0.020924826694768944
+pretrain epochs = 390
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2681381957773512, with Std: 0.009521778698512453
+pretrain epochs = 390
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2802303262955854, with Std: 0.008753746066020243
+pretrain epochs = 390
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2859884836852207, with Std: 0.0257369524635113
+pretrain epochs = 390
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2794625719769674, with Std: 0.017948053324469804
+pretrain epochs = 390
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27888675623800385, with Std: 0.023113262570120384
+pretrain epochs = 390
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2942418426103647, with Std: 0.020815382781238987
+pretrain epochs = 390
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.29155470249520155, with Std: 0.02275018763739548
+pretrain epochs = 390
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28330134357005765, with Std: 0.020782614485434423
+pretrain epochs = 400
+pre_learning_rate = 0.0005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2571976967370441, with Std: 0.0141566901455553
+pretrain epochs = 400
+pre_learning_rate = 0.001
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26660268714011515, with Std: 0.018399092485992852
+pretrain epochs = 400
+pre_learning_rate = 0.0015
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2777351247600768, with Std: 0.01354629557665557
+pretrain epochs = 400
+pre_learning_rate = 0.002
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26660268714011515, with Std: 0.009262900968916441
+pretrain epochs = 400
+pre_learning_rate = 0.0025
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27024952015355086, with Std: 0.018545677280892375
+pretrain epochs = 400
+pre_learning_rate = 0.003
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2654510556621881, with Std: 0.015332276724408081
+pretrain epochs = 400
+pre_learning_rate = 0.0035
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.26257197696737045, with Std: 0.021127198319872576
+pretrain epochs = 400
+pre_learning_rate = 0.004
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.27447216890595005, with Std: 0.011831888681322417
+pretrain epochs = 400
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 128
+(E): GRACE Mean Accuracy: 0.2796545105566219, with Std: 0.02181776903413496
+pretrain epochs = 400
+pre_learning_rate = 0.0005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.25988483685220726, with Std: 0.01103271237097883
+pretrain epochs = 400
+pre_learning_rate = 0.001
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27024952015355086, with Std: 0.020417790628748097
+pretrain epochs = 400
+pre_learning_rate = 0.0015
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2750479846449136, with Std: 0.020039895222781996
+pretrain epochs = 400
+pre_learning_rate = 0.002
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2806142034548944, with Std: 0.01018541202412407
+pretrain epochs = 400
+pre_learning_rate = 0.0025
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.27984644913627643, with Std: 0.011381164745008514
+pretrain epochs = 400
+pre_learning_rate = 0.003
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28003838771593087, with Std: 0.012122558675345967
+pretrain epochs = 400
+pre_learning_rate = 0.0035
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2894433781190019, with Std: 0.012725976548369112
+pretrain epochs = 400
+pre_learning_rate = 0.004
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.28541266794625725, with Std: 0.02038619041206082
+pretrain epochs = 400
+pre_learning_rate = 0.0045000000000000005
+hidden_dim = 256
+(E): GRACE Mean Accuracy: 0.2871401151631478, with Std: 0.019615334036147746
