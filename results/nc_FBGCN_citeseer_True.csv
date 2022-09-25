@@ -1,0 +1,26 @@
+
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+(E): FBGCN: Best test accuracy=0.1647
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+(E): FBGCN: Best test accuracy=0.4760
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+(E): FBGCN: Best test accuracy=0.5509
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+(E): FBGCN: Best test accuracy=0.5389
+pretrain epochs = 400
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+(E): FBGCN: Best test accuracy=0.5389

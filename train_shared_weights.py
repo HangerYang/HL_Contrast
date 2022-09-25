@@ -14,6 +14,7 @@ from torch.optim import Adam
 from GCL.models import DualBranchContrast
 import GCL.augmentors as A
 from collections import OrderedDict
+from model.pretrain import get_augmentor
 
 
 @torch.no_grad()
@@ -123,7 +124,7 @@ def main():
                     train_loss = train(data, model, optimizer, r)
                     val_loss = validate(data, model, r)
                 # print(f'Run: {r + 1}, Epoch: {epoch:02d}, Loss: {train_loss:.4f}')
-                if lowest_val_loss > val_loss or epoch == args.epochs - 1:
+                if lowest_val_loss > val_loss:
                     lowest_val_loss = val_loss
                     if args.gnn == "gcn"or args.gnn == "gat":
                         evals = evaluate_base(model, data, r)

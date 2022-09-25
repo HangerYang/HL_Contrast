@@ -63,6 +63,7 @@ def train(encoder_model, contrast_model, data, optimizer):
     z, z1, z2 = encoder_model(data.x, data.edge_index, data.edge_weight)
     h1, h2 = [encoder_model.project(x) for x in [z1, z2]]
     # loss = contrast_model(z1, z2)
+    # loss = contrast_model(z1, z2)
     loss = contrast_model(h1, h2)
     loss.backward()
     optimizer.step()

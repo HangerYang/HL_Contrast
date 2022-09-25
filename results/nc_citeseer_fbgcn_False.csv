@@ -1,0 +1,8 @@
+
+pretrain epochs = 200
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9894, 0.7568,0.7768

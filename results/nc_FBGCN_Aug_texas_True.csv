@@ -1,0 +1,9 @@
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.8
+augmentation type = FD
+augmentation side = both
+(E): FBGCN_Aug: Best test accuracy=0.6316

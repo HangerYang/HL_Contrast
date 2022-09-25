@@ -1,0 +1,19 @@
+
+pretrain epochs = 100
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 256
+pre_learning_rate = 0.0005
+run, train acc avg, validation acc avg, test acc avg
+total 0.9782, 0.4864,0.5173
+
+pretrain epochs = 200
+epochs = 500
+learning rate = 0.0005
+hidden_dim = 64
+pre_learning_rate = 0.0005
+augmentation ratio = 0.0
+augmentation type = FD
+augmentation side = both
+run, train acc avg, validation acc avg, test acc avg
+total 0.9292, 0.5313,0.5466
