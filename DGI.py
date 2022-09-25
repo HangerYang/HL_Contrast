@@ -2,7 +2,7 @@ import torch
 import os.path as osp
 import GCL.losses as L
 import torch_geometric.transforms as T
-
+from utility.config import get_arguments
 from torch import nn
 from tqdm import tqdm
 from torch.optim import Adam
@@ -12,6 +12,7 @@ from torch_geometric.nn import GCNConv
 from torch_geometric.nn.inits import uniform
 from utility.data import build_graph
 from Evaluator import LREvaluator
+import numpy as np
 
 
 class GConv(nn.Module):
@@ -71,24 +72,38 @@ def test(encoder_model, data):
 
 
 def main():
-    device = torch.device('cuda')
-    dataset = "squirrel"
-    data = build_graph(dataset).to(device)
+    args = get_arguments()
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
+    device = torch.device("cuda")
+    dataset = args.dataset
+    hidden_dim = args.hidden_dim
+    pre_learning_rate = args.pre_learning_rate
+    total_result = []
+    
+    for i in range(10):
+        data = build_graph(dataset).to(device)
+        gconv = GConv(input_dim=data.num_features, hidden_dim=hidden_dim, num_layers=2).to(device)
+        encoder_model = Encoder(encoder=gconv, hidden_dim=hidden_dim).to(device)
+        contrast_model = SingleBranchContrast(loss=L.JSD(), mode='G2L').to(device)
 
-    gconv = GConv(input_dim=data.num_features, hidden_dim=512, num_layers=2).to(device)
-    encoder_model = Encoder(encoder=gconv, hidden_dim=512).to(device)
-    contrast_model = SingleBranchContrast(loss=L.JSD(), mode='G2L').to(device)
+        optimizer = Adam(encoder_model.parameters(), lr=pre_learning_rate)
 
-    optimizer = Adam(encoder_model.parameters(), lr=0.01)
+        with tqdm(total=args.preepochs, desc='(T)') as pbar:
+            for epoch in range(args.preepochs):
+                loss = train(encoder_model, contrast_model, data, optimizer)
+                pbar.set_postfix({'loss': loss})
+                pbar.update()
 
-    with tqdm(total=300, desc='(T)') as pbar:
-        for epoch in range(1, 301):
-            loss = train(encoder_model, contrast_model, data, optimizer)
-            pbar.set_postfix({'loss': loss})
-            pbar.update()
+        test_result = test(encoder_model, data)
+        total_result.append(test_result["accuracy"])
 
-    test_result = test(encoder_model, data)
-    print(f'(E): DGI: Best test accuracy={test_result["accuracy"]:.4f}')
+    with open('./results/nc_DGI_{}.csv'.format(args.dataset), 'a+') as file:
+        file.write('\n')
+        file.write('pretrain epochs = {}\n'.format(args.preepochs))
+        file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
+        file.write('hidden_dim = {}\n'.format(args.hidden_dim))
+        file.write('(E): DGI Mean Accuracy: {}, with Std: {}'.format(np.mean(total_result), np.std(total_result)))
 
 
 if __name__ == '__main__':

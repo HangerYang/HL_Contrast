@@ -1,0 +1,126 @@
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.2
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5526315789473684, with Std: 0.08238145180262384
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.3
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5684210526315789, with Std: 0.08421052631578949
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.4
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5736842105263158, with Std: 0.08947368421052632
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5473684210526316, with Std: 0.08221315448322795
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.6
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5736842105263158, with Std: 0.07608859102526822
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.7
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5736842105263158, with Std: 0.08947368421052632
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.8
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5736842105263158, with Std: 0.08632220772029857
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.2
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5263157894736842, with Std: 0.09704783639255671
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.3
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5421052631578948, with Std: 0.11300479238728363
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.4
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5263157894736842, with Std: 0.10526315789473684
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.5
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5315789473684209, with Std: 0.11152431631798469
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.6
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5105263157894736, with Std: 0.07461814146714645
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.7
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.5105263157894736, with Std: 0.08170618261189487
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.8
+augmentation type = ER
+augmentation side = low
+(E): FBGCN_AUG Mean Accuracy: 0.536842105263158, with Std: 0.11239029738980329

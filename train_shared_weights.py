@@ -73,15 +73,15 @@ def main():
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    data = build_graph(args.dataset).to(device)
-    aug1 = A.FeatureDropout(pf=args.aug)
-    aug2 = A.FeatureDropout(pf=args.aug)
-    with open('./results/nc_{}_{}_{}.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
+    device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
+    with open('./results/nc_{}_{}_{}_shared.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
         hidden_dim = args.hidden_dim
         val_acc_list, test_acc_list, train_acc_list = [], [], []       
-        for r in range(5):
+        for r in range(10):
+            data = build_graph(args.dataset).to(device)
             if args.preepochs != 0:
+                one_side = (args.aug_side != "both")
+                aug1, aug2 = get_augmentor(args.aug_type, one_side, args.aug_side, args.aug)
                 fbconv = Pre_Train(2, data.num_features, hidden_dim, data.num_classes, 0.5)
                 if(args.loss_type == "False"):
                     loss_type = False
@@ -150,6 +150,7 @@ def main():
         file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
         file.write('run, train acc avg, validation acc avg, test acc avg\n')
         file.write(f'total {np.mean(train_acc_list):.4f}, {np.mean(val_acc_list):.4f},{np.mean(test_acc_list):.4f}\n')
+        file.write(f'std {np.std(train_acc_list):.4f}, {np.std(val_acc_list):.4f},{np.std(test_acc_list):.4f}\n')
 
 
 if __name__ == '__main__':

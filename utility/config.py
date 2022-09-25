@@ -53,6 +53,7 @@ def get_arguments():
     parser.add_argument('--pre_learning_rate',type=float, help='pre training learning rate')
     parser.add_argument('--loss_type', help='applying which loss')
     parser.add_argument('--aug', type=float, help='aug parameter')
+    parser.add_argument('--aug2', type=float, help='aug parameter')
     args = parser.parse_args()
     args = get_configs(args)
     return args

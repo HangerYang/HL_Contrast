@@ -1,0 +1,81 @@
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.7283088235294117, with Std: 0.019829097882590876
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.6834558823529412, with Std: 0.03961215790175054
+
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.6625, with Std: 0.020456511387122876
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.7176470588235293, with Std: 0.026193401662583646
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.6757352941176471, with Std: 0.026501207780794254
+
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 128
+second hidden_dim = 128
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.6551470588235294, with Std: 0.025566674486343675
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.7680147058823529, with Std: 0.022868119911888196
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.7264705882352941, with Std: 0.02378082592470033
+
+pretrain epochs = 300
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 256
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.7113970588235295, with Std: 0.015091452758657212

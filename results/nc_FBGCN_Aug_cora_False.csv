@@ -1,0 +1,18 @@
+
+pretrain epochs = 100
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.7264705882352941, with Std: 0.02163814554347377
+
+pretrain epochs = 200
+pre_learning_rate = 0.0005
+hidden_dim = 256
+second hidden_dim = 128
+augmentation ratio = 0.0
+augmentation type = FM
+augmentation side = both
+(E): FBGCN_AUG Mean Accuracy: 0.6845588235294118, with Std: 0.039143622512371086

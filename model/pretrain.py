@@ -186,14 +186,18 @@ def pt_model(high_model, low_model, contrast_model, optimizer, data):
     
     return loss.item()
 
-def get_augmentor(augmentor, one_side=False, side=None, aug_ratio=0.5):
+def get_augmentor(augmentor, one_side=False, side=None, aug_ratio=0.5, aug2_ratio = 0.5):
     high_pass_ratio = aug_ratio
+    high_pass_ratio2 = aug2_ratio
     low_pass_ratio = aug_ratio
+    low_pass_ratio2 = aug2_ratio
     if (one_side):
         if side == "high":
             low_pass_ratio = 0.
+            low_pass_ratio2 = aug2_ratio
         else:
             high_pass_ratio = 0.
+            high_pass_ratio2
     if augmentor == "FM":
         return (A.FeatureMasking(high_pass_ratio), A.FeatureMasking(low_pass_ratio))
     if augmentor == "ER":
@@ -207,6 +211,8 @@ def get_augmentor(augmentor, one_side=False, side=None, aug_ratio=0.5):
             return (A.FeatureDropout(high_pass_ratio), A.FeatureDropout(1.))
         else:
             return (A.FeatureDropout(1.), A.FeatureDropout(low_pass_ratio))
+    if augmentor == "COMP":
+        return (A.Compose([A.EdgeRemoving(pe=high_pass_ratio), A.FeatureMasking(pf=high_pass_ratio2)]), A.Compose([A.EdgeRemoving(pe=low_pass_ratio), A.FeatureMasking(pf=low_pass_ratio2)]))
         
 
 
