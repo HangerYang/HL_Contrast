@@ -18,7 +18,7 @@ def csr_to_sparse(csr):
     sparse = torch.sparse.FloatTensor(indices, values, shape)
     return sparse
 
-def dataset_split(file_loc = './data/', dataset_name = 'cora'):
+def dataset_split(file_loc = './data/', dataset_name = 'cora', train_ratio=0.1, val_ratio=0.1, test_ratio=0.8):
     if dataset_name in ['cora', 'citeseer', 'pubmed']:
         dataset = Planetoid(root=file_loc+dataset_name, name=dataset_name, transform=T.NormalizeFeatures())
     elif dataset_name in ['cornell', 'texas', 'wisconsin']: 
@@ -41,12 +41,14 @@ def dataset_split(file_loc = './data/', dataset_name = 'cora'):
     #     except:
     #         data.test_mask = np.repeat(data.test_mask[np.newaxis], 10, axis = 0)
     # else:
-    data = train_test_split_nodes(data, train_ratio=0.1, val_ratio=0.1, test_ratio=0.8)
+    data = train_test_split_nodes(data, train_ratio=train_ratio, val_ratio=val_ratio, test_ratio=test_ratio)
     data.num_classes = dataset.num_classes
     return data
 
-def build_graph(dataset):
-    data = dataset_split(dataset_name= dataset)
+def build_graph(dataset,train_ratio=0.1):
+    val_ratio = 0.1
+    test_ratio = 1.0 - val_ratio - train_ratio
+    data = dataset_split(dataset_name= dataset,train_ratio=train_ratio, val_ratio=0.1, test_ratio=test_ratio)
     data.edge_index, _ = add_self_loops(data.edge_index)
     g = to_networkx(data, to_undirected=True)
     Lsym = nx.linalg.laplacianmatrix.normalized_laplacian_matrix(g)
@@ -58,8 +60,10 @@ def build_graph(dataset):
     data.anorm = csr_to_sparse(Anorm)
     return data
 
-def build_graph_simplified(dataset):
-    data = dataset_split(dataset_name= dataset)
+def build_graph_simplified(dataset,train_ratio=0.1):
+    val_ratio = 0.1
+    test_ratio = 1.0 - val_ratio - train_ratio
+    data = dataset_split(dataset_name= dataset,train_ratio=train_ratio, val_ratio=0.1, test_ratio=test_ratio)
     data.edge_index, _ = add_self_loops(data.edge_index)
     return data
 

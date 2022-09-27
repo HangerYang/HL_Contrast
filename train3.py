@@ -60,11 +60,11 @@ def main():
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
     device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
-    with open('./results/nc_{}_{}_{}_nonshared.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
+    with open('./results/nc_{}_{}_{}_nonshared_ratios.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
         hidden_dim = args.hidden_dim
         val_acc_list, test_acc_list, train_acc_list = [], [], []       
         for r in range(5):
-            data = build_graph(args.dataset).to(device)
+            data = build_graph(args.dataset, args.aug).to(device)
             if args.preepochs != 0:
                 high_model = Pre_HighPass(2, data.num_features, hidden_dim, data.num_classes, 0.5).to(device)
                 low_model = Pre_LowPass(2, data.num_features, hidden_dim, data.num_classes, 0.5).to(device)

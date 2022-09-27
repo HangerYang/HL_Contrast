@@ -83,7 +83,7 @@ def main():
     args = get_arguments()
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
-    device = torch.device('cuda:2')
+    device = torch.device('cuda:3')
     dataset = args.dataset
     second_hidden_dim = args.second_hidden_dim
     if(args.loss_type == "False"):

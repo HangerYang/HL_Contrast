@@ -1,0 +1,65 @@
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.01
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.02
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.03
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.04
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.05
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.06
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.07
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.08
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.09
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 150  --hidden_dim 128 --aug 0.1
+
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.01
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.02
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.03
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.04
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.05
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.06
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.07
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.08
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.09
+python train3.py --config ./configs/fbgcn.json --dataset cora --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 128 --aug 0.1
+
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.01
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.02
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.03
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.04
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.05
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.06
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.07
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.08
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.09
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.1
+
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.01
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.02
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.03
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.04
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.05
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.06
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.07
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.08
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.09
+python train3.py --config ./configs/fbgcn.json --dataset squirrel --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.1
+
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.01
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.02
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.03
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.04
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.05
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.06
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.07
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.08
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.09
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 50  --hidden_dim 256 --aug 0.1
+
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.01
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.02
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.03
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.04
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.05
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.06
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.07
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.08
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.09
+python train3.py --config ./configs/fbgcn.json --dataset chameleon --pre_learning_rate 0.0005 --loss_type True --preepochs 0  --hidden_dim 256 --aug 0.1

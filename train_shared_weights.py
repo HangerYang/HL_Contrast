@@ -74,11 +74,11 @@ def main():
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
-    device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
     with open('./results/nc_{}_{}_{}_shared.csv'.format(args.dataset,args.gnn, args.loss_type), 'a+') as file:
         hidden_dim = args.hidden_dim
         val_acc_list, test_acc_list, train_acc_list = [], [], []       
-        for r in range(10):
+        for r in range(5):
             data = build_graph(args.dataset).to(device)
             if args.preepochs != 0:
                 one_side = (args.aug_side != "both")
@@ -149,6 +149,8 @@ def main():
         file.write('learning rate = {}\n'.format(args.learning_rate))
         file.write('hidden_dim = {}\n'.format(hidden_dim))
         file.write('pre_learning_rate = {}\n'.format(args.pre_learning_rate))
+        file.write("augmentation ratio = {}\n".format(args.aug))
+        file.write("augmentation type = {}\n".format(args.aug_type))
         file.write('run, train acc avg, validation acc avg, test acc avg\n')
         file.write(f'total {np.mean(train_acc_list):.4f}, {np.mean(val_acc_list):.4f},{np.mean(test_acc_list):.4f}\n')
         file.write(f'std {np.std(train_acc_list):.4f}, {np.std(val_acc_list):.4f},{np.std(test_acc_list):.4f}\n')
